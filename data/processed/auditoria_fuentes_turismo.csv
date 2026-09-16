@@ -1,0 +1,13 @@
+fuente,periodo_verificado,unidad_publicada,cobertura_objetivo_verificada,constructo,decision
+INE VUT tabla 39363,2020-08 a 2026-05,municipio,306/306 en 13 snapshots,stock de viviendas turísticas,Mantener como fuente principal
+INE hoteles tabla 2076,2005 a 2026,punto turístico,94/306,ocupación hotelera,Descartar como sustituto nacional
+INE apartamentos tabla 2083,2005 a 2026,punto turístico,57/306,alojamiento reglado,Descartar como sustituto nacional
+INE campings tabla 2085,2005 a 2026,punto turístico,18/306,alojamiento reglado,Descartar como sustituto nacional
+INE encuestas alojamiento unidas,2005 a 2026,punto turístico,111/306,alojamiento reglado,Descartar como sustituto nacional
+INE Indicadores Urbanos,2010 a 2024,municipio,"55–132/306 valores válidos según año; panel 2018–2023 de cuatro capas: 57",plazas y pernoctaciones,Solo sensibilidad con otro nombre
+Eurostat plataformas,2018 en adelante,ciudad seleccionada,"39 ciudades; 155 LAU componentes; 95/306 componentes del universo",estancias y noches reservadas,No desagregar a municipios
+Inside Airbnb,último año público ordinario,áreas seleccionadas,Sin panel nacional 306 verificado,anuncios Airbnb,No usar sin extracto nacional auditado
+AirDNA,declara desde 2015,mercado comercial,Sin cobertura 306 verificable públicamente,oferta y rendimiento multiplataforma,Pendiente solo si existe acceso institucional
+Registros autonómicos,heterogéneo,registro administrativo,Fragmentada por comunidad,oferta registrada,No fusionar como serie nacional
+ISTAC viviendas vacacionales,desde 2019,municipio canario,máximo 19/306 del universo,oferta y actividad vacacional,Solo contraste regional
+Registro Único estatal,efectos desde 2025,unidad registrada,No retrospectiva anterior a 2020,alquiler de corta duración,No sirve para backcasting

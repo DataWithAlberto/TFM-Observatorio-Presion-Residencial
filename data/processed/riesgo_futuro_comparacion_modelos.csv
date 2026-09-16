@@ -1,0 +1,3 @@
+modelo,label,mae_cv,n,interpretation,decision
+dummy_media_cv,Dummy,11.75579131351392,303,Referencia mínima,exploratorio: reconstrucción del índice; sin validez predictiva independiente; excluido del score oficial
+xgboost_comparativo,XGBoost,2.631587431783384,303,Aproximación exploratoria,exploratorio: reconstrucción del índice; sin validez predictiva independiente; excluido del score oficial

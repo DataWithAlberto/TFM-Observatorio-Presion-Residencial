@@ -1,0 +1,285 @@
+cod_ine,nombre,desde,hasta,requiere_recalculo_scores
+01059,Vitoria,2020,2023,True
+02003,Albacete,2020,2023,True
+02009,Almansa,2020,2023,True
+02037,Hellín,2020,2023,True
+02081,Villarrobledo,2020,2023,True
+03009,Alcoy/Alcoi,2020,2023,True
+03014,Alicante/Alacant,2020,2023,True
+03031,Benidorm,2020,2023,True
+03047,Calpe/Calp,2020,2023,True
+03059,Crevillent,2020,2023,True
+03063,Dénia,2020,2023,True
+03065,Elche/Elx,2020,2023,True
+03066,Elda,2020,2023,True
+03082,Jávea/Xábia,2020,2023,True
+03093,Novelda,2020,2023,True
+03099,Orihuela,2020,2023,True
+03104,Petrer,2020,2023,True
+03121,Santa Pola,2020,2023,True
+03122,San Vicente del Raspeig,2020,2023,True
+03133,Torrevieja,2020,2023,True
+03139,Villajoyosa/Vila Joiosa (La),2020,2023,True
+03140,Villena,2020,2023,True
+04013,Almería,2020,2023,True
+04079,Roquetas de Mar,2020,2023,True
+04902,Ejido (El),2020,2023,True
+05019,Ávila,2020,2023,True
+06011,Almendralejo,2020,2023,True
+06015,Badajoz,2020,2023,True
+06044,Don Benito,2020,2023,True
+06083,Mérida,2020,2023,True
+07011,Calvià,2020,2023,True
+07015,Ciutadella de Menorca,2020,2023,True
+07026,Eivissa,2020,2023,True
+07027,Inca,2020,2023,True
+07031,Llucmajor,2020,2023,True
+07032,Mahón,2020,2023,True
+07033,Manacor,2020,2023,True
+07036,Marratxí,2020,2023,True
+07040,Palma de Mallorca,2020,2023,True
+07054,Santa Eulalia del Río,2020,2023,True
+08015,Badalona,2020,2023,True
+08019,Barcelona,2020,2023,True
+08056,Castelldefels,2020,2023,True
+08073,Cornellà de Llobregat,2020,2023,True
+08077,Esplugues de Llobregat,2020,2023,True
+08089,Gavà,2020,2023,True
+08096,Granollers,2020,2023,True
+08101,Hospitalet de Llobregat (L'),2020,2023,True
+08102,Igualada,2020,2023,True
+08113,Manresa,2020,2023,True
+08114,Martorell,2020,2023,True
+08121,Mataró,2020,2023,True
+08124,Mollet del Vallès,2020,2023,True
+08125,Montcada i Reixac,2020,2023,True
+08169,Prat de Llobregat (El),2020,2023,True
+08172,Premià de Mar,2020,2023,True
+08180,Ripollet,2020,2023,True
+08184,Rubí,2020,2023,True
+08187,Sabadell,2020,2023,True
+08194,Sant Adrià de Besòs,2020,2023,True
+08200,Sant Boi de Llobregat,2020,2023,True
+08205,Sant Cugat del Vallès,2020,2023,True
+08211,Sant Feliu de Llobregat,2020,2023,True
+08217,Sant Joan Despí,2020,2023,True
+08231,Sant Pere de Ribes,2020,2023,True
+08245,Santa Coloma Gramanet,2020,2023,True
+08252,Barberà del Vallès,2020,2023,True
+08263,Sant Vicenç dels Horts,2020,2023,True
+08266,Cerdanyola del Vallès,2020,2023,True
+08279,Terrassa,2020,2023,True
+08298,Vic,2020,2023,True
+08301,Viladecans,2020,2023,True
+08305,Vilafranca del Penedès,2020,2023,True
+08307,Vilanova i la Geltrú,2020,2023,True
+09018,Aranda de Duero,2020,2023,True
+09059,Burgos,2020,2023,True
+09219,Miranda de Ebro,2020,2023,True
+10037,Cáceres,2020,2023,True
+10148,Plasencia,2020,2023,True
+11004,Algeciras,2020,2023,True
+11006,Arcos de la frontera,2020,2023,True
+11012,Cádiz,2020,2023,True
+11015,Chiclana de la Frontera,2020,2023,True
+11020,Jerez de la Frontera,2020,2023,True
+11022,Línea de la Concepción (La),2020,2023,True
+11027,Puerto de Santa María,2020,2023,True
+11028,Puerto Real,2020,2023,True
+11030,Rota,2020,2023,True
+11031,San Fernando,2020,2023,True
+11032,Sanlúcar de Barrameda,2020,2023,True
+11033,San Roque,2020,2023,True
+12032,Burriana,2020,2023,True
+12040,Castellón de la Plana,2020,2023,True
+12126,Vall d'Uixó (la),2020,2023,True
+12135,Villarreal/Vila-real,2020,2023,True
+12138,Vinaròs,2020,2023,True
+13005,Alcázar de San Juan,2020,2023,True
+13034,Ciudad Real,2020,2023,True
+13071,Puertollano,2020,2023,True
+13082,Tomelloso,2020,2023,True
+13087,Valdepeñas,2020,2023,True
+14021,Córdoba,2020,2023,True
+14038,Lucena,2020,2023,True
+14056,Puente Génil,2020,2023,True
+15005,Arteixo,2020,2023,True
+15019,Carballo,2020,2023,True
+15030,Coruña (A),2020,2023,True
+15031,Culleredo,2020,2023,True
+15036,Ferrol,2020,2023,True
+15054,Narón,2020,2023,True
+15058,Oleiros,2020,2023,True
+15073,Ribeira,2020,2023,True
+15078,Santiago de Compostela,2020,2023,True
+16078,Cuenca,2020,2023,True
+17023,Blanes,2020,2023,True
+17066,Figueres,2020,2023,True
+17079,Girona,2020,2023,True
+17095,Lloret de Mar,2020,2023,True
+17114,Olot,2020,2023,True
+17155,Salt,2020,2023,True
+18087,Granada,2020,2023,True
+18140,Motril,2020,2023,True
+19130,Guadalajara,2020,2023,True
+20030,Eibar,2020,2023,True
+20045,Irun,2020,2023,True
+20067,Errenteria,2020,2023,True
+20069,San Sebastián/Donostia,2020,2023,True
+21041,Huelva,2020,2023,True
+22125,Huesca,2020,2023,True
+23005,Andújar,2020,2023,True
+23050,Jaén,2020,2023,True
+23055,Linares,2020,2023,True
+23092,Úbeda,2020,2023,True
+24089,León,2020,2023,True
+24115,Ponferrada,2020,2023,True
+24142,San Andrés  del Rabanedo,2020,2023,True
+25120,Lleida,2020,2023,True
+26089,Logroño,2020,2023,True
+27028,Lugo,2020,2023,True
+28005,Alcalá de Henares,2020,2023,True
+28006,Alcobendas,2020,2023,True
+28007,Alcorcón,2020,2023,True
+28013,Aranjuez,2020,2023,True
+28014,Arganda del Rey,2020,2023,True
+28022,Boadilla del Monte,2020,2023,True
+28045,Colmenar Viejo,2020,2023,True
+28047,Collado Villalba,2020,2023,True
+28049,Coslada,2020,2023,True
+28058,Fuenlabrada,2020,2023,True
+28061,Galapagar,2020,2023,True
+28065,Getafe,2020,2023,True
+28074,Leganés,2020,2023,True
+28079,Madrid,2020,2023,True
+28080,Majadahonda,2020,2023,True
+28092,Móstoles,2020,2023,True
+28106,Parla,2020,2023,True
+28113,Pinto,2020,2023,True
+28115,Pozuelo de Alarcón,2020,2023,True
+28123,Rivas-Vaciamadrid,2020,2023,True
+28127,Rozas de Madrid (Las),2020,2023,True
+28130,San Fernando de Henares,2020,2023,True
+28134,San Sebastián de los Reyes,2020,2023,True
+28148,Torrejón de Ardoz,2020,2023,True
+28161,Valdemoro,2020,2023,True
+28181,Villaviciosa de Odón,2020,2023,True
+28903,Tres Cantos,2020,2023,True
+29007,Alhaurín de la Torre,2020,2023,True
+29015,Antequera,2020,2023,True
+29025,Benalmádena,2020,2023,True
+29051,Estepona,2020,2023,True
+29054,Fuengirola,2020,2023,True
+29067,Málaga,2020,2023,True
+29069,Marbella,2020,2023,True
+29070,Mijas,2020,2023,True
+29082,Rincón de la Victoria,2020,2023,True
+29084,Ronda,2020,2023,True
+29094,Vélez Málaga,2020,2023,True
+29901,Torremolinos,2020,2023,True
+30003,Águilas,2020,2023,True
+30005,Alcantarilla,2020,2023,True
+30015,Caravaca de la Cruz,2020,2023,True
+30016,Cartagena,2020,2023,True
+30019,Cieza,2020,2023,True
+30022,Jumilla,2020,2023,True
+30024,Lorca,2020,2023,True
+30026,Mazarrón,2020,2023,True
+30027,Molina de Segura,2020,2023,True
+30030,Murcia,2020,2023,True
+30035,San Javier,2020,2023,True
+30037,Torre-Pacheco,2020,2023,True
+30039,Totana,2020,2023,True
+30043,Yecla,2020,2023,True
+31201,Pamplona/Iruña,2020,2023,True
+31232,Tudela,2020,2023,True
+32054,Ourense,2020,2023,True
+33004,Avilés,2020,2023,True
+33024,Gijón,2020,2023,True
+33031,Langreo,2020,2023,True
+33037,Mieres,2020,2023,True
+33044,Oviedo,2020,2023,True
+33066,Siero,2020,2023,True
+34120,Palencia,2020,2023,True
+35002,Agüimes,2020,2023,True
+35004,Arrecife,2020,2023,True
+35006,Arucas,2020,2023,True
+35011,Ingenio,2020,2023,True
+35016,Palmas de Gran Canaria (Las),2020,2023,True
+35017,Puerto del Rosario,2020,2023,True
+35019,San Bartolomé de Tirajana,2020,2023,True
+35022,Santa Lucía de Tirajana,2020,2023,True
+35026,Telde,2020,2023,True
+36026,Marín,2020,2023,True
+36038,Pontevedra,2020,2023,True
+36045,Redondela,2020,2023,True
+36057,Vigo,2020,2023,True
+36060,Vilagarcía de Arousa,2020,2023,True
+37274,Salamanca,2020,2023,True
+38001,Adeje,2020,2023,True
+38006,Arona,2020,2023,True
+38017,Granadilla de Abona,2020,2023,True
+38023,San Cristóbal Laguna,2020,2023,True
+38026,Orotava (La),2020,2023,True
+38028,Puerto de la Cruz,2020,2023,True
+38031,Realejos (Los),2020,2023,True
+38038,Santa Cruz deTenerife,2020,2023,True
+39016,Camargo,2020,2023,True
+39020,Castro-Urdiales,2020,2023,True
+39075,Santander,2020,2023,True
+39087,Torrelavega,2020,2023,True
+40194,Segovia,2020,2023,True
+41004,Alcalá de Guadaíra,2020,2023,True
+41021,Camas,2020,2023,True
+41024,Carmona,2020,2023,True
+41034,Coria del Río,2020,2023,True
+41038,Dos Hermanas,2020,2023,True
+41039,Écija,2020,2023,True
+41059,Mairena del Aljarafe,2020,2023,True
+41065,Morón de la Frontera,2020,2023,True
+41069,Palacios y Villafranca (Los),2020,2023,True
+41081,Rinconada (La),2020,2023,True
+41091,Sevilla,2020,2023,True
+41095,Utrera,2020,2023,True
+42173,Soria,2020,2023,True
+43038,Cambrils,2020,2023,True
+43123,Reus,2020,2023,True
+43148,Tarragona,2020,2023,True
+43155,Tortosa,2020,2023,True
+43163,Vendrell (El),2020,2023,True
+44216,Teruel,2020,2023,True
+45165,Talavera de la Reina,2020,2023,True
+45168,Toledo,2020,2023,True
+46005,Alaquàs,2020,2023,True
+46017,Alzira,2020,2023,True
+46021,Aldaia,2020,2023,True
+46029,Algemesí,2020,2023,True
+46078,Burjassot,2020,2023,True
+46102,Quart de Poblet,2020,2023,True
+46110,Xirivella,2020,2023,True
+46131,Gandia,2020,2023,True
+46145,Xàtiva,2020,2023,True
+46159,Manises,2020,2023,True
+46169,Mislata,2020,2023,True
+46181,Oliva,2020,2023,True
+46184,Ontinyent,2020,2023,True
+46190,Paterna,2020,2023,True
+46220,Sagunto/Sagunt,2020,2023,True
+46235,Sueca,2020,2023,True
+46244,Torrent,2020,2023,True
+46250,Valencia,2020,2023,True
+47186,Valladolid,2020,2023,True
+48013,Barakaldo,2020,2023,True
+48015,Basauri,2020,2023,True
+48020,Bilbao,2020,2023,True
+48027,Durango,2020,2023,True
+48036,Galdakao,2020,2023,True
+48044,Getxo,2020,2023,True
+48054,Leioa,2020,2023,True
+48078,Portugalete,2020,2023,True
+48082,Santurtzi,2020,2023,True
+48084,Sestao,2020,2023,True
+49275,Zamora,2020,2023,True
+50297,Zaragoza,2020,2023,True
+51001,Ceuta,2020,2023,True
+52001,Melilla,2020,2023,True

@@ -1,0 +1,6 @@
+pandas==3.0.3
+geopandas==1.1.4
+pyogrio==0.13.0
+GeoAlchemy2==0.20.0
+SQLAlchemy==2.0.51
+psycopg2-binary==2.9.12

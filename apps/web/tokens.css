@@ -1,0 +1,202 @@
+/*
+ * Sistema visual «Hoja catastral» del Observatorio de Presión Residencial.
+ *
+ * Sustituye a apps/web/tokens.css. Conserva los mismos nombres de variable
+ * que la versión anterior para que las hojas heredadas adopten la paleta y la
+ * tipografía nuevas desde el primer momento; los nombres nuevos (carmín,
+ * rampas, retícula) están al final de cada grupo.
+ *
+ * Las fuentes NO se importan aquí: se cargan con next/font en
+ * app/(app)/layout.tsx, que expone --pf-archivo y --pf-spline en <body>.
+ */
+
+:root {
+  /* Superficies y tinta */
+  --color-paper: #f3f4ef;
+  --color-paper-2: #e9ece5;
+  --color-paper-3: #dfe3dc;
+  --color-ink: #17201b;
+  --color-ink-2: #36413a;
+  --color-neutral: #36413a;
+  --color-muted: #56615a;
+  --color-rule: #d2d8d3; /* separadores de fila */
+  --color-rule-2: #9aa59e; /* filetes interiores; no apto para texto (2,3:1) */
+  --color-rule-strong: #17201b; /* marcos y bordes de controles */
+
+  /* Acento: carmín. Enlaces, foco, contadores y barras de factores. */
+  --color-accent: #962c5e;
+  --color-accent-strong: #561238;
+  --color-accent-muted: #dda3ba;
+  --color-accent-soft: #ebdde3; /* fila seleccionada */
+  --color-accent-ink: #f3f4ef;
+  --color-focus: #962c5e;
+
+  /* Acción principal: tinta (botones «Abrir la hoja», «Listo», pestaña activa) */
+  --color-action: #17201b;
+  --color-action-ink: #f3f4ef;
+
+  /* Alias heredados */
+  --color-graphite: #17201b;
+  --color-graphite-2: #36413a;
+  --color-graphite-ink: #f3f4ef;
+  --color-surface: var(--color-paper);
+  --color-surface-muted: var(--color-paper-2);
+  --color-ink-muted: var(--color-muted);
+  --color-ink-subtle: var(--color-rule-2);
+
+  /* Estados semánticos (independientes del acento) */
+  --color-error: #9b2c2c;
+  --color-error-soft: #f3e1df;
+  --color-success: #2f6b4f;
+  --color-success-soft: #e0ece4;
+  --color-warning: #7a5a12;
+  --color-warning-soft: #f1e8d2;
+
+  /* Datos: rampa secuencial carmín (0–100, quintiles) */
+  --data-seq-1: #eedde4;
+  --data-seq-2: #dda3ba;
+  --data-seq-3: #c4608c;
+  --data-seq-4: #962c5e;
+  --data-seq-5: #561238;
+
+  /* Datos: rampa divergente (IPR-5 − IPR-4, de −15 a +15) */
+  --data-div-1: #2f5e6e;
+  --data-div-2: #9dbcc4;
+  --data-div-3: #f3f4ef;
+  --data-div-4: #dda3ba;
+  --data-div-5: #962c5e;
+
+  /* Datos: series de gráficos */
+  --data-series-1: #962c5e;
+  --data-series-2: #17201b;
+  --data-series-3: #4f7a6a;
+  --data-series-4: #b0773a;
+  --data-series-5: #5a5fa8;
+  --data-series-6: #2f6b74;
+
+  /* Datos: calidad del dato (DQS), cuatro niveles de menor a mayor */
+  --data-quality-1: #e8dfc9;
+  --data-quality-2: #b9cfc6;
+  --data-quality-3: #6f9d8f;
+  --data-quality-4: #2f5e6e;
+
+  /* Datos: categorías LISA del análisis espacial */
+  --data-lisa-hh: #962c5e;
+  --data-lisa-ll: #2f5e6e;
+  --data-lisa-hl: #b0773a;
+  --data-lisa-lh: #5a5fa8;
+  --data-lisa-ns: #cfd4ce;
+  --data-lisa-ne: #edefea;
+
+  /* Alias heredados de datos */
+  --color-data-blue: var(--data-div-1);
+  --color-data-blue-soft: var(--data-div-2);
+  --color-data-green: var(--data-series-3);
+  --color-data-green-soft: #dfe9e4;
+  --color-data-amber: var(--data-series-4);
+  --color-data-amber-soft: #efe3d3;
+  --color-data-orange: var(--data-seq-3);
+  --color-data-orange-soft: var(--data-seq-1);
+  --color-data-red: var(--data-seq-4);
+  --color-data-red-soft: var(--data-seq-1);
+
+  /* Mapa */
+  --color-map-missing: #e2e5df;
+  --color-map-water: #dce4e0;
+  --color-map-boundary: #9aa59e;
+  --color-map-graticule: #9aa59e;
+
+  /* Tipografía */
+  --font-display: var(--pf-archivo), "Archivo", "Helvetica Neue", Arial, sans-serif;
+  --font-body: var(--font-display);
+  --font-sans: var(--font-display);
+  --font-outlier: var(--font-display);
+  --font-mono: var(--pf-spline), "Spline Sans Mono", ui-monospace, "SFMono-Regular", monospace;
+
+  --stretch-brand: 125%;
+  --stretch-heading: 112%;
+  --stretch-label: 118%;
+
+  --text-micro: 0.6875rem; /* 11 px · microetiquetas monoespaciadas */
+  --text-xs: 0.8125rem; /* 13 px · etiquetas */
+  --text-sm: 0.875rem; /* 14 px · navegación, pestañas, listas */
+  --text-base: 0.9375rem; /* 15 px · cuerpo de interfaz */
+  --text-md: 1.0625rem; /* 17 px · frase de lectura, párrafos */
+  --text-lg: 1.625rem; /* 26 px · nombre en panel */
+  --text-xl: 1.875rem; /* 30 px · titular de vista */
+  --text-2xl: 3.5rem; /* 56 px · cifra en panel */
+  --text-3xl: 4.75rem; /* 76 px · cifra en ficha */
+  --text-display-s: clamp(1.875rem, 4.4vw, 3.625rem); /* nombre en ficha */
+  --text-display: clamp(1.875rem, 4.4vw, 3.625rem);
+  --text-label: var(--text-xs);
+  --text-small: var(--text-sm);
+  --text-body: var(--text-base);
+
+  --tracking-tight: -0.01em;
+  --tracking-figure: -0.04em;
+  --tracking-brand: 0.05em;
+  --tracking-wide: 0.08em;
+  --line-display: 1.05;
+  --line-body: 1.55;
+
+  /* Espaciado (escala de 4 px) */
+  --space-3xs: 0.25rem; /* 4 */
+  --space-2xs: 0.5rem; /* 8 */
+  --space-xs: 0.75rem; /* 12 */
+  --space-sm: 1rem; /* 16 */
+  --space-md: 1.25rem; /* 20 */
+  --space-lg: 1.5rem; /* 24 */
+  --space-xl: 2rem; /* 32 */
+  --space-2xl: 3rem; /* 48 */
+  --space-3xl: 4rem; /* 64 */
+  --space-s: var(--space-sm);
+  --space-m: var(--space-md);
+  --space-l: var(--space-lg);
+
+  /* Filetes, marcos y radios */
+  --rule-hair: 1px;
+  --rule-fine: 1.5px;
+  --rule-focus: 2px;
+  --rule-heavy: 2px;
+  --sheet-margin: 14px;
+  --sheet-outline-offset: 3px;
+  --radius-card: 0;
+  --radius-input: 0;
+  --radius-control: 0;
+  --radius-pill: 999px; /* solo para puntos de estado */
+
+  --shadow-card: none;
+  --shadow-dialog: 5px 5px 0 rgb(23 32 27 / 12%);
+
+  /* Composición */
+  --page-gutter: var(--sheet-margin);
+  --content-max: none;
+  --side-column: 340px;
+  --control-height: 2.125rem; /* 34 */
+  --tab-height: 2.375rem; /* 38 */
+  --banner-height: 3.25rem; /* 52 · cabecera */
+
+  /* Movimiento: casi ninguno */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in: cubic-bezier(0.7, 0, 0.84, 0);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-micro: 0ms;
+  --dur-short: 120ms;
+  --dur-long: 650ms; /* solo encuadres del mapa */
+
+  --z-base: 1;
+  --z-raised: 10;
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-sticky-nav: 300;
+  --z-modal: 400;
+  --z-toast: 500;
+  --z-tooltip: 600;
+}
+
+@media (max-width: 640px) {
+  :root {
+    --sheet-margin: 8px;
+    --text-xl: 1.625rem; /* 26 px */
+  }
+}

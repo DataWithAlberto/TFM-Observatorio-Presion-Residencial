@@ -1,0 +1,63 @@
+services:
+  db:
+    image: postgis/postgis:16-3.4
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-tfm_presion_residencial}
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-tfm_pass}
+    ports: ["${POSTGRES_PORT:-5433}:5432"]
+    volumes: [tfm_postgis_data:/var/lib/postgresql/data]
+    healthcheck:
+      test: ["CMD-SHELL","pg_isready -U ${POSTGRES_USER:-postgres} -d ${POSTGRES_DB:-tfm_presion_residencial}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+  bootstrap:
+    build:
+      context: .
+      dockerfile: database/bootstrap/Dockerfile
+    environment:
+      DATABASE_URL: postgresql://${POSTGRES_USER:-postgres}:${POSTGRES_PASSWORD:-tfm_pass}@db:5432/${POSTGRES_DB:-tfm_presion_residencial}
+      FORCE_BOOTSTRAP: ${FORCE_BOOTSTRAP:-0}
+    volumes:
+      - ./data:/workspace/data:ro
+      - ./sql:/workspace/sql:ro
+      - ./database/serving:/workspace/database/serving:ro
+    depends_on:
+      db: {condition: service_healthy}
+    restart: "no"
+  api:
+    build:
+      context: .
+      dockerfile: apps/api/Dockerfile
+    environment:
+      DATABASE_URL: postgresql://${POSTGRES_USER:-postgres}:${POSTGRES_PASSWORD:-tfm_pass}@db:5432/${POSTGRES_DB:-tfm_presion_residencial}
+      CORS_ORIGINS: ${CORS_ORIGINS:-http://localhost:3000}
+    ports: ["${API_PORT:-8000}:8000"]
+    depends_on:
+      bootstrap: {condition: service_completed_successfully}
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/ready', timeout=2)"]
+      interval: 5s
+      timeout: 3s
+      retries: 12
+      start_period: 5s
+  web:
+    build:
+      context: .
+      dockerfile: apps/web/Dockerfile
+      args:
+        NEXT_PUBLIC_API_URL: ${NEXT_PUBLIC_API_URL:-http://localhost:8000}
+    environment:
+      HOSTNAME: 0.0.0.0
+    ports: ["${WEB_PORT:-3000}:3000"]
+    depends_on:
+      api: {condition: service_healthy}
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://127.0.0.1:3000 >/dev/null || exit 1"]
+      interval: 5s
+      timeout: 3s
+      retries: 12
+      start_period: 10s
+volumes:
+  tfm_postgis_data:

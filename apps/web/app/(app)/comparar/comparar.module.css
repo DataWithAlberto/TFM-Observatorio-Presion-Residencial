@@ -1,0 +1,288 @@
+.compare {
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr) auto;
+  min-height: 0;
+}
+
+.compare > * {
+  min-width: 0;
+}
+
+/* Fila de controles: los cuatro municipios y el conmutador de resultado. */
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: var(--space-xs);
+  padding: var(--space-xs) var(--space-md);
+  border-bottom: var(--rule-hair) solid var(--color-ink);
+}
+
+.field {
+  display: grid;
+  gap: var(--space-3xs);
+  flex: 1 1 180px;
+  min-width: 0;
+  font-size: var(--text-xs);
+  color: var(--color-muted);
+}
+
+.field select {
+  width: 100%;
+  height: var(--control-height);
+  padding: 0 var(--space-2xs);
+  border: var(--rule-hair) solid var(--color-ink);
+  border-radius: 0;
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-size: var(--text-sm);
+}
+
+.productSwitch {
+  display: flex;
+  flex: 1 1 auto;
+  min-width: 0;
+  max-width: 100%;
+  border: var(--rule-hair) solid var(--color-ink);
+}
+
+.productSwitch button {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 6px;
+  flex: 1 1 auto;
+  min-width: 0;
+  padding: 5px var(--space-xs);
+  border: 0;
+  background: transparent;
+  color: var(--color-ink);
+  font-size: 14.5px;
+  white-space: nowrap;
+}
+
+.productSwitch button + button {
+  border-left: var(--rule-hair) solid var(--color-ink);
+}
+
+.productSwitch small {
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  color: var(--color-muted);
+}
+
+.productSwitch button[aria-pressed="true"] {
+  background: var(--color-action);
+  color: var(--color-action-ink);
+  font-weight: 600;
+}
+
+.productSwitch button[aria-pressed="true"] small {
+  color: var(--color-rule);
+}
+
+.main {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  align-content: start;
+  min-width: 0;
+}
+
+.content {
+  display: grid;
+  gap: var(--space-sm);
+  min-width: 0;
+  padding: 0 var(--space-md) var(--space-xl);
+}
+
+.empty {
+  padding: var(--space-sm) var(--space-md);
+  color: var(--color-muted);
+}
+
+/* Una hoja pequeña por municipio. */
+.sheets {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: var(--space-sm);
+}
+
+.sheet {
+  display: grid;
+  align-content: start;
+  gap: var(--space-3xs);
+  min-width: 0;
+  padding: var(--space-xs) 14px var(--space-sm);
+  border: var(--rule-hair) solid var(--color-ink);
+}
+
+.rank {
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-muted);
+}
+
+.sheet h2 {
+  font-size: var(--text-lg);
+  font-weight: 780;
+  font-stretch: var(--stretch-label);
+  line-height: 1.05;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  text-wrap: balance;
+}
+
+.place {
+  font-size: var(--text-sm);
+  color: var(--color-muted);
+}
+
+.score {
+  margin-top: var(--space-2xs);
+  padding-top: var(--space-2xs);
+  border-top: var(--rule-hair) solid var(--color-ink);
+  font-family: var(--font-display);
+  font-size: var(--text-2xl);
+  font-weight: 500;
+  font-stretch: var(--stretch-heading);
+  font-variant-numeric: tabular-nums;
+  line-height: 0.85;
+  letter-spacing: var(--tracking-figure);
+}
+
+.category {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding-bottom: var(--space-2xs);
+  border-bottom: var(--rule-hair) solid var(--color-ink);
+  font-size: var(--text-sm);
+  font-weight: 600;
+}
+
+/* Barras en la misma escala: la comparación se lee en vertical. */
+.factors {
+  display: grid;
+  gap: 9px;
+  margin-top: var(--space-2xs);
+}
+
+.factors li {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: var(--space-3xs) 10px;
+  font-size: 14.5px;
+}
+
+.factors b {
+  font-family: var(--font-display);
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+}
+
+.factors i {
+  position: relative;
+  grid-column: 1 / -1;
+  height: 6px;
+  background: var(--color-rule);
+}
+
+.factors i::after {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: var(--v);
+  background: var(--color-accent);
+}
+
+.sheetLink {
+  margin-top: var(--space-2xs);
+  color: var(--color-accent);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.block {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 10px;
+  padding-top: var(--space-xs);
+  border-top: var(--rule-hair) solid var(--color-ink);
+}
+
+.blockTitle {
+  font-size: 13px;
+  font-weight: 700;
+  font-stretch: var(--stretch-label);
+  letter-spacing: var(--tracking-wide);
+  text-transform: uppercase;
+}
+
+.tableWrap {
+  position: relative;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  min-width: 420px;
+  border-collapse: collapse;
+  font-size: 14.5px;
+}
+
+.table th {
+  position: static;
+  z-index: auto;
+  pointer-events: auto;
+  padding: 5px 10px 5px 0;
+  border-bottom: var(--rule-hair) solid var(--color-ink);
+  background: transparent;
+  color: var(--color-muted);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: var(--tracking-wide);
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.table tbody th {
+  border-bottom: var(--rule-hair) solid var(--color-rule);
+  color: var(--color-ink);
+  font-family: var(--font-display);
+  font-size: 14.5px;
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+.table td {
+  padding: 6px 10px 6px 0;
+  border-bottom: var(--rule-hair) solid var(--color-rule);
+  white-space: normal;
+}
+
+.num {
+  text-align: right;
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+.table th.num {
+  text-align: right;
+}
+
+/* En móvil sobran el código y el universo: están en el cajetín. */
+@media (max-width: 640px) {
+  .productSwitch small {
+    display: none;
+  }
+
+  .field {
+    flex-basis: 100%;
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "source_url": "https://www.ine.es/jaxiT3/files/t/csv_bdsc/30824.csv",
+  "downloaded_at": "2026-09-15T16:16:36.365017+00:00",
+  "archive_sha256": "a8998c45abc39df71d6537856add9c2ce822cfe078f78ca9a8448773118ee3cd",
+  "organism": "Instituto Nacional de Estadística",
+  "resource": "Atlas de distribución de renta de los hogares",
+  "license_url": "https://www.ine.es/dyngs/AYU/index.htm?cid=125"
+}

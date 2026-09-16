@@ -1,0 +1,252 @@
+.frame {
+  position: relative;
+  min-height: 0;
+  margin: 0 var(--space-sm) var(--space-sm);
+  border: var(--rule-hair) solid var(--color-ink);
+}
+
+/* Flecha de norte, a la izquierda del zoom. */
+.north {
+  position: absolute;
+  top: 12px;
+  right: 54px;
+  z-index: var(--z-raised);
+  display: grid;
+  justify-items: center;
+  gap: 2px;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  pointer-events: none;
+}
+
+.north i {
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 18px solid var(--color-ink);
+}
+
+.legend {
+  position: absolute;
+  z-index: var(--z-raised);
+  left: 10px;
+  bottom: 34px;
+  display: grid;
+  gap: var(--space-3xs);
+  width: 280px;
+  max-width: calc(100% - 20px);
+  padding: var(--space-2xs) 10px;
+  border: var(--rule-hair) solid var(--color-ink);
+  background: color-mix(in srgb, var(--color-paper) 94%, transparent);
+}
+
+.legend small {
+  font-size: 13.5px;
+  color: var(--color-muted);
+}
+
+/* Controles de encuadre del mapa: botones unidos, borde de tinta. */
+.frame :global(.map-view-controls) {
+  position: absolute;
+  inset: 10px auto auto 10px;
+  z-index: var(--z-raised);
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 0;
+  width: max-content;
+  max-width: calc(100% - 20px);
+  height: max-content;
+  padding: 0;
+  overflow-x: auto;
+  scrollbar-width: none;
+  border: var(--rule-hair) solid var(--color-ink);
+  border-radius: 0;
+  background: var(--color-paper);
+  box-shadow: none;
+}
+
+.frame :global(.map-view-controls button) {
+  flex: none;
+  width: auto;
+  height: auto;
+  min-height: 0;
+  padding: 4px 10px;
+  border: 0;
+  border-right: var(--rule-hair) solid var(--color-rule-2);
+  border-radius: 0;
+  background: transparent;
+  color: var(--color-ink);
+  font: var(--text-xs) var(--font-display);
+  font-weight: 400;
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+.frame :global(.map-view-controls button:last-child) {
+  border-right: 0;
+}
+
+.frame :global(.map-view-controls button.active) {
+  background: var(--color-action);
+  color: var(--color-action-ink);
+}
+
+/* El mapa llena el marco; sus controles se posicionan sobre él. */
+.frame :global(.map-shell) {
+  position: relative;
+  height: 100%;
+  margin: 0;
+}
+
+.frame :global(.map) {
+  height: 100%;
+  min-height: 0;
+}
+
+.frame :global(.pt-map-status) {
+  display: grid;
+  place-items: center;
+  height: 100%;
+  min-height: 280px;
+}
+
+/* Selección por teclado: el equivalente accesible de pulsar el mapa. */
+.frame :global(.map-keyboard-picker) {
+  position: absolute;
+  inset: 84px 10px auto auto;
+  z-index: var(--z-raised);
+  width: max-content;
+  max-width: 260px;
+  margin: 0;
+}
+
+.frame :global(.map-keyboard-picker summary) {
+  padding: 4px var(--space-2xs);
+  border: var(--rule-hair) solid var(--color-ink);
+  background: var(--color-paper);
+  font-size: var(--text-xs);
+}
+
+.frame :global(.map-keyboard-list) {
+  max-height: 260px;
+  overflow: auto;
+  border: var(--rule-hair) solid var(--color-ink);
+  border-top: 0;
+  background: var(--color-paper);
+}
+
+.frame :global(.map-keyboard-list button) {
+  display: grid;
+  width: 100%;
+  padding: 5px var(--space-2xs);
+  border: 0;
+  border-bottom: var(--rule-hair) solid var(--color-rule);
+  background: none;
+  color: var(--color-ink);
+  font-size: 14.5px;
+  text-align: left;
+}
+
+.frame :global(.map-keyboard-list button:hover) {
+  background: var(--color-paper-2);
+}
+
+.frame :global(.map-keyboard-list small) {
+  color: var(--color-muted);
+}
+
+/* Avisos del mapa: carga, actualización y falta de contexto. */
+.frame :global(.map-state-overlay),
+.frame :global(.map-refresh-indicator),
+.frame :global(.map-context-warning) {
+  position: absolute;
+  z-index: var(--z-sticky);
+  inset: 12px auto auto 50%;
+  width: max-content;
+  max-width: calc(100% - 20px);
+  transform: translateX(-50%);
+  display: grid;
+  padding: 5px 10px;
+  border: var(--rule-hair) solid var(--color-ink);
+  background: var(--color-paper);
+  font-size: var(--text-xs);
+  text-align: center;
+}
+
+/* Cromo de MapLibre: radio 0, filete de tinta y sombra plana. */
+.frame :global(.maplibregl-ctrl-group) {
+  border: var(--rule-hair) solid var(--color-ink);
+  border-radius: 0;
+  background: var(--color-paper);
+  box-shadow: none;
+}
+
+.frame :global(.maplibregl-ctrl-scale) {
+  border: var(--rule-fine) solid var(--color-ink);
+  border-top: 0;
+  background: color-mix(in srgb, var(--color-paper) 85%, transparent);
+  color: var(--color-ink);
+  font-family: var(--font-mono);
+  font-size: 12px;
+}
+
+.frame :global(.maplibregl-ctrl-attrib) {
+  border-radius: 0;
+  font-size: 12px;
+}
+
+.frame :global(.maplibregl-popup-content) {
+  padding: var(--space-2xs) 10px;
+  border: var(--rule-hair) solid var(--color-ink);
+  border-radius: 0;
+  background: var(--color-paper);
+  box-shadow: 3px 3px 0 rgb(23 32 27 / 18%);
+  font-family: var(--font-display);
+}
+
+.frame :global(.maplibregl-popup-tip) {
+  display: none;
+}
+
+.frame :global(.map-tooltip) {
+  display: grid;
+  gap: 1px;
+}
+
+.frame :global(.map-tooltip strong) {
+  font-size: var(--text-sm);
+  font-weight: 700;
+}
+
+.frame :global(.map-tooltip span) {
+  font-size: 13.5px;
+  color: var(--color-muted);
+}
+
+.frame :global(.map-tooltip b) {
+  font-family: var(--font-mono);
+  font-weight: 500;
+}
+
+@media (max-width: 1099px) {
+  .frame {
+    height: 62vh;
+  }
+}
+
+@media (max-width: 640px) {
+  .frame :global(.map-keyboard-picker) {
+    width: auto;
+    left: 10px;
+    right: 54px;
+    top: 46px;
+  }
+}
+
+.status {
+  display: grid;
+  place-items: center;
+  height: 100%;
+  min-height: 280px;
+}

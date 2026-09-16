@@ -1,0 +1,14 @@
+venv/
+data/
+**/node_modules/
+**/.next/
+**/.pytest_cache/
+**/__pycache__/
+**/test-results/
+**/playwright-report/
+*.pyc
+*.log
+.DS_Store
+.git/
+tmp/
+output/

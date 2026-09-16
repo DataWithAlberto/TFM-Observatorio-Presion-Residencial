@@ -1,0 +1,5 @@
+component,anio,municipios_fuente,municipios_valor_valido,cobertura_pct,missing_valor,municipios_sin_fila,valores_invalidos,duplicados,actualizacion_fuente,periodo_min,periodo_max
+asequibilidad,2023,306,306,100.0,0,0,0,0,,2015,2023
+turismo,2023,306,306,100.0,0,0,0,0,,2020-08-01 00:00:00,2026-05-01 00:00:00
+especulacion,2023,306,306,100.0,0,0,0,0,,2022,2023
+gentrificacion,2023,306,306,100.0,0,0,0,0,,2018,2023

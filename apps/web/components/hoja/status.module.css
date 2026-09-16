@@ -1,0 +1,24 @@
+.status {
+  padding: var(--space-xs) var(--space-sm);
+  font-family: var(--font-mono);
+  font-size: 13.5px;
+  color: var(--color-muted);
+}
+
+.status button {
+  padding: 0;
+  border: 0;
+  border-bottom: var(--rule-hair) solid var(--color-accent);
+  background: none;
+  color: var(--color-accent);
+  font: inherit;
+}
+
+.status button:hover {
+  color: var(--color-accent-strong);
+  border-bottom-color: var(--color-accent-strong);
+}
+
+.error {
+  color: var(--color-ink);
+}

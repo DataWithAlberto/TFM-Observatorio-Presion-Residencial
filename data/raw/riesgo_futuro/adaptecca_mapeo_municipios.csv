@@ -1,0 +1,307 @@
+cod_ine,nombre,provincia,adaptecca_id,estado_mapeo
+01059,Vitoria-Gasteiz,Araba/Álava,304,ok
+02003,Albacete,Albacete,1157,ok
+02009,Almansa,Albacete,5180,ok
+02037,Hellín,Albacete,496,ok
+02081,Villarrobledo,Albacete,1317,ok
+03009,Alcoi/Alcoy,Alicante/Alacant,6701,ok
+03014,Alacant/Alicante,Alicante/Alacant,1430,ok
+03031,Benidorm,Alicante/Alacant,176,ok
+03047,Calp,Alicante/Alacant,6727,ok
+03050,"Campello, el",Alicante/Alacant,105,ok
+03059,Crevillent,Alicante/Alacant,6741,ok
+03063,Dénia,Alicante/Alacant,1431,ok
+03065,Elx/Elche,Alicante/Alacant,6721,ok
+03066,Elda,Alicante/Alacant,6722,ok
+03082,Xàbia/Jávea,Alicante/Alacant,1432,ok
+03093,Novelda,Alicante/Alacant,6755,ok
+03099,Orihuela,Alicante/Alacant,1434,ok
+03104,Petrer,Alicante/Alacant,6768,ok
+03121,Santa Pola,Alicante/Alacant,1247,ok
+03122,Sant Vicent del Raspeig/San Vicente del Raspeig,Alicante/Alacant,6775,ok
+03133,Torrevieja,Alicante/Alacant,1301,ok
+03139,"Vila Joiosa, la/Villajoyosa",Alicante/Alacant,596,ok
+03140,Villena,Alicante/Alacant,6788,ok
+04013,Almería,Almería,1976,ok
+04066,Níjar,Almería,1650,ok
+04079,Roquetas de Mar,Almería,631,ok
+04902,"Ejido, El",Almería,632,ok
+05019,Ávila,Ávila,1245,ok
+06011,Almendralejo,Badajoz,7118,ok
+06015,Badajoz,Badajoz,1483,ok
+06044,Don Benito,Badajoz,324,ok
+06083,Mérida,Badajoz,1493,ok
+06153,Villanueva de la Serena,Badajoz,7219,ok
+07011,Calvià,"Balears, Illes",643,ok
+07015,Ciutadella de Menorca,"Balears, Illes",567,ok
+07026,Eivissa,"Balears, Illes",810,ok
+07027,Inca,"Balears, Illes",3247,ok
+07031,Llucmajor,"Balears, Illes",811,ok
+07032,Maó,"Balears, Illes",812,ok
+07033,Manacor,"Balears, Illes",813,ok
+07036,Marratxí,"Balears, Illes",3216,ok
+07040,Palma,"Balears, Illes",816,ok
+07054,Santa Eulària des Riu,"Balears, Illes",312,ok
+08015,Badalona,Barcelona,1351,ok
+08019,Barcelona,Barcelona,957,ok
+08056,Castelldefels,Barcelona,6044,ok
+08073,Cornellà de Llobregat,Barcelona,6056,ok
+08077,Esplugues de Llobregat,Barcelona,1855,ok
+08089,Gavà,Barcelona,6074,ok
+08096,Granollers,Barcelona,6079,ok
+08101,"Hospitalet de Llobregat, L'",Barcelona,1831,ok
+08102,Igualada,Barcelona,6081,ok
+08113,Manresa,Barcelona,6091,ok
+08114,Martorell,Barcelona,6093,ok
+08121,Mataró,Barcelona,568,ok
+08124,Mollet del Vallès,Barcelona,6098,ok
+08125,Montcada i Reixac,Barcelona,6100,ok
+08163,Pineda de Mar,Barcelona,6137,ok
+08169,"Prat de Llobregat, El",Barcelona,6141,ok
+08172,Premià de Mar,Barcelona,265,ok
+08180,Ripollet,Barcelona,6134,ok
+08184,Rubí,Barcelona,362,ok
+08187,Sabadell,Barcelona,6151,ok
+08194,Sant Adrià de Besòs,Barcelona,6154,ok
+08196,Sant Andreu de la Barca,Barcelona,6158,ok
+08200,Sant Boi de Llobregat,Barcelona,6144,ok
+08205,Sant Cugat del Vallès,Barcelona,6165,ok
+08211,Sant Feliu de Llobregat,Barcelona,6155,ok
+08217,Sant Joan Despí,Barcelona,5862,ok
+08231,Sant Pere de Ribes,Barcelona,6183,ok
+08245,Santa Coloma de Gramenet,Barcelona,6191,ok
+08252,Barberà del Vallès,Barcelona,6205,ok
+08260,Santa Perpètua de Mogoda,Barcelona,6214,ok
+08263,Sant Vicenç dels Horts,Barcelona,6216,ok
+08266,Cerdanyola del Vallès,Barcelona,6217,ok
+08270,Sitges,Barcelona,399,ok
+08279,Terrassa,Barcelona,1375,ok
+08298,Vic,Barcelona,6243,ok
+08301,Viladecans,Barcelona,6245,ok
+08305,Vilafranca del Penedès,Barcelona,6247,ok
+08307,Vilanova i la Geltrú,Barcelona,6249,ok
+09018,Aranda de Duero,Burgos,3537,ok
+09059,Burgos,Burgos,3570,ok
+09219,Miranda de Ebro,Burgos,3658,ok
+10037,Cáceres,Cáceres,1511,ok
+10148,Plasencia,Cáceres,1064,ok
+11004,Algeciras,Cádiz,203,ok
+11006,Arcos de la Frontera,Cádiz,205,ok
+11012,Cádiz,Cádiz,206,ok
+11015,Chiclana de la Frontera,Cádiz,2068,ok
+11020,Jerez de la Frontera,Cádiz,2078,ok
+11022,"Línea de la Concepción, La",Cádiz,2080,ok
+11027,"Puerto de Santa María, El",Cádiz,279,ok
+11028,Puerto Real,Cádiz,280,ok
+11030,Rota,Cádiz,75,ok
+11031,San Fernando,Cádiz,208,ok
+11032,Sanlúcar de Barrameda,Cádiz,2083,ok
+11033,San Roque,Cádiz,207,ok
+12009,Almassora,Castellón/Castelló,6799,ok
+12027,Benicarló,Castellón/Castelló,6811,ok
+12032,Borriana/Burriana,Castellón/Castelló,6812,ok
+12040,Castelló de la Plana/Castellón de la Plana,Castellón/Castelló,231,ok
+12084,Onda,Castellón/Castelló,6852,ok
+12126,"Vall d'Uixó, la",Castellón/Castelló,6883,ok
+12135,Vila-real,Castellón/Castelló,6896,ok
+12138,Vinaròs,Castellón/Castelló,1376,ok
+13005,Alcázar de San Juan,Ciudad Real,1319,ok
+13034,Ciudad Real,Ciudad Real,719,ok
+13071,Puertollano,Ciudad Real,5308,ok
+13082,Tomelloso,Ciudad Real,5319,ok
+13087,Valdepeñas,Ciudad Real,479,ok
+14021,Córdoba,Córdoba,690,ok
+14038,Lucena,Córdoba,388,ok
+14056,Puente Genil,Córdoba,1163,ok
+15002,Ames,"Coruña, A",1599,ok
+15005,Arteixo,"Coruña, A",384,ok
+15019,Carballo,"Coruña, A",448,ok
+15030,"Coruña, A","Coruña, A",1916,ok
+15031,Culleredo,"Coruña, A",7433,ok
+15036,Ferrol,"Coruña, A",872,ok
+15054,Narón,"Coruña, A",109,ok
+15058,Oleiros,"Coruña, A",262,ok
+15073,Ribeira,"Coruña, A",1087,ok
+15078,Santiago de Compostela,"Coruña, A",264,ok
+16078,Cuenca,Cuenca,259,ok
+17023,Blanes,Girona,737,ok
+17066,Figueres,Girona,6288,ok
+17079,Girona,Girona,6300,ok
+17095,Lloret de Mar,Girona,6304,ok
+17114,Olot,Girona,6319,ok
+17155,Salt,Girona,6331,ok
+18017,Almuñécar,Granada,2148,ok
+18087,Granada,Granada,131,ok
+18140,Motril,Granada,684,ok
+19046,Azuqueca de Henares,Guadalajara,5614,ok
+19130,Guadalajara,Guadalajara,164,ok
+20030,Eibar,Gipuzkoa,8020,ok
+20045,Irun,Gipuzkoa,8037,ok
+20067,Errenteria,Gipuzkoa,620,ok
+20069,Donostia/San Sebastián,Gipuzkoa,621,ok
+21041,Huelva,Huelva,1181,ok
+21044,Lepe,Huelva,2298,ok
+22125,Huesca,Huesca,1217,ok
+23005,Andújar,Jaén,698,ok
+23050,Jaén,Jaén,1141,ok
+23055,Linares,Jaén,1126,ok
+23092,Úbeda,Jaén,308,ok
+24089,León,León,3895,ok
+24115,Ponferrada,León,3922,ok
+24142,San Andrés del Rabanedo,León,3951,ok
+25120,Lleida,Lleida,1582,ok
+26089,Logroño,"Rioja, La",8195,ok
+27028,Lugo,Lugo,1445,ok
+28005,Alcalá de Henares,Madrid,425,ok
+28006,Alcobendas,Madrid,299,ok
+28007,Alcorcón,Madrid,1932,ok
+28013,Aranjuez,Madrid,1539,ok
+28014,Arganda del Rey,Madrid,7640,ok
+28022,Boadilla del Monte,Madrid,7644,ok
+28045,Colmenar Viejo,Madrid,7664,ok
+28047,Collado Villalba,Madrid,7666,ok
+28049,Coslada,Madrid,7670,ok
+28058,Fuenlabrada,Madrid,608,ok
+28061,Galapagar,Madrid,7675,ok
+28065,Getafe,Madrid,7679,ok
+28074,Leganés,Madrid,7689,ok
+28079,Madrid,Madrid,1105,ok
+28080,Majadahonda,Madrid,1106,ok
+28092,Móstoles,Madrid,404,ok
+28096,Navalcarnero,Madrid,1467,ok
+28106,Parla,Madrid,7669,ok
+28113,Pinto,Madrid,334,ok
+28115,Pozuelo de Alarcón,Madrid,7712,ok
+28123,Rivas-Vaciamadrid,Madrid,1470,ok
+28127,"Rozas de Madrid, Las",Madrid,7718,ok
+28130,San Fernando de Henares,Madrid,7680,ok
+28134,San Sebastián de los Reyes,Madrid,1063,ok
+28148,Torrejón de Ardoz,Madrid,7723,ok
+28161,Valdemoro,Madrid,658,ok
+28181,Villaviciosa de Odón,Madrid,1499,ok
+28903,Tres Cantos,Madrid,428,ok
+29007,Alhaurín de la Torre,Málaga,2420,ok
+29015,Antequera,Málaga,389,ok
+29025,Benalmádena,Málaga,1199,ok
+29051,Estepona,Málaga,771,ok
+29054,Fuengirola,Málaga,772,ok
+29067,Málaga,Málaga,770,ok
+29069,Marbella,Málaga,774,ok
+29070,Mijas,Málaga,775,ok
+29082,Rincón de la Victoria,Málaga,2491,ok
+29084,Ronda,Málaga,1695,ok
+29094,Vélez-Málaga,Málaga,776,ok
+29901,Torremolinos,Málaga,2514,ok
+30003,Águilas,Murcia,661,ok
+30005,Alcantarilla,Murcia,7744,ok
+30015,Caravaca de la Cruz,Murcia,1502,ok
+30016,Cartagena,Murcia,1503,ok
+30019,Cieza,Murcia,1504,ok
+30022,Jumilla,Murcia,121,ok
+30024,Lorca,Murcia,302,ok
+30026,Mazarrón,Murcia,1071,ok
+30027,Molina de Segura,Murcia,1072,ok
+30030,Murcia,Murcia,326,ok
+30035,San Javier,Murcia,1919,ok
+30037,Torre-Pacheco,Murcia,7769,ok
+30039,Totana,Murcia,7773,ok
+30043,Yecla,Murcia,662,ok
+31201,Pamplona/Iruña,Navarra,7898,ok
+31232,Tudela,Navarra,185,ok
+32054,Ourense,Ourense,7552,ok
+33004,Avilés,Asturias,3188,ok
+33024,Gijón,Asturias,881,ok
+33031,Langreo,Asturias,3203,ok
+33037,Mieres,Asturias,288,ok
+33044,Oviedo,Asturias,795,ok
+33066,Siero,Asturias,144,ok
+34120,Palencia,Palencia,4105,ok
+35002,Agüimes,"Palmas, Las",5460,ok
+35004,Arrecife,"Palmas, Las",5464,ok
+35006,Arucas,"Palmas, Las",5466,ok
+35011,Ingenio,"Palmas, Las",5473,ok
+35014,"Oliva, La","Palmas, Las",5476,ok
+35016,"Palmas de Gran Canaria, Las","Palmas, Las",5480,ok
+35017,Puerto del Rosario,"Palmas, Las",5481,ok
+35019,San Bartolomé de Tirajana,"Palmas, Las",8260,ok
+35022,Santa Lucía de Tirajana,"Palmas, Las",8258,ok
+35026,Telde,"Palmas, Las",339,ok
+36008,Cangas,Pontevedra,1540,ok
+36026,Marín,Pontevedra,1544,ok
+36038,Pontevedra,Pontevedra,108,ok
+36045,Redondela,Pontevedra,1096,ok
+36057,Vigo,Pontevedra,1528,ok
+36060,Vilagarcía de Arousa,Pontevedra,1531,ok
+37274,Salamanca,Salamanca,4426,ok
+38001,Adeje,Santa Cruz de Tenerife,5452,ok
+38006,Arona,Santa Cruz de Tenerife,5457,ok
+38011,Candelaria,Santa Cruz de Tenerife,8265,ok
+38017,Granadilla de Abona,Santa Cruz de Tenerife,8271,ok
+38023,San Cristóbal de La Laguna,Santa Cruz de Tenerife,349,ok
+38026,"Orotava, La",Santa Cruz de Tenerife,5482,ok
+38028,Puerto de la Cruz,Santa Cruz de Tenerife,343,ok
+38031,"Realejos, Los",Santa Cruz de Tenerife,5424,ok
+38038,Santa Cruz de Tenerife,Santa Cruz de Tenerife,5429,ok
+39016,Camargo,Cantabria,3272,ok
+39020,Castro-Urdiales,Cantabria,840,ok
+39075,Santander,Cantabria,1238,ok
+39087,Torrelavega,Cantabria,3328,ok
+40194,Segovia,Segovia,1293,ok
+41004,Alcalá de Guadaíra,Sevilla,1839,ok
+41021,Camas,Sevilla,2524,ok
+41024,Carmona,Sevilla,1208,ok
+41034,Coria del Río,Sevilla,2508,ok
+41038,Dos Hermanas,Sevilla,2538,ok
+41039,Écija,Sevilla,2539,ok
+41053,Lebrija,Sevilla,1211,ok
+41059,Mairena del Aljarafe,Sevilla,2554,ok
+41065,Morón de la Frontera,Sevilla,354,ok
+41069,"Palacios y Villafranca, Los",Sevilla,2560,ok
+41081,"Rinconada, La",Sevilla,2576,ok
+41091,Sevilla,Sevilla,2581,ok
+41095,Utrera,Sevilla,2585,ok
+42173,Soria,Soria,1298,ok
+43038,Cambrils,Tarragona,1411,ok
+43123,Reus,Tarragona,6649,ok
+43148,Tarragona,Tarragona,593,ok
+43155,Tortosa,Tarragona,595,ok
+43163,"Vendrell, El",Tarragona,6684,ok
+43905,Salou,Tarragona,1428,ok
+44216,Teruel,Teruel,1230,ok
+45081,Illescas,Toledo,1339,ok
+45165,Talavera de la Reina,Toledo,729,ok
+45168,Toledo,Toledo,728,ok
+46005,Alaquàs,Valencia/València,1456,ok
+46017,Alzira,Valencia/València,598,ok
+46021,Aldaia,Valencia/València,1875,ok
+46029,Algemesí,Valencia/València,852,ok
+46078,Burjassot,Valencia/València,4210,ok
+46094,Catarroja,Valencia/València,6973,ok
+46102,Quart de Poblet,Valencia/València,6980,ok
+46110,Xirivella,Valencia/València,6632,ok
+46131,Gandia,Valencia/València,1461,ok
+46145,Xàtiva,Valencia/València,1462,ok
+46159,Manises,Valencia/València,7032,ok
+46169,Mislata,Valencia/València,7026,ok
+46181,Oliva,Valencia/València,853,ok
+46184,Ontinyent,Valencia/València,7051,ok
+46190,Paterna,Valencia/València,7058,ok
+46220,Sagunt/Sagunto,Valencia/València,233,ok
+46235,Sueca,Valencia/València,1464,ok
+46244,Torrent,Valencia/València,7089,ok
+46250,València,Valencia/València,1465,ok
+47186,Valladolid,Valladolid,1305,ok
+48013,Barakaldo,Bizkaia,8067,ok
+48015,Basauri,Bizkaia,8068,ok
+48020,Bilbao,Bizkaia,8072,ok
+48027,Durango,Bizkaia,1959,ok
+48036,Galdakao,Bizkaia,8081,ok
+48044,Getxo,Bizkaia,676,ok
+48054,Leioa,Bizkaia,6582,ok
+48078,Portugalete,Bizkaia,8096,ok
+48082,Santurtzi,Bizkaia,8104,ok
+48084,Sestao,Bizkaia,459,ok
+49275,Zamora,Zamora,5173,ok
+50297,Zaragoza,Zaragoza,3183,ok
+51001,Ceuta,Ceuta,8257,ok
+52001,Melilla,Melilla,124,ok

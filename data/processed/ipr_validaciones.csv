@@ -1,0 +1,15 @@
+prueba,estado,detalle
+universo_306,OK,306 filas
+clave_unica,OK,0 duplicados
+ipr5_prospectivo_cobertura,OK,303/306
+ipr4_cobertura_nacional,OK,306/306
+ipr5_prospectivo_rango,OK,0–100
+ipr4_rango,OK,0–100
+trazabilidad_contribuciones,OK,diferencia máxima 1.42e-14
+pesos_suman_uno,OK,1.000000
+vif_sin_redundancia_severa,OK,máximo 1.433
+sensibilidad_correlacion,OK,Spearman mínimo 0.929
+sensibilidad_top10,OK,solapamiento mínimo 0.871
+faltantes_riesgo_documentados,OK,"11012,11031,48044"
+sin_ceros_por_ausencia,OK,Los tres IPR-5 no elegibles permanecen nulos
+municipios_referencia,OK,7/7

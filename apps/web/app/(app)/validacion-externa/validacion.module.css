@@ -1,0 +1,189 @@
+.page {
+  display: grid;
+  --reading-measure: none;
+  padding: 18px var(--space-lg) 80px;
+}
+
+.prose {
+  display: grid;
+  gap: var(--space-sm);
+  min-width: 0;
+}
+
+.prose p {
+  font-size: var(--text-md);
+  color: var(--color-ink-2);
+}
+
+.prose a {
+  color: var(--color-accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.block {
+  display: grid;
+  gap: var(--space-2xs);
+  padding-top: var(--space-xs);
+  border-top: var(--rule-hair) solid var(--color-ink);
+}
+
+.blockTitle {
+  font-size: 13px;
+  font-weight: 700;
+  font-stretch: var(--stretch-label);
+  letter-spacing: var(--tracking-wide);
+  text-transform: uppercase;
+}
+
+/* Cifras del contraste principal, en una fila de cajetín. */
+.metrics {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  margin: var(--space-2xs) 0;
+  border-top: var(--rule-hair) solid var(--color-ink);
+  border-bottom: var(--rule-hair) solid var(--color-ink);
+}
+
+.metrics div {
+  display: grid;
+  gap: 2px;
+  padding: var(--space-2xs) var(--space-xs) var(--space-2xs) 0;
+}
+
+.metrics div + div {
+  padding-left: var(--space-xs);
+  border-left: var(--rule-hair) solid var(--color-rule);
+}
+
+.metrics dt {
+  font-family: var(--font-mono);
+  font-size: var(--text-micro);
+  letter-spacing: var(--tracking-wide);
+  text-transform: uppercase;
+  color: var(--color-muted);
+}
+
+.metrics dd {
+  margin: 0;
+  font-family: var(--font-mono);
+  font-size: 20px;
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+}
+
+.figure {
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  border: var(--rule-hair) solid var(--color-rule);
+  background: var(--color-paper);
+}
+
+.tableWrap {
+  position: relative;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  min-width: 480px;
+  border-collapse: collapse;
+  font-size: 14.5px;
+}
+
+.caption {
+  padding-bottom: var(--space-3xs);
+  font-size: var(--text-xs);
+  color: var(--color-muted);
+  text-align: left;
+}
+
+.table th {
+  padding: 5px var(--space-xs) 5px 0;
+  border-bottom: var(--rule-hair) solid var(--color-ink);
+  color: var(--color-muted);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: var(--tracking-wide);
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.table tbody th {
+  border-bottom: var(--rule-hair) solid var(--color-rule);
+  color: var(--color-ink);
+  font-family: var(--font-display);
+  font-size: 14.5px;
+  font-weight: 600;
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+.table td {
+  padding: 6px var(--space-xs) 6px 0;
+  border-bottom: var(--rule-hair) solid var(--color-rule);
+}
+
+.num {
+  text-align: right;
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+.table th.num {
+  text-align: right;
+}
+
+.mono {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--color-muted);
+}
+
+.small,
+.prose .small {
+  font-size: var(--text-xs);
+  color: var(--color-muted);
+}
+
+.details summary {
+  color: var(--color-accent);
+  font-size: var(--text-sm);
+  font-weight: 600;
+}
+
+.details > :not(summary) {
+  margin-top: var(--space-2xs);
+}
+
+.list {
+  display: grid;
+  gap: 2px;
+  font-size: var(--text-sm);
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  font-size: var(--text-sm);
+  font-weight: 600;
+}
+
+@media (max-width: 640px) {
+  .page {
+    padding: var(--space-sm) var(--space-sm) 64px;
+  }
+
+  .metrics {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .metrics div + div {
+    padding-left: 0;
+    border-left: 0;
+  }
+}

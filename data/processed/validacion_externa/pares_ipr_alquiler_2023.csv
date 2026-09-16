@@ -1,0 +1,307 @@
+cod_ine,nombre,anio,ipr4_nacional_observado,ipr5_prospectivo,cuartil_ipr,anio_externo,alquiler_mediano_mensual,estado,unidad,uso
+01059,Vitoria,2023,43.1436837029894,37.01981326674627,Q2,2023,,sin_registro,EUR/mes,external_validation
+02003,Albacete,2023,57.27097396335584,62.23993051785908,Q3,2023,500.0,observado,EUR/mes,external_validation
+02009,Almansa,2023,5.400192864030859,17.15638909998914,Q1,2023,377.9,observado,EUR/mes,external_validation
+02037,Hellín,2023,8.640308582449375,20.655520573227665,Q1,2023,340.0,observado,EUR/mes,external_validation
+02081,Villarrobledo,2023,7.07810993249759,18.930300727391163,Q1,2023,347.6,observado,EUR/mes,external_validation
+03009,Alcoy/Alcoi,2023,36.17164898746384,39.88497448702638,Q1,2023,366.7,observado,EUR/mes,external_validation
+03014,Alicante/Alacant,2023,72.4397299903568,74.58701552491586,Q4,2023,562.0,observado,EUR/mes,external_validation
+03031,Benidorm,2023,80.09643201542913,77.27070893496905,Q4,2023,512.5,observado,EUR/mes,external_validation
+03047,Calpe/Calp,2023,87.29990356798459,83.54266637715776,Q4,2023,500.0,observado,EUR/mes,external_validation
+03050,"Campello, el",2023,86.32594021215044,88.02936706112257,Q4,2023,600.9,observado,EUR/mes,external_validation
+03059,Crevillent,2023,42.352941176470594,48.21854304635762,Q2,2023,350.0,observado,EUR/mes,external_validation
+03063,Dénia,2023,87.44455159112826,82.9205840842471,Q4,2023,521.5,observado,EUR/mes,external_validation
+03065,Elche/Elx,2023,64.30086788813887,67.61931386385842,Q4,2023,450.0,observado,EUR/mes,external_validation
+03066,Elda,2023,36.25843780135005,42.78987080664423,Q1,2023,380.0,observado,EUR/mes,external_validation
+03082,Jávea/Xábia,2023,79.672131147541,80.38687438931711,Q4,2023,600.0,observado,EUR/mes,external_validation
+03093,Novelda,2023,28.39922854387657,35.51351644772555,Q1,2023,394.4,observado,EUR/mes,external_validation
+03099,Orihuela,2023,68.40887174541948,71.01177939420258,Q4,2023,419.6,observado,EUR/mes,external_validation
+03104,Petrer,2023,19.787849566055932,25.114374117902507,Q1,2023,392.5,observado,EUR/mes,external_validation
+03121,Santa Pola,2023,73.18225650916105,74.27445445662795,Q4,2023,454.2,observado,EUR/mes,external_validation
+03122,San Vicente del Raspeig,2023,59.80713596914176,65.09103246118772,Q3,2023,541.7,observado,EUR/mes,external_validation
+03133,Torrevieja,2023,82.15043394406945,78.02323309086961,Q4,2023,400.0,observado,EUR/mes,external_validation
+03139,Villajoyosa/Vila Joiosa (La),2023,77.97492767598844,75.07007925306701,Q4,2023,475.0,observado,EUR/mes,external_validation
+03140,Villena,2023,31.648987463837994,40.1632287482358,Q1,2023,369.7,observado,EUR/mes,external_validation
+04013,Almería,2023,59.22854387656703,63.556182824883294,Q3,2023,500.0,observado,EUR/mes,external_validation
+04066,Nijar,2023,53.230472516875615,57.61345130821843,Q3,2023,371.8,observado,EUR/mes,external_validation
+04079,Roquetas de Mar,2023,52.65188042430088,52.601780479861034,Q3,2023,423.2,observado,EUR/mes,external_validation
+04902,Ejido (El),2023,41.8900675024108,42.06351101943329,Q2,2023,398.2,observado,EUR/mes,external_validation
+05019,Ávila,2023,38.94889103182257,39.36483552274455,Q2,2023,450.0,observado,EUR/mes,external_validation
+06011,Almendralejo,2023,17.357762777242044,23.69449571164912,Q1,2023,330.0,observado,EUR/mes,external_validation
+06015,Badajoz,2023,50.1542912246866,52.81326674628162,Q3,2023,460.0,observado,EUR/mes,external_validation
+06044,Don Benito,2023,36.181292189006754,42.922972532841165,Q1,2023,350.0,observado,EUR/mes,external_validation
+06083,Mérida,2023,32.40115718418515,38.56747367278254,Q1,2023,400.0,observado,EUR/mes,external_validation
+06153,Villanueva de la Serena,2023,25.88235294117647,35.95695364238411,Q1,2023,320.0,observado,EUR/mes,external_validation
+07011,Calvià,2023,88.56316297010608,83.42438388882856,Q4,2023,725.0,observado,EUR/mes,external_validation
+07015,Ciutadella de Menorca,2023,84.39729990356798,86.58869829551624,Q4,2023,535.0,observado,EUR/mes,external_validation
+07026,Eivissa,2023,69.18032786885246,69.73043100640538,Q4,2023,891.0,observado,EUR/mes,external_validation
+07027,Inca,2023,73.32690453230472,74.14906090543914,Q4,2023,600.0,observado,EUR/mes,external_validation
+07031,Llucmajor,2023,77.41562198649953,77.27678862229943,Q4,2023,700.0,observado,EUR/mes,external_validation
+07032,Mahón,2023,72.6711668273867,75.87645206817935,Q4,2023,550.0,observado,EUR/mes,external_validation
+07033,Manacor,2023,77.22275795564127,75.07643035501032,Q4,2023,500.0,observado,EUR/mes,external_validation
+07036,Marratxí,2023,60.69431051108969,62.02062751058517,Q3,2023,751.3,observado,EUR/mes,external_validation
+07040,Palma de Mallorca,2023,78.30279652844746,76.04413201606775,Q4,2023,750.0,observado,EUR/mes,external_validation
+07054,Santa Eulalia del Río,2023,68.56316297010608,70.54690044511997,Q4,2023,848.8,observado,EUR/mes,external_validation
+08015,Badalona,2023,61.35969141755063,56.62593638041473,Q3,2023,700.0,observado,EUR/mes,external_validation
+08019,Barcelona,2023,57.29990356798458,49.598957767886226,Q3,2023,866.7,observado,EUR/mes,external_validation
+08056,Castelldefels,2023,64.03085824493732,60.48583215720335,Q4,2023,875.0,observado,EUR/mes,external_validation
+08073,Cornellà de Llobregat,2023,61.51398264223723,57.5517859081533,Q3,2023,695.9,observado,EUR/mes,external_validation
+08077,Esplugues de Llobregat,2023,54.985535197685635,50.71121485180762,Q3,2023,767.5,observado,EUR/mes,external_validation
+08089,Gavà,2023,50.97396335583414,47.45038540875041,Q3,2023,800.0,observado,EUR/mes,external_validation
+08096,Granollers,2023,46.383799421407915,43.15139507111063,Q2,2023,663.7,observado,EUR/mes,external_validation
+08101,Hospitalet de Llobregat (L'),2023,67.68563162970108,61.20828357398763,Q4,2023,700.0,observado,EUR/mes,external_validation
+08102,Igualada,2023,41.70684667309548,40.765389208554986,Q2,2023,509.0,observado,EUR/mes,external_validation
+08113,Manresa,2023,42.14079074252652,42.971990011942246,Q2,2023,489.3,observado,EUR/mes,external_validation
+08114,Martorell,2023,40.6268081002893,47.69503854087503,Q2,2023,612.5,observado,EUR/mes,external_validation
+08121,Mataró,2023,73.14368370298939,65.30127022038867,Q4,2023,646.1,observado,EUR/mes,external_validation
+08124,Mollet del Vallès,2023,52.81581485053039,52.54244924546737,Q3,2023,650.0,observado,EUR/mes,external_validation
+08125,Montcada i Reixac,2023,36.10414657666345,33.27130604711758,Q1,2023,650.0,observado,EUR/mes,external_validation
+08163,Pineda de Mar,2023,65.84378013500483,56.6625773531647,Q4,2023,550.0,observado,EUR/mes,external_validation
+08169,Prat de Llobregat (El),2023,60.23143683702989,55.61725111279991,Q3,2023,750.0,observado,EUR/mes,external_validation
+08172,Premià de Mar,2023,60.59787849566057,52.50157420475519,Q3,2023,701.9,observado,EUR/mes,external_validation
+08180,Ripollet,2023,59.66248794599807,55.779339919661275,Q3,2023,650.0,observado,EUR/mes,external_validation
+08184,Rubí,2023,44.243008678881395,42.57344479426772,Q2,2023,663.1,observado,EUR/mes,external_validation
+08187,Sabadell,2023,58.80424300867889,53.31142112691348,Q3,2023,675.0,observado,EUR/mes,external_validation
+08194,Sant Adrià de Besòs,2023,78.5920925747348,68.54168928455107,Q4,2023,701.9,observado,EUR/mes,external_validation
+08196,Sant Andreu de la Barca,2023,31.639344262295086,29.52589295407664,Q1,2023,650.0,observado,EUR/mes,external_validation
+08200,Sant Boi de Llobregat,2023,50.80038572806173,47.25317555097166,Q3,2023,700.0,observado,EUR/mes,external_validation
+08205,Sant Cugat del Vallès,2023,50.13500482160078,47.28362827054609,Q3,2023,1045.2,observado,EUR/mes,external_validation
+08211,Sant Feliu de Llobregat,2023,55.67984570877532,52.443762892194115,Q3,2023,750.0,observado,EUR/mes,external_validation
+08217,Sant Joan Despí,2023,67.22275795564127,62.5532515470633,Q4,2023,780.0,observado,EUR/mes,external_validation
+08231,Sant Pere de Ribes,2023,69.5274831243973,62.12816198024102,Q4,2023,655.5,observado,EUR/mes,external_validation
+08245,Santa Coloma Gramanet,2023,64.68659594985536,56.52334165671479,Q4,2023,630.0,observado,EUR/mes,external_validation
+08252,Barberà del Vallès,2023,49.98071359691418,46.854467484529366,Q2,2023,700.0,observado,EUR/mes,external_validation
+08260,Santa Perpètua de Mogoda,2023,34.56123432979749,32.30751275648681,Q1,2023,660.4,observado,EUR/mes,external_validation
+08263,Sant Vicenç dels Horts,2023,26.190935390549665,25.043752035609597,Q1,2023,673.2,observado,EUR/mes,external_validation
+08266,Cerdanyola del Vallès,2023,54.368370298939254,48.89523395939637,Q3,2023,735.0,observado,EUR/mes,external_validation
+08270,Sitges,2023,70.23143683702989,60.93844316578005,Q4,2023,880.0,observado,EUR/mes,external_validation
+08279,Terrassa,2023,54.62873674059788,50.606611659971776,Q3,2023,630.0,observado,EUR/mes,external_validation
+08298,Vic,2023,47.868852459016395,47.39382260340896,Q2,2023,550.0,observado,EUR/mes,external_validation
+08301,Viladecans,2023,54.0983606557377,50.00678536532406,Q3,2023,750.0,observado,EUR/mes,external_validation
+08305,Vilafranca del Penedès,2023,40.94503375120541,41.35957007925307,Q2,2023,591.7,observado,EUR/mes,external_validation
+08307,Vilanova i la Geltrú,2023,72.72902603664417,65.59450656823364,Q4,2023,675.0,observado,EUR/mes,external_validation
+09018,Aranda de Duero,2023,34.165863066538094,32.56747367278254,Q1,2023,460.0,observado,EUR/mes,external_validation
+09059,Burgos,2023,45.38090646094504,41.802247312995334,Q2,2023,500.0,observado,EUR/mes,external_validation
+09219,Miranda de Ebro,2023,13.799421407907428,13.120236673542504,Q1,2023,450.9,observado,EUR/mes,external_validation
+10037,Cáceres,2023,33.9344262295082,39.72174573879058,Q1,2023,450.0,observado,EUR/mes,external_validation
+10148,Plasencia,2023,24.908389585342334,35.675442405819126,Q1,2023,380.0,observado,EUR/mes,external_validation
+11004,Algeciras,2023,55.44840887174542,59.59803495820215,Q3,2023,500.0,observado,EUR/mes,external_validation
+11006,Arcos de la frontera,2023,40.73288331726133,41.377917707089345,Q2,2023,300.0,observado,EUR/mes,external_validation
+11012,Cádiz,2023,78.37994214079075,,Q4,2023,623.9,observado,EUR/mes,external_validation
+11015,Chiclana de la Frontera,2023,78.36065573770492,72.76549777440017,Q4,2023,447.5,observado,EUR/mes,external_validation
+11020,Jerez de la Frontera,2023,68.69816779170685,70.0656280534144,Q4,2023,500.0,observado,EUR/mes,external_validation
+11022,Línea de la Concepción (La),2023,61.44648023143685,62.01427640864184,Q3,2023,560.3,observado,EUR/mes,external_validation
+11027,Puerto de Santa María,2023,82.41080038572807,77.25116708283574,Q4,2023,502.1,observado,EUR/mes,external_validation
+11028,Puerto Real,2023,63.953712632594026,64.09575507545327,Q4,2023,480.8,observado,EUR/mes,external_validation
+11030,Rota,2023,87.84956605593058,82.56948214091847,Q4,2023,500.0,observado,EUR/mes,external_validation
+11031,San Fernando,2023,64.92767598842816,,Q4,2023,474.4,observado,EUR/mes,external_validation
+11032,Sanlúcar de Barrameda,2023,70.79074252651881,64.79133644555422,Q4,2023,450.0,observado,EUR/mes,external_validation
+11033,San Roque,2023,80.98360655737704,80.60758875257844,Q4,2023,600.0,observado,EUR/mes,external_validation
+12009,Almazora/Almassora,2023,30.048216007714565,33.786016719140164,Q1,2023,400.0,observado,EUR/mes,external_validation
+12027,Benicarló,2023,49.35390549662488,50.34485940723049,Q2,2023,350.0,observado,EUR/mes,external_validation
+12032,Burriana,2023,36.856316297010615,38.72853110411464,Q2,2023,400.0,observado,EUR/mes,external_validation
+12040,Castellón de la Plana,2023,45.08196721311476,46.763380740419066,Q2,2023,454.3,observado,EUR/mes,external_validation
+12084,Onda,2023,25.94021215043395,31.585604168928455,Q1,2023,354.9,observado,EUR/mes,external_validation
+12126,Vall d'Uixó (la),2023,12.391513982642238,13.959939203126698,Q1,2023,391.9,observado,EUR/mes,external_validation
+12135,Villarreal/Vila-real,2023,17.560270009643205,23.270600369123876,Q1,2023,430.0,observado,EUR/mes,external_validation
+12138,Vinaròs,2023,42.06364513018322,43.25409836065574,Q2,2023,400.0,observado,EUR/mes,external_validation
+13005,Alcázar de San Juan,2023,13.3847637415622,23.694929975029854,Q1,2023,400.0,observado,EUR/mes,external_validation
+13034,Ciudad Real,2023,20.37608486017358,31.723645641081315,Q1,2023,419.4,observado,EUR/mes,external_validation
+13071,Puertollano,2023,15.882352941176473,26.61258278145696,Q1,2023,370.0,observado,EUR/mes,external_validation
+13082,Tomelloso,2023,5.361620057859209,13.597112148518075,Q1,2023,323.0,observado,EUR/mes,external_validation
+13087,Valdepeñas,2023,9.1321118611379,21.371566605146025,Q1,2023,350.0,observado,EUR/mes,external_validation
+14021,Córdoba,2023,49.02603664416587,52.79795896211051,Q2,2023,504.2,observado,EUR/mes,external_validation
+14038,Lucena,2023,38.09064609450338,46.5823471935729,Q2,2023,350.0,observado,EUR/mes,external_validation
+14056,Puente Génil,2023,18.70781099324976,29.610248615785473,Q1,2023,350.0,observado,EUR/mes,external_validation
+15002,Ames,2023,49.93249758919962,44.47904679187928,Q2,2023,400.0,observado,EUR/mes,external_validation
+15005,Arteixo,2023,31.513982642237224,27.97893822603409,Q1,2023,400.0,observado,EUR/mes,external_validation
+15019,Carballo,2023,35.5062680810029,32.4154272066008,Q1,2023,317.9,observado,EUR/mes,external_validation
+15030,Coruña (A),2023,75.23625843780135,66.43426338074042,Q4,2023,500.0,observado,EUR/mes,external_validation
+15031,Culleredo,2023,53.57762777242045,47.378731950928234,Q3,2023,450.0,observado,EUR/mes,external_validation
+15036,Ferrol,2023,35.110896817743495,32.228368255346865,Q1,2023,370.1,observado,EUR/mes,external_validation
+15054,Narón,2023,16.981677917068467,15.527141461296278,Q1,2023,360.0,observado,EUR/mes,external_validation
+15058,Oleiros,2023,36.55737704918033,33.25920095537944,Q1,2023,486.4,observado,EUR/mes,external_validation
+15073,Ribeira,2023,50.009643201542914,46.382368906741945,Q3,2023,332.0,observado,EUR/mes,external_validation
+15078,Santiago de Compostela,2023,60.28929604628736,51.74259038106612,Q3,2023,461.3,observado,EUR/mes,external_validation
+16078,Cuenca,2023,26.67309546769528,26.595972207143635,Q1,2023,461.6,observado,EUR/mes,external_validation
+17023,Blanes,2023,74.09836065573771,65.31804364346976,Q4,2023,510.0,observado,EUR/mes,external_validation
+17066,Figueres,2023,37.01060752169721,34.83649983715124,Q2,2023,492.7,observado,EUR/mes,external_validation
+17079,Girona,2023,44.23336547733848,41.07518184779069,Q2,2023,650.0,observado,EUR/mes,external_validation
+17095,Lloret de Mar,2023,73.71263259402122,64.14580393008359,Q4,2023,500.0,observado,EUR/mes,external_validation
+17114,Olot,2023,32.57473481195757,29.77461730539572,Q1,2023,490.6,observado,EUR/mes,external_validation
+17155,Salt,2023,17.41562198649952,16.69069590706764,Q1,2023,500.0,observado,EUR/mes,external_validation
+18017,Almuñecar,2023,71.80327868852459,67.88709152100749,Q4,2023,494.0,observado,EUR/mes,external_validation
+18087,Granada,2023,67.25168756027003,68.73678210834872,Q4,2023,550.0,observado,EUR/mes,external_validation
+18140,Motril,2023,58.910318225650926,59.36184996200195,Q3,2023,448.6,observado,EUR/mes,external_validation
+19046,Azuqueca de Henares,2023,41.85149469623915,40.590326783194,Q2,2023,520.0,observado,EUR/mes,external_validation
+19130,Guadalajara,2023,41.060752169720345,41.0109108674411,Q2,2023,550.0,observado,EUR/mes,external_validation
+20030,Eibar,2023,44.70588235294118,39.688741721854306,Q2,2023,558.3,observado,EUR/mes,external_validation
+20045,Irun,2023,62.0443587270974,54.32710889154272,Q3,2023,701.9,observado,EUR/mes,external_validation
+20067,Errenteria,2023,55.94985535197685,48.99777440017371,Q3,2023,696.2,observado,EUR/mes,external_validation
+20069,San Sebastián/Donostia,2023,72.42044358727098,62.60042340679622,Q4,2023,927.5,observado,EUR/mes,external_validation
+21041,Huelva,2023,62.65188042430088,62.8898599500597,Q3,2023,491.6,observado,EUR/mes,external_validation
+21044,Lepe,2023,45.54484088717455,43.63033329714472,Q2,2023,397.6,observado,EUR/mes,external_validation
+22125,Huesca,2023,37.90742526518804,38.62859624362176,Q2,2023,484.2,observado,EUR/mes,external_validation
+23005,Andújar,2023,25.689488910318225,35.34599934860493,Q1,2023,350.0,observado,EUR/mes,external_validation
+23050,Jaén,2023,28.736740597878494,39.17788513733579,Q1,2023,458.3,observado,EUR/mes,external_validation
+23055,Linares,2023,14.734811957569914,27.226576918901316,Q1,2023,360.0,observado,EUR/mes,external_validation
+23092,Úbeda,2023,44.42622950819673,52.712626207795026,Q2,2023,375.0,observado,EUR/mes,external_validation
+24089,León,2023,41.58148505303761,38.6224079904462,Q2,2023,459.0,observado,EUR/mes,external_validation
+24115,Ponferrada,2023,22.931533269045325,21.776571490609054,Q1,2023,382.2,observado,EUR/mes,external_validation
+24142,San Andrés  del Rabanedo,2023,22.295081967213115,19.497177288025185,Q1,2023,400.0,observado,EUR/mes,external_validation
+25120,Lleida,2023,30.49180327868853,31.5306155683422,Q1,2023,500.0,observado,EUR/mes,external_validation
+26089,Logroño,2023,52.0443587270974,46.22445988492021,Q3,2023,500.0,observado,EUR/mes,external_validation
+27028,Lugo,2023,48.81388621022179,46.85604168928455,Q2,2023,390.0,observado,EUR/mes,external_validation
+28005,Alcalá de Henares,2023,65.05303760848602,64.28514819237868,Q4,2023,651.1,observado,EUR/mes,external_validation
+28006,Alcobendas,2023,59.73963355834138,64.63630441862989,Q3,2023,800.0,observado,EUR/mes,external_validation
+28007,Alcorcón,2023,65.14946962391514,68.09228096840735,Q4,2023,700.0,observado,EUR/mes,external_validation
+28013,Aranjuez,2023,49.82642237222758,56.90543914884377,Q2,2023,525.0,observado,EUR/mes,external_validation
+28014,Arganda del Rey,2023,40.60752169720348,43.35745304527195,Q2,2023,600.0,observado,EUR/mes,external_validation
+28022,Boadilla del Monte,2023,44.89874638379943,49.68711323417653,Q2,2023,1200.0,observado,EUR/mes,external_validation
+28045,Colmenar Viejo,2023,53.828351012536174,55.687873195092834,Q3,2023,672.9,observado,EUR/mes,external_validation
+28047,Collado Villalba,2023,50.98360655737705,50.14070133535989,Q3,2023,650.0,observado,EUR/mes,external_validation
+28049,Coslada,2023,61.31147540983608,63.38958853544675,Q3,2023,700.0,observado,EUR/mes,external_validation
+28058,Fuenlabrada,2023,37.32883317261331,44.54407773314515,Q2,2023,650.0,observado,EUR/mes,external_validation
+28061,Galapagar,2023,38.630665380906464,43.564542394962544,Q2,2023,600.0,observado,EUR/mes,external_validation
+28065,Getafe,2023,49.59498553519769,53.33123439365976,Q2,2023,670.8,observado,EUR/mes,external_validation
+28074,Leganés,2023,44.609450337512065,49.14319834979916,Q2,2023,650.0,observado,EUR/mes,external_validation
+28079,Madrid,2023,69.22854387656702,68.23167951362501,Q4,2023,825.0,observado,EUR/mes,external_validation
+28080,Majadahonda,2023,54.513018322082935,57.01487352079036,Q3,2023,1078.4,observado,EUR/mes,external_validation
+28092,Móstoles,2023,47.7145612343298,52.97459559222669,Q2,2023,676.9,observado,EUR/mes,external_validation
+28096,Navalcarnero,2023,37.839922854387666,46.96525892954077,Q2,2023,616.9,observado,EUR/mes,external_validation
+28106,Parla,2023,44.70588235294118,51.46026490066225,Q2,2023,606.6,observado,EUR/mes,external_validation
+28113,Pinto,2023,35.564127290260366,39.815600911953105,Q1,2023,660.0,observado,EUR/mes,external_validation
+28115,Pozuelo de Alarcón,2023,56.42237222757956,58.488817717945935,Q3,2023,1200.0,observado,EUR/mes,external_validation
+28123,Rivas-Vaciamadrid,2023,41.735776277724206,46.89925089566822,Q2,2023,845.0,observado,EUR/mes,external_validation
+28127,Rozas de Madrid (Las),2023,35.60270009643202,40.54375203560959,Q1,2023,950.0,observado,EUR/mes,external_validation
+28130,San Fernando de Henares,2023,34.001928640308584,35.11024861578547,Q1,2023,665.0,observado,EUR/mes,external_validation
+28134,San Sebastián de los Reyes,2023,60.829315332690456,65.51286505265443,Q3,2023,799.2,observado,EUR/mes,external_validation
+28148,Torrejón de Ardoz,2023,60.636451301832224,61.37542069265009,Q3,2023,686.4,observado,EUR/mes,external_validation
+28161,Valdemoro,2023,43.47155255544841,50.85810444034307,Q2,2023,650.0,observado,EUR/mes,external_validation
+28181,Villaviciosa de Odón,2023,43.87656702025073,51.6493866029747,Q2,2023,867.0,observado,EUR/mes,external_validation
+28903,Tres Cantos,2023,46.22950819672131,48.1858104440343,Q2,2023,904.9,observado,EUR/mes,external_validation
+29007,Alhaurín de la Torre,2023,64.64802314368372,65.08327000325698,Q4,2023,584.8,observado,EUR/mes,external_validation
+29015,Antequera,2023,35.37126325940213,37.764249267180546,Q1,2023,460.0,observado,EUR/mes,external_validation
+29025,Benalmádena,2023,88.88138862102218,82.8505048311801,Q4,2023,650.0,observado,EUR/mes,external_validation
+29051,Estepona,2023,84.08871745419479,80.71382043209206,Q4,2023,617.7,observado,EUR/mes,external_validation
+29054,Fuengirola,2023,73.17261330761814,68.50466833134296,Q4,2023,639.3,observado,EUR/mes,external_validation
+29067,Málaga,2023,90.35679845708776,90.16420584084248,Q4,2023,665.9,observado,EUR/mes,external_validation
+29069,Marbella,2023,83.91513982642239,79.12588209749212,Q4,2023,750.0,observado,EUR/mes,external_validation
+29070,Mijas,2023,83.24011571841852,81.33356855933123,Q4,2023,597.3,observado,EUR/mes,external_validation
+29082,Rincón de la Victoria,2023,87.46383799421409,88.94691130170447,Q4,2023,650.0,observado,EUR/mes,external_validation
+29084,Ronda,2023,45.42912246865959,47.15780045597655,Q2,2023,400.0,observado,EUR/mes,external_validation
+29094,Vélez Málaga,2023,85.74734811957569,80.4845836499837,Q4,2023,500.0,observado,EUR/mes,external_validation
+29901,Torremolinos,2023,90.00964320154291,88.23005102594722,Q4,2023,604.3,observado,EUR/mes,external_validation
+30003,Águilas,2023,58.47637415621987,62.46981869503855,Q3,2023,400.0,observado,EUR/mes,external_validation
+30005,Alcantarilla,2023,17.396335583413695,28.545163391597,Q1,2023,400.0,observado,EUR/mes,external_validation
+30015,Caravaca de la Cruz,2023,22.69045323047252,32.34979915318641,Q1,2023,350.0,observado,EUR/mes,external_validation
+30016,Cartagena,2023,56.586306653809075,62.55200303984367,Q3,2023,470.0,observado,EUR/mes,external_validation
+30019,Cieza,2023,16.268081002892963,28.132504614048425,Q1,2023,325.0,observado,EUR/mes,external_validation
+30022,Jumilla,2023,25.188042430086792,31.49261752252741,Q1,2023,350.0,observado,EUR/mes,external_validation
+30024,Lorca,2023,23.972999035679848,33.787645206817935,Q1,2023,425.0,observado,EUR/mes,external_validation
+30026,Mazarrón,2023,58.98746383799421,64.14596677885137,Q3,2023,350.0,observado,EUR/mes,external_validation
+30027,Molina de Segura,2023,29.701060752169724,37.16643144066877,Q1,2023,468.8,observado,EUR/mes,external_validation
+30030,Murcia,2023,46.837029893924786,54.81147540983606,Q2,2023,500.0,observado,EUR/mes,external_validation
+30035,San Javier,2023,68.87174541947928,68.87210943437195,Q4,2023,400.0,observado,EUR/mes,external_validation
+30037,Torre-Pacheco,2023,52.97974927675989,56.90364781239821,Q3,2023,400.0,observado,EUR/mes,external_validation
+30039,Totana,2023,10.241080038572807,19.085712734773637,Q1,2023,375.0,observado,EUR/mes,external_validation
+30043,Yecla,2023,17.492767598842818,28.527792856367387,Q1,2023,320.0,observado,EUR/mes,external_validation
+31201,Pamplona/Iruña,2023,65.72806171648988,58.30262729345347,Q4,2023,650.0,observado,EUR/mes,external_validation
+31232,Tudela,2023,37.0106075216972,37.121268049071766,Q2,2023,500.0,observado,EUR/mes,external_validation
+32054,Ourense,2023,39.90356798457088,36.64982086635545,Q2,2023,400.0,observado,EUR/mes,external_validation
+33004,Avilés,2023,35.10125361620058,30.28308544132016,Q1,2023,425.0,observado,EUR/mes,external_validation
+33024,Gijón,2023,60.81967213114755,52.83910541743568,Q3,2023,500.0,observado,EUR/mes,external_validation
+33031,Langreo,2023,13.519768563162971,11.889154272066008,Q1,2023,350.0,observado,EUR/mes,external_validation
+33037,Mieres,2023,18.727097396335584,16.51405927695147,Q1,2023,350.0,observado,EUR/mes,external_validation
+33044,Oviedo,2023,58.37994214079074,50.914341548148954,Q3,2023,470.0,observado,EUR/mes,external_validation
+33066,Siero,2023,47.637415621986506,41.137498642926936,Q2,2023,402.1,observado,EUR/mes,external_validation
+34120,Palencia,2023,20.20250723240116,20.79795896211052,Q1,2023,431.3,observado,EUR/mes,external_validation
+35002,Agüimes,2023,49.31533269045323,50.610085767017694,Q2,2023,490.0,observado,EUR/mes,external_validation
+35004,Arrecife,2023,51.02217936354871,49.974812723917054,Q3,2023,500.0,observado,EUR/mes,external_validation
+35006,Arucas,2023,45.30376084860174,42.779719900119424,Q2,2023,490.0,observado,EUR/mes,external_validation
+35011,Ingenio,2023,36.528447444551595,41.08229291065031,Q1,2023,445.1,observado,EUR/mes,external_validation
+35014,"Oliva, La",2023,70.74252651880424,66.14108131581804,Q4,2023,500.0,observado,EUR/mes,external_validation
+35016,Palmas de Gran Canaria (Las),2023,60.3085824493732,55.58348713494734,Q3,2023,556.4,observado,EUR/mes,external_validation
+35017,Puerto del Rosario,2023,52.88331726133076,52.947508413853,Q3,2023,450.0,observado,EUR/mes,external_validation
+35019,San Bartolomé de Tirajana,2023,71.08968177434909,67.47920964064704,Q4,2023,600.0,observado,EUR/mes,external_validation
+35022,Santa Lucía de Tirajana,2023,41.735776277724206,42.92574096189338,Q2,2023,460.5,observado,EUR/mes,external_validation
+35026,Telde,2023,54.4069431051109,54.19292150689394,Q3,2023,500.0,observado,EUR/mes,external_validation
+36008,Cangas,2023,49.29604628736741,43.838725436977526,Q2,2023,400.0,observado,EUR/mes,external_validation
+36026,Marín,2023,47.434908389585345,43.29980458147867,Q2,2023,390.0,observado,EUR/mes,external_validation
+36038,Pontevedra,2023,59.67213114754098,55.58886114428401,Q3,2023,500.0,observado,EUR/mes,external_validation
+36045,Redondela,2023,49.7589199614272,46.11958527847139,Q2,2023,400.0,observado,EUR/mes,external_validation
+36057,Vigo,2023,63.43297974927676,57.4941917272826,Q3,2023,510.3,observado,EUR/mes,external_validation
+36060,Vilagarcía de Arousa,2023,58.80424300867888,52.86440125936381,Q3,2023,400.2,observado,EUR/mes,external_validation
+37274,Salamanca,2023,53.095467695274834,48.30995548800348,Q3,2023,500.0,observado,EUR/mes,external_validation
+38001,Adeje,2023,84.74445515911282,76.55265443491479,Q4,2023,600.0,observado,EUR/mes,external_validation
+38006,Arona,2023,71.16682738669238,67.84279665617198,Q4,2023,542.1,observado,EUR/mes,external_validation
+38011,Candelaria,2023,70.44358727097398,66.97969818695039,Q4,2023,570.0,observado,EUR/mes,external_validation
+38017,Granadilla de Abona,2023,67.03953712632594,62.79486483552274,Q4,2023,506.9,observado,EUR/mes,external_validation
+38023,San Cristóbal Laguna,2023,63.48119575699133,62.70073824774726,Q4,2023,500.0,observado,EUR/mes,external_validation
+38026,Orotava (La),2023,40.867888138862114,39.50591683856259,Q2,2023,470.0,observado,EUR/mes,external_validation
+38028,Puerto de la Cruz,2023,93.98264223722276,85.7958419281294,Q4,2023,550.0,observado,EUR/mes,external_validation
+38031,Realejos (Los),2023,53.68370298939248,50.34969058734123,Q3,2023,460.0,observado,EUR/mes,external_validation
+38038,Santa Cruz deTenerife,2023,47.75313404050145,53.20605797416133,Q2,2023,551.0,observado,EUR/mes,external_validation
+39016,Camargo,2023,27.830279652844744,23.755075453262403,Q1,2023,500.0,observado,EUR/mes,external_validation
+39020,Castro-Urdiales,2023,53.79942140790743,46.57387905764846,Q3,2023,591.8,observado,EUR/mes,external_validation
+39075,Santander,2023,73.82835101253617,62.80376723482792,Q4,2023,552.1,observado,EUR/mes,external_validation
+39087,Torrelavega,2023,39.09353905496625,33.428183693410055,Q2,2023,450.0,observado,EUR/mes,external_validation
+40194,Segovia,2023,51.39826422372227,46.22163717294539,Q3,2023,515.7,observado,EUR/mes,external_validation
+41004,Alcalá de Guadaíra,2023,43.15332690453231,44.7266854847465,Q2,2023,466.0,observado,EUR/mes,external_validation
+41021,Camas,2023,70.76181292189007,66.65416350016285,Q4,2023,500.0,observado,EUR/mes,external_validation
+41024,Carmona,2023,32.42044358727098,34.56068830745848,Q1,2023,412.5,observado,EUR/mes,external_validation
+41034,Coria del Río,2023,31.282545805207334,35.23254804038649,Q1,2023,427.9,observado,EUR/mes,external_validation
+41038,Dos Hermanas,2023,62.391513982642245,65.15199218325915,Q3,2023,530.0,observado,EUR/mes,external_validation
+41039,Écija,2023,19.14175506268081,25.359895776788623,Q1,2023,330.0,observado,EUR/mes,external_validation
+41053,Lebrija,2023,36.66345226615237,37.02486157854739,Q1,2023,350.0,observado,EUR/mes,external_validation
+41059,Mairena del Aljarafe,2023,39.83606557377049,43.54608620128108,Q2,2023,641.7,observado,EUR/mes,external_validation
+41065,Morón de la Frontera,2023,19.54676952748313,21.78031701226794,Q1,2023,364.0,observado,EUR/mes,external_validation
+41069,Palacios y Villafranca (Los),2023,25.477338476374157,26.22527412875909,Q1,2023,397.8,observado,EUR/mes,external_validation
+41081,Rinconada (La),2023,55.04339440694311,54.882911735967866,Q3,2023,485.2,observado,EUR/mes,external_validation
+41091,Sevilla,2023,77.47348119575699,76.48159808924113,Q4,2023,641.3,observado,EUR/mes,external_validation
+41095,Utrera,2023,36.345226615236264,38.64178699381175,Q1,2023,430.0,observado,EUR/mes,external_validation
+42173,Soria,2023,46.374156219865,41.05710563456737,Q2,2023,500.0,observado,EUR/mes,external_validation
+43038,Cambrils,2023,65.26518804243008,62.13103897513842,Q4,2023,515.8,observado,EUR/mes,external_validation
+43123,Reus,2023,41.24397299903568,41.01764194984258,Q2,2023,492.5,observado,EUR/mes,external_validation
+43148,Tarragona,2023,60.877531340405014,62.57371620888068,Q3,2023,550.0,observado,EUR/mes,external_validation
+43155,Tortosa,2023,18.881388621022182,21.810769731842363,Q1,2023,400.0,observado,EUR/mes,external_validation
+43163,Vendrell (El),2023,68.35101253616202,65.35001628487677,Q4,2023,500.0,observado,EUR/mes,external_validation
+43905,Salou,2023,62.169720347155256,57.06611659971773,Q3,2023,500.0,observado,EUR/mes,external_validation
+44216,Teruel,2023,27.88813886210222,28.52279882748887,Q1,2023,446.2,observado,EUR/mes,external_validation
+45081,Illescas,2023,32.70973963355834,33.018510476604064,Q1,2023,575.0,observado,EUR/mes,external_validation
+45165,Talavera de la Reina,2023,36.61523625843781,46.02361307132776,Q1,2023,400.0,observado,EUR/mes,external_validation
+45168,Toledo,2023,57.01060752169721,62.5153077841711,Q3,2023,550.0,observado,EUR/mes,external_validation
+46005,Alaquàs,2023,39.09353905496625,39.58712409076105,Q2,2023,475.0,observado,EUR/mes,external_validation
+46017,Alzira,2023,25.593056894889106,32.83025730105309,Q1,2023,420.0,observado,EUR/mes,external_validation
+46021,Aldaia,2023,41.63934426229509,45.625230702421014,Q2,2023,488.5,observado,EUR/mes,external_validation
+46029,Algemesí,2023,21.677917068466737,30.04874606448811,Q1,2023,376.9,observado,EUR/mes,external_validation
+46078,Burjassot,2023,52.0443587270974,49.94962544783411,Q3,2023,500.0,observado,EUR/mes,external_validation
+46094,Catarroja,2023,41.571841851494696,47.85262186516122,Q2,2023,500.0,observado,EUR/mes,external_validation
+46102,Quart de Poblet,2023,53.6162005785921,56.35191618716752,Q3,2023,450.0,observado,EUR/mes,external_validation
+46110,Xirivella,2023,47.15525554484089,51.40647052437303,Q2,2023,467.5,observado,EUR/mes,external_validation
+46131,Gandia,2023,59.2092574734812,57.2318423623928,Q3,2023,450.0,observado,EUR/mes,external_validation
+46145,Xàtiva,2023,49.95178399228544,56.614645532515475,Q2,2023,400.0,observado,EUR/mes,external_validation
+46159,Manises,2023,55.89199614271939,57.98832917164261,Q3,2023,480.3,observado,EUR/mes,external_validation
+46169,Mislata,2023,59.6817743490839,56.29242210400608,Q3,2023,520.2,observado,EUR/mes,external_validation
+46181,Oliva,2023,66.40308582449374,68.46249050048854,Q4,2023,400.0,observado,EUR/mes,external_validation
+46184,Ontinyent,2023,41.40790742526519,45.080827271740304,Q2,2023,360.0,observado,EUR/mes,external_validation
+46190,Paterna,2023,59.40212150433944,61.4686244707415,Q3,2023,551.6,observado,EUR/mes,external_validation
+46220,Sagunto/Sagunt,2023,49.50819672131148,49.03560959722072,Q2,2023,468.7,observado,EUR/mes,external_validation
+46235,Sueca,2023,30.665380906460943,33.61524264466399,Q1,2023,392.2,observado,EUR/mes,external_validation
+46244,Torrent,2023,51.37897782063646,53.65557485615026,Q3,2023,500.0,observado,EUR/mes,external_validation
+46250,Valencia,2023,76.38379942140791,73.41960699164042,Q4,2023,625.0,observado,EUR/mes,external_validation
+47186,Valladolid,2023,43.78977820636452,40.30078167408533,Q2,2023,500.0,observado,EUR/mes,external_validation
+48013,Barakaldo,2023,55.978784956605594,48.37666919986972,Q3,2023,,sin_registro,EUR/mes,external_validation
+48015,Basauri,2023,54.175506268081,47.39023993051786,Q3,2023,,sin_registro,EUR/mes,external_validation
+48020,Bilbao,2023,65.36162005785921,56.501085658451856,Q4,2023,,sin_registro,EUR/mes,external_validation
+48027,Durango,2023,42.9893924783028,36.83899685159049,Q2,2023,,sin_registro,EUR/mes,external_validation
+48036,Galdakao,2023,43.54869816779171,38.80447291282163,Q2,2023,,sin_registro,EUR/mes,external_validation
+48044,Getxo,2023,64.65766634522662,,Q4,2023,,sin_registro,EUR/mes,external_validation
+48054,Leioa,2023,51.996142719382846,44.445065682336335,Q3,2023,,sin_registro,EUR/mes,external_validation
+48078,Portugalete,2023,57.087753134040504,48.673596786450986,Q3,2023,,sin_registro,EUR/mes,external_validation
+48082,Santurtzi,2023,53.92478302796528,45.83606557377049,Q3,2023,,sin_registro,EUR/mes,external_validation
+48084,Sestao,2023,52.131147540983605,45.056508522418845,Q3,2023,,sin_registro,EUR/mes,external_validation
+49275,Zamora,2023,36.837029893924786,34.14260123765064,Q2,2023,400.0,observado,EUR/mes,external_validation
+50297,Zaragoza,2023,39.72999035679846,39.234067962219086,Q2,2023,510.5,observado,EUR/mes,external_validation
+51001,Ceuta,2023,34.35872709739634,31.340679622190855,Q1,2023,650.0,observado,EUR/mes,external_validation
+52001,Melilla,2023,44.040501446480235,42.94767126262078,Q2,2023,600.0,observado,EUR/mes,external_validation

@@ -1,0 +1,367 @@
+/* Análisis espacial: controles, mapa con su ficha lateral y bloques de lectura. */
+.page {
+  display: grid;
+  --reading-measure: none;
+  gap: var(--space-sm);
+  padding: 18px var(--space-lg) 80px;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+}
+
+.controls label {
+  display: grid;
+  gap: 4px;
+  font-family: var(--font-mono);
+  font-size: var(--text-micro);
+  letter-spacing: var(--tracking-wide);
+  text-transform: uppercase;
+  color: var(--color-muted);
+}
+
+.controls select {
+  min-width: 200px;
+  max-width: 100%;
+  padding: 5px 8px;
+  border: var(--rule-hair) solid var(--color-ink);
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-display);
+  font-size: var(--text-sm);
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+/* Tres cifras del Moran global, como cajetín en línea. */
+.stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  border-top: var(--rule-hair) solid var(--color-ink);
+  border-bottom: var(--rule-hair) solid var(--color-ink);
+}
+
+.stats li {
+  display: grid;
+  gap: 2px;
+  padding: var(--space-2xs) var(--space-xs) var(--space-2xs) 0;
+}
+
+.stats li + li {
+  padding-left: var(--space-xs);
+  border-left: var(--rule-hair) solid var(--color-rule);
+}
+
+.stats small {
+  font-family: var(--font-mono);
+  font-size: var(--text-micro);
+  letter-spacing: var(--tracking-wide);
+  text-transform: uppercase;
+  color: var(--color-muted);
+}
+
+.stats strong {
+  font-family: var(--font-mono);
+  font-size: 24px;
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: var(--tracking-figure);
+}
+
+.stats span {
+  font-size: var(--text-xs);
+  color: var(--color-ink-2);
+}
+
+.notice {
+  padding: var(--space-2xs) var(--space-xs);
+  border-left: var(--rule-heavy) solid var(--color-accent);
+  background: var(--color-paper-2);
+  font-size: var(--text-sm);
+}
+
+.body {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 340px;
+  gap: var(--space-md);
+  align-items: start;
+}
+
+/*
+ * Fuera de la hoja fija el marco del mapa no hereda ningún alto, así que aquí
+ * se le da uno: la fila única de la retícula estira el marco y el mapa lo llena.
+ */
+.main {
+  display: grid;
+  grid-template-rows: minmax(0, 1fr);
+  min-width: 0;
+  height: 600px;
+}
+
+.side {
+  min-width: 0;
+}
+
+.detail {
+  display: grid;
+  gap: var(--space-2xs);
+  padding-top: var(--space-xs);
+  border-top: var(--rule-hair) solid var(--color-ink);
+  font-size: var(--text-sm);
+  color: var(--color-ink-2);
+}
+
+.detail h2 {
+  font-size: var(--text-lg);
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--color-ink);
+}
+
+.sideTitle {
+  font-size: 13px;
+  font-weight: 700;
+  font-stretch: var(--stretch-label);
+  letter-spacing: var(--tracking-wide);
+  text-transform: uppercase;
+  color: var(--color-ink);
+}
+
+.backLink {
+  justify-self: start;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--color-accent);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.detailCode {
+  font-family: var(--font-mono);
+  font-size: var(--text-micro);
+  letter-spacing: var(--tracking-wide);
+  text-transform: uppercase;
+  color: var(--color-muted);
+}
+
+.mono {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  font-weight: 500;
+}
+
+/* La categoría con su cuadrado de color, con la escala LISA. */
+.cluster {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: var(--text-base);
+  font-weight: 600;
+  color: var(--color-ink);
+}
+
+.cluster i {
+  width: 12px;
+  height: 12px;
+  outline: var(--rule-hair) solid var(--color-ink);
+  outline-offset: -1px;
+}
+
+.cluster i[data-cluster="HH"] { background: var(--data-lisa-hh); }
+.cluster i[data-cluster="LL"] { background: var(--data-lisa-ll); }
+.cluster i[data-cluster="HL"] { background: var(--data-lisa-hl); }
+.cluster i[data-cluster="LH"] { background: var(--data-lisa-lh); }
+.cluster i[data-cluster="NS"] { background: var(--data-lisa-ns); }
+.cluster i[data-cluster="NE"] { background: var(--data-lisa-ne); }
+
+.facts {
+  display: grid;
+  gap: 3px;
+  margin: 0;
+}
+
+.facts div {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: var(--space-2xs);
+  padding-bottom: 3px;
+  border-bottom: var(--rule-hair) solid var(--color-rule);
+}
+
+.facts dt {
+  color: var(--color-muted);
+}
+
+.facts dd {
+  margin: 0;
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  color: var(--color-ink);
+}
+
+.neighbors {
+  display: grid;
+  gap: 2px;
+  margin-top: var(--space-2xs);
+}
+
+.neighbors li {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-2xs);
+  padding-bottom: 2px;
+  border-bottom: var(--rule-hair) solid var(--color-rule);
+}
+
+.fichaLink {
+  justify-self: start;
+  margin-top: var(--space-2xs);
+  color: var(--color-accent);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.columns {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-md);
+  align-items: start;
+}
+
+.block {
+  display: grid;
+  gap: var(--space-2xs);
+  padding-top: var(--space-xs);
+  border-top: var(--rule-hair) solid var(--color-ink);
+}
+
+.block p {
+  font-size: var(--text-md);
+  color: var(--color-ink-2);
+}
+
+.blockTitle {
+  font-size: 13px;
+  font-weight: 700;
+  font-stretch: var(--stretch-label);
+  letter-spacing: var(--tracking-wide);
+  text-transform: uppercase;
+}
+
+.tableWrap {
+  position: relative;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  min-width: 420px;
+  border-collapse: collapse;
+  font-size: 14.5px;
+}
+
+.table th {
+  padding: 5px var(--space-xs) 5px 0;
+  border-bottom: var(--rule-hair) solid var(--color-ink);
+  color: var(--color-muted);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: var(--tracking-wide);
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.table tbody th {
+  border-bottom: var(--rule-hair) solid var(--color-rule);
+  color: var(--color-ink);
+  font-family: var(--font-display);
+  font-size: 14.5px;
+  font-weight: 600;
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+.table td {
+  padding: 6px var(--space-xs) 6px 0;
+  border-bottom: var(--rule-hair) solid var(--color-rule);
+}
+
+.num {
+  text-align: right;
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+.table th.num {
+  text-align: right;
+}
+
+.small,
+.block .small {
+  font-size: var(--text-xs);
+  color: var(--color-muted);
+}
+
+.details summary {
+  color: var(--color-accent);
+  font-size: var(--text-sm);
+  font-weight: 600;
+}
+
+.details p {
+  margin-top: var(--space-2xs);
+  font-size: var(--text-sm);
+}
+
+.link {
+  justify-self: start;
+  color: var(--color-accent);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+@media (max-width: 1099px) {
+  .body,
+  .columns {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .page {
+    padding: var(--space-sm) var(--space-sm) 64px;
+  }
+
+  .main {
+    height: 62vh;
+  }
+
+  .stats {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .stats li + li {
+    padding-left: 0;
+    border-left: 0;
+    border-top: var(--rule-hair) solid var(--color-rule);
+  }
+
+  .controls select {
+    min-width: 0;
+    width: 100%;
+  }
+
+  .controls label {
+    width: 100%;
+  }
+}

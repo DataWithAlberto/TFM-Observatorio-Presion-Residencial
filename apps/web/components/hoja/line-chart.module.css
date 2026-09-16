@@ -1,0 +1,75 @@
+.chart {
+  min-width: 0;
+  margin: 0;
+}
+
+.chart svg {
+  display: block;
+  max-width: 100%;
+}
+
+.grid {
+  stroke: var(--color-rule);
+  stroke-dasharray: 3 3;
+}
+
+.axis {
+  fill: var(--color-muted);
+  font-family: var(--font-mono);
+  font-size: 12px;
+}
+
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3xs) var(--space-sm);
+  font-size: 13.5px;
+}
+
+.legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.legend i {
+  width: 18px;
+  height: 2px;
+  background: currentColor;
+}
+
+.legend b {
+  color: var(--color-ink-2);
+  font-weight: 500;
+}
+
+.empty {
+  font-family: var(--font-mono);
+  font-size: 13.5px;
+  color: var(--color-muted);
+}
+
+/* Marca del corte publicado: a su derecha hay dato, pero no entra en el índice. */
+.cut {
+  stroke: var(--color-ink-2);
+  stroke-dasharray: 2 4;
+}
+
+.cutLabel {
+  fill: var(--color-muted);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: var(--tracking-wide);
+}
+
+/* Una serie de un solo año es un punto, no una tendencia: la leyenda lo dice. */
+.legend i.dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+}
+
+.legend i[data-projected] {
+  background: var(--color-paper);
+  box-shadow: inset 0 0 0 2px currentColor;
+}

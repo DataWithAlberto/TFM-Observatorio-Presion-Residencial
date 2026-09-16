@@ -1,0 +1,208 @@
+.page {
+  display: grid;
+  --reading-measure: none;
+  padding: 18px var(--space-lg) 80px;
+}
+
+.prose {
+  display: grid;
+  gap: var(--space-sm);
+  min-width: 0;
+}
+
+.prose p {
+  font-size: var(--text-md);
+  color: var(--color-ink-2);
+}
+
+.notice {
+  padding: var(--space-2xs) var(--space-xs);
+  border-left: var(--rule-heavy) solid var(--color-accent);
+  background: var(--color-paper-2);
+}
+
+.notice b {
+  color: var(--color-ink);
+}
+
+.block {
+  display: grid;
+  gap: var(--space-2xs);
+  padding-top: var(--space-xs);
+  border-top: var(--rule-hair) solid var(--color-ink);
+}
+
+.blockTitle {
+  font-size: 13px;
+  font-weight: 700;
+  font-stretch: var(--stretch-label);
+  letter-spacing: var(--tracking-wide);
+  text-transform: uppercase;
+}
+
+.columns {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-md);
+  align-items: start;
+}
+
+.tableWrap {
+  position: relative;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  min-width: 480px;
+  border-collapse: collapse;
+  font-size: 14.5px;
+}
+
+.table th {
+  padding: 5px var(--space-xs) 5px 0;
+  border-bottom: var(--rule-hair) solid var(--color-ink);
+  color: var(--color-muted);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: var(--tracking-wide);
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.table tbody th {
+  border-bottom: var(--rule-hair) solid var(--color-rule);
+  color: var(--color-ink);
+  font-family: var(--font-display);
+  font-size: 14.5px;
+  font-weight: 600;
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+.table td {
+  padding: 6px var(--space-xs) 6px 0;
+  border-bottom: var(--rule-hair) solid var(--color-rule);
+}
+
+.num {
+  text-align: right;
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+.table th.num {
+  text-align: right;
+}
+
+.small,
+.prose .small {
+  font-size: var(--text-xs);
+  color: var(--color-muted);
+}
+
+.field {
+  display: grid;
+  gap: 4px;
+  justify-self: start;
+  font-family: var(--font-mono);
+  font-size: var(--text-micro);
+  letter-spacing: var(--tracking-wide);
+  text-transform: uppercase;
+  color: var(--color-muted);
+}
+
+.field select {
+  min-width: 280px;
+  max-width: 100%;
+  padding: 5px 8px;
+  border: var(--rule-hair) solid var(--color-ink);
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-display);
+  font-size: var(--text-sm);
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+.facts {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin: 0;
+  border-top: var(--rule-hair) solid var(--color-ink);
+  border-bottom: var(--rule-hair) solid var(--color-ink);
+}
+
+.facts div {
+  display: grid;
+  gap: 2px;
+  padding: var(--space-2xs) var(--space-xs) var(--space-2xs) 0;
+}
+
+.facts div + div {
+  padding-left: var(--space-xs);
+  border-left: var(--rule-hair) solid var(--color-rule);
+}
+
+.facts dt {
+  font-family: var(--font-mono);
+  font-size: var(--text-micro);
+  letter-spacing: var(--tracking-wide);
+  text-transform: uppercase;
+  color: var(--color-muted);
+}
+
+.facts dd {
+  margin: 0;
+  font-family: var(--font-mono);
+  font-size: 20px;
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+}
+
+.details summary {
+  color: var(--color-accent);
+  font-size: var(--text-sm);
+  font-weight: 600;
+}
+
+.details > :not(summary) {
+  margin-top: var(--space-2xs);
+}
+
+.link {
+  justify-self: start;
+  color: var(--color-accent);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+@media (max-width: 1099px) {
+  .columns {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .page {
+    padding: var(--space-sm) var(--space-sm) 64px;
+  }
+
+  .facts {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .facts div + div {
+    padding-left: 0;
+    border-left: 0;
+  }
+
+  .field select {
+    min-width: 0;
+    width: 100%;
+  }
+}

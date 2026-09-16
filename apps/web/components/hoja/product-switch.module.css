@@ -1,0 +1,48 @@
+.group {
+  display: flex;
+  border: var(--rule-hair) solid var(--color-ink);
+}
+
+.option {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  padding: 5px var(--space-xs);
+  border: 0;
+  background: transparent;
+  color: var(--color-ink);
+  font-size: 14.5px;
+  white-space: nowrap;
+}
+
+.option + .option {
+  border-left: var(--rule-hair) solid var(--color-ink);
+}
+
+.option small {
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  color: var(--color-muted);
+}
+
+.option[aria-pressed="true"] {
+  background: var(--color-action);
+  color: var(--color-action-ink);
+  font-weight: 600;
+}
+
+.option[aria-pressed="true"] small {
+  color: var(--color-rule);
+}
+
+.note {
+  font-size: 14.5px;
+  color: var(--color-muted);
+}
+
+/* En móvil sobran el código y el universo: caben en el cajetín. */
+@media (max-width: 640px) {
+  .option small {
+    display: none;
+  }
+}

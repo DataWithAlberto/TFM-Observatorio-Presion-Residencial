@@ -1,0 +1,912 @@
+{
+  "municipios_ipr": 306,
+  "observaciones_ipr": 306,
+  "municipios_con_geometria": 306,
+  "geometrias_validas": 306,
+  "geometrias_nulas": 0,
+  "geometrias_vacias": 0,
+  "geometrias_invalidas": [],
+  "geometrias_duplicadas": [],
+  "ids_geometria_duplicados": [],
+  "ids_ipr_duplicados": [],
+  "crs": "EPSG:4326",
+  "srid": 4326,
+  "geometria_sin_ipr": [],
+  "ipr_sin_geometria": [],
+  "municipios_sin_match": 0,
+  "codigo_identificador": "cod_ine (INE, cinco dígitos)",
+  "codigos_validos": true,
+  "anios_validos": true,
+  "ipr_valido": true,
+  "universo_estable": true,
+  "metodologia_comparable": true,
+  "poligonos": true,
+  "passed": true,
+  "queen": {
+    "normalization": "row-standardized",
+    "neighbor_min": 0,
+    "neighbor_max": 13,
+    "neighbor_mean": 1.7647058823529411,
+    "islands": [
+      "01059",
+      "02081",
+      "03009",
+      "03031",
+      "03047",
+      "05019",
+      "07015",
+      "07027",
+      "07032",
+      "07033",
+      "08096",
+      "08102",
+      "08113",
+      "08121",
+      "08163",
+      "08172",
+      "08298",
+      "08305",
+      "09018",
+      "09059",
+      "09219",
+      "10148",
+      "11004",
+      "13005",
+      "13034",
+      "13071",
+      "13082",
+      "13087",
+      "14021",
+      "14038",
+      "14056",
+      "15019",
+      "15073",
+      "16078",
+      "17066",
+      "17114",
+      "18017",
+      "18087",
+      "18140",
+      "19130",
+      "20030",
+      "20045",
+      "21041",
+      "21044",
+      "22125",
+      "23005",
+      "23050",
+      "23055",
+      "23092",
+      "24115",
+      "25120",
+      "26089",
+      "27028",
+      "29015",
+      "29084",
+      "31201",
+      "31232",
+      "32054",
+      "33004",
+      "34120",
+      "35004",
+      "36008",
+      "36060",
+      "37274",
+      "38011",
+      "39020",
+      "39087",
+      "40194",
+      "41039",
+      "41059",
+      "41065",
+      "42173",
+      "43155",
+      "43163",
+      "44216",
+      "45081",
+      "45165",
+      "46131",
+      "46145",
+      "46184",
+      "47186",
+      "48027",
+      "49275",
+      "50297",
+      "51001",
+      "52001"
+    ],
+    "components": 128,
+    "directed_edges": 540,
+    "sha256": "7eb009bbb174d56531c3dcbdf4361f04e97d0565ed137a6586e1d28cd9907579"
+  },
+  "rook": {
+    "normalization": "row-standardized",
+    "neighbor_min": 0,
+    "neighbor_max": 13,
+    "neighbor_mean": 1.738562091503268,
+    "islands": [
+      "01059",
+      "02003",
+      "02081",
+      "03009",
+      "03031",
+      "03047",
+      "05019",
+      "07015",
+      "07027",
+      "07032",
+      "07033",
+      "08096",
+      "08102",
+      "08113",
+      "08121",
+      "08163",
+      "08172",
+      "08298",
+      "08305",
+      "09018",
+      "09059",
+      "09219",
+      "10148",
+      "11004",
+      "13005",
+      "13034",
+      "13071",
+      "13082",
+      "13087",
+      "14021",
+      "14038",
+      "14056",
+      "15019",
+      "15073",
+      "16078",
+      "17066",
+      "17114",
+      "18017",
+      "18087",
+      "18140",
+      "19046",
+      "19130",
+      "20030",
+      "20045",
+      "21041",
+      "21044",
+      "22125",
+      "23005",
+      "23050",
+      "23055",
+      "23092",
+      "24115",
+      "25120",
+      "26089",
+      "27028",
+      "29015",
+      "29084",
+      "31201",
+      "31232",
+      "32054",
+      "33004",
+      "34120",
+      "35004",
+      "36008",
+      "36060",
+      "37274",
+      "38011",
+      "39020",
+      "39087",
+      "40194",
+      "41039",
+      "41059",
+      "41065",
+      "42173",
+      "43155",
+      "43163",
+      "44216",
+      "45081",
+      "45165",
+      "46131",
+      "46145",
+      "46184",
+      "47186",
+      "48027",
+      "49275",
+      "50297",
+      "51001",
+      "52001"
+    ],
+    "components": 130,
+    "directed_edges": 532,
+    "sha256": "a77c65352bcb087d382855fec9bb5657df2097d88564f6105ecceb0ecdf2d55a"
+  },
+  "municipios_sin_vecinos": 86,
+  "island_diagnostics": [
+    {
+      "cod_ine": "01059",
+      "nombre": "Vitoria",
+      "nearest_cod_ine": "09219",
+      "distance_km": 31.82917708419341,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "02081",
+      "nombre": "Villarrobledo",
+      "nearest_cod_ine": "13082",
+      "distance_km": 35.89494750524136,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "03009",
+      "nombre": "Alcoy/Alcoi",
+      "nearest_cod_ine": "46184",
+      "distance_km": 17.396965518179826,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "03031",
+      "nombre": "Benidorm",
+      "nearest_cod_ine": "03139",
+      "distance_km": 11.302617059866094,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "03047",
+      "nombre": "Calpe/Calp",
+      "nearest_cod_ine": "03082",
+      "distance_km": 16.31484337193008,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "05019",
+      "nombre": "Ávila",
+      "nearest_cod_ine": "40194",
+      "distance_km": 51.953278521547404,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "07015",
+      "nombre": "Ciutadella de Menorca",
+      "nearest_cod_ine": "07032",
+      "distance_km": 30.363383932349763,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "07027",
+      "nombre": "Inca",
+      "nearest_cod_ine": "07036",
+      "distance_km": 20.321692037117646,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "07032",
+      "nombre": "Mahón",
+      "nearest_cod_ine": "07015",
+      "distance_km": 30.363383932349763,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "07033",
+      "nombre": "Manacor",
+      "nearest_cod_ine": "07027",
+      "distance_km": 32.46338725824485,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "08096",
+      "nombre": "Granollers",
+      "nearest_cod_ine": "08124",
+      "distance_km": 7.244191346924512,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "08102",
+      "nombre": "Igualada",
+      "nearest_cod_ine": "08113",
+      "distance_km": 23.418101538658952,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "08113",
+      "nombre": "Manresa",
+      "nearest_cod_ine": "08279",
+      "distance_km": 21.652598156772775,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "08121",
+      "nombre": "Mataró",
+      "nearest_cod_ine": "08172",
+      "distance_km": 10.220087813542435,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "08163",
+      "nombre": "Pineda de Mar",
+      "nearest_cod_ine": "17023",
+      "distance_km": 11.611168689076196,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "08172",
+      "nombre": "Premià de Mar",
+      "nearest_cod_ine": "08121",
+      "distance_km": 10.220087813542435,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "08298",
+      "nombre": "Vic",
+      "nearest_cod_ine": "17114",
+      "distance_km": 35.3768833854651,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "08305",
+      "nombre": "Vilafranca del Penedès",
+      "nearest_cod_ine": "08231",
+      "distance_km": 11.603350061371486,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "09018",
+      "nombre": "Aranda de Duero",
+      "nearest_cod_ine": "42173",
+      "distance_km": 64.63746697338814,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "09059",
+      "nombre": "Burgos",
+      "nearest_cod_ine": "09219",
+      "distance_km": 68.97893945999023,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "09219",
+      "nombre": "Miranda de Ebro",
+      "nearest_cod_ine": "01059",
+      "distance_km": 31.82917708419341,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "10148",
+      "nombre": "Plasencia",
+      "nearest_cod_ine": "10037",
+      "distance_km": 68.67619162437164,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "11004",
+      "nombre": "Algeciras",
+      "nearest_cod_ine": "11022",
+      "distance_km": 16.435838732568055,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "13005",
+      "nombre": "Alcázar de San Juan",
+      "nearest_cod_ine": "13082",
+      "distance_km": 23.750987734521196,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "13034",
+      "nombre": "Ciudad Real",
+      "nearest_cod_ine": "13071",
+      "distance_km": 36.338450919766856,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "13071",
+      "nombre": "Puertollano",
+      "nearest_cod_ine": "13034",
+      "distance_km": 36.338450919766856,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "13082",
+      "nombre": "Tomelloso",
+      "nearest_cod_ine": "13005",
+      "distance_km": 23.750987734521196,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "13087",
+      "nombre": "Valdepeñas",
+      "nearest_cod_ine": "13034",
+      "distance_km": 52.346163355397806,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "14021",
+      "nombre": "Córdoba",
+      "nearest_cod_ine": "41039",
+      "distance_km": 47.747687042650924,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "14038",
+      "nombre": "Lucena",
+      "nearest_cod_ine": "14056",
+      "distance_km": 21.256223617712998,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "14056",
+      "nombre": "Puente Génil",
+      "nearest_cod_ine": "14038",
+      "distance_km": 21.256223617712998,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "15019",
+      "nombre": "Carballo",
+      "nearest_cod_ine": "15005",
+      "distance_km": 16.537142901961374,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "15073",
+      "nombre": "Ribeira",
+      "nearest_cod_ine": "36060",
+      "distance_km": 21.85150939592771,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "16078",
+      "nombre": "Cuenca",
+      "nearest_cod_ine": "44216",
+      "distance_km": 68.65176323994638,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "17066",
+      "nombre": "Figueres",
+      "nearest_cod_ine": "17079",
+      "distance_km": 32.71324007481315,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "17114",
+      "nombre": "Olot",
+      "nearest_cod_ine": "17155",
+      "distance_km": 32.7800033595302,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "18017",
+      "nombre": "Almuñecar",
+      "nearest_cod_ine": "18140",
+      "distance_km": 21.010265212274536,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "18087",
+      "nombre": "Granada",
+      "nearest_cod_ine": "18017",
+      "distance_km": 47.09169243640498,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "18140",
+      "nombre": "Motril",
+      "nearest_cod_ine": "18017",
+      "distance_km": 21.010265212274536,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "19130",
+      "nombre": "Guadalajara",
+      "nearest_cod_ine": "19046",
+      "distance_km": 16.976546542274093,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "20030",
+      "nombre": "Eibar",
+      "nearest_cod_ine": "48027",
+      "distance_km": 17.32418456840171,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "20045",
+      "nombre": "Irun",
+      "nearest_cod_ine": "20067",
+      "distance_km": 9.238841331380657,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "21041",
+      "nombre": "Huelva",
+      "nearest_cod_ine": "21044",
+      "distance_km": 24.54621706398313,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "21044",
+      "nombre": "Lepe",
+      "nearest_cod_ine": "21041",
+      "distance_km": 24.54621706398313,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "22125",
+      "nombre": "Huesca",
+      "nearest_cod_ine": "50297",
+      "distance_km": 63.15480967408532,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "23005",
+      "nombre": "Andújar",
+      "nearest_cod_ine": "23055",
+      "distance_km": 36.862186326437254,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "23050",
+      "nombre": "Jaén",
+      "nearest_cod_ine": "23055",
+      "distance_km": 35.95572587598702,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "23055",
+      "nombre": "Linares",
+      "nearest_cod_ine": "23092",
+      "distance_km": 27.25703577339687,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "23092",
+      "nombre": "Úbeda",
+      "nearest_cod_ine": "23055",
+      "distance_km": 27.25703577339687,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "24115",
+      "nombre": "Ponferrada",
+      "nearest_cod_ine": "24142",
+      "distance_km": 73.80272304495094,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "25120",
+      "nombre": "Lleida",
+      "nearest_cod_ine": "43123",
+      "distance_km": 67.79195885836342,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "26089",
+      "nombre": "Logroño",
+      "nearest_cod_ine": "01059",
+      "distance_km": 44.490953618869455,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "27028",
+      "nombre": "Lugo",
+      "nearest_cod_ine": "15058",
+      "distance_km": 72.33975691438552,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "29015",
+      "nombre": "Antequera",
+      "nearest_cod_ine": "14038",
+      "distance_km": 33.04260935095919,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "29084",
+      "nombre": "Ronda",
+      "nearest_cod_ine": "29051",
+      "distance_km": 37.873088182775135,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "31201",
+      "nombre": "Pamplona/Iruña",
+      "nearest_cod_ine": "20067",
+      "distance_km": 53.13642306305787,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "31232",
+      "nombre": "Tudela",
+      "nearest_cod_ine": "50297",
+      "distance_km": 74.15456932275013,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "32054",
+      "nombre": "Ourense",
+      "nearest_cod_ine": "36038",
+      "distance_km": 62.21341737860562,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "33004",
+      "nombre": "Avilés",
+      "nearest_cod_ine": "33024",
+      "distance_km": 19.43550860627927,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "34120",
+      "nombre": "Palencia",
+      "nearest_cod_ine": "47186",
+      "distance_km": 44.32359990766765,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "35004",
+      "nombre": "Arrecife",
+      "nearest_cod_ine": "35014",
+      "distance_km": 50.66524746102145,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "36008",
+      "nombre": "Cangas",
+      "nearest_cod_ine": "36057",
+      "distance_km": 10.179054928352118,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "36060",
+      "nombre": "Vilagarcía de Arousa",
+      "nearest_cod_ine": "36038",
+      "distance_km": 21.778354852433946,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "37274",
+      "nombre": "Salamanca",
+      "nearest_cod_ine": "49275",
+      "distance_km": 62.70708545886674,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "38011",
+      "nombre": "Candelaria",
+      "nearest_cod_ine": "38026",
+      "distance_km": 14.681014084994501,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "39020",
+      "nombre": "Castro-Urdiales",
+      "nearest_cod_ine": "48082",
+      "distance_km": 14.397317041024705,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "39087",
+      "nombre": "Torrelavega",
+      "nearest_cod_ine": "39016",
+      "distance_km": 14.672549426605633,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "40194",
+      "nombre": "Segovia",
+      "nearest_cod_ine": "28047",
+      "distance_km": 32.368344057678705,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "41039",
+      "nombre": "Écija",
+      "nearest_cod_ine": "14056",
+      "distance_km": 30.436167481911596,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "41059",
+      "nombre": "Mairena del Aljarafe",
+      "nearest_cod_ine": "41021",
+      "distance_km": 7.375318868420665,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "41065",
+      "nombre": "Morón de la Frontera",
+      "nearest_cod_ine": "41004",
+      "distance_km": 37.6479644599485,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "42173",
+      "nombre": "Soria",
+      "nearest_cod_ine": "09018",
+      "distance_km": 64.63746697338814,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "43155",
+      "nombre": "Tortosa",
+      "nearest_cod_ine": "12138",
+      "distance_km": 35.49880276474009,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "43163",
+      "nombre": "Vendrell (El)",
+      "nearest_cod_ine": "08307",
+      "distance_km": 16.027670498520173,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "44216",
+      "nombre": "Teruel",
+      "nearest_cod_ine": "16078",
+      "distance_km": 68.65176323994638,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "45081",
+      "nombre": "Illescas",
+      "nearest_cod_ine": "28106",
+      "distance_km": 13.030170626602379,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "45165",
+      "nombre": "Talavera de la Reina",
+      "nearest_cod_ine": "45168",
+      "distance_km": 77.37866355708317,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "46131",
+      "nombre": "Gandia",
+      "nearest_cod_ine": "46181",
+      "distance_km": 14.618095313216129,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "46145",
+      "nombre": "Xàtiva",
+      "nearest_cod_ine": "46017",
+      "distance_km": 18.075703843991114,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "46184",
+      "nombre": "Ontinyent",
+      "nearest_cod_ine": "03009",
+      "distance_km": 17.396965518179826,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "47186",
+      "nombre": "Valladolid",
+      "nearest_cod_ine": "34120",
+      "distance_km": 44.32359990766765,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "48027",
+      "nombre": "Durango",
+      "nearest_cod_ine": "48036",
+      "distance_km": 15.362658253734121,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "49275",
+      "nombre": "Zamora",
+      "nearest_cod_ine": "37274",
+      "distance_km": 62.70708545886674,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "50297",
+      "nombre": "Zaragoza",
+      "nearest_cod_ine": "22125",
+      "distance_km": 63.15480967408532,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "51001",
+      "nombre": "Ceuta",
+      "nearest_cod_ine": "11004",
+      "distance_km": 27.236415441127576,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    },
+    {
+      "cod_ine": "52001",
+      "nombre": "Melilla",
+      "nearest_cod_ine": "04902",
+      "distance_km": 162.76530426769529,
+      "applied": false,
+      "method_evaluated": "KNN k=1, arc, representative points"
+    }
+  ]
+}

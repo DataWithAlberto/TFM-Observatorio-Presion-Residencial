@@ -1,0 +1,167 @@
+.top {
+  display: flex;
+  align-items: center;
+  gap: var(--space-lg);
+  min-height: var(--banner-height);
+  padding: 0 18px;
+  border-bottom: var(--rule-hair) solid var(--color-ink);
+}
+
+/* Marca: uno de los tres únicos sitios con mayúsculas espaciadas. */
+.word {
+  color: var(--color-ink);
+  font-size: 16.5px;
+  font-weight: 760;
+  font-stretch: var(--stretch-brand);
+  letter-spacing: var(--tracking-brand);
+  line-height: 1;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.word:hover {
+  color: var(--color-ink);
+}
+
+.nav {
+  display: flex;
+  align-self: stretch;
+  gap: 14px;
+  min-width: 0;
+  margin-left: auto;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.nav::-webkit-scrollbar {
+  display: none;
+}
+
+/*
+ * Se declaran también tamaño, peso, alto y caja porque las hojas heredadas
+ * llevan una regla `nav a` que impone mayúsculas espaciadas; desaparecerá con
+ * ellas en la última fase.
+ */
+.nav a {
+  display: flex;
+  align-items: center;
+  min-height: 0;
+  padding: 0;
+  color: var(--color-muted);
+  font-size: var(--text-sm);
+  font-weight: 400;
+  letter-spacing: normal;
+  text-transform: none;
+  text-decoration: none;
+  white-space: nowrap;
+  border-bottom: var(--rule-heavy) solid transparent;
+}
+
+.nav a::after {
+  content: none;
+}
+
+.nav a:hover {
+  color: var(--color-ink);
+}
+
+.nav a[aria-current="page"] {
+  color: var(--color-ink);
+  font-weight: 600;
+  border-bottom-color: var(--color-ink);
+}
+
+.tools {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--space-xs);
+  min-width: 0;
+  max-width: 100%;
+  margin-left: auto;
+}
+
+/* Campo sin caja: solo filete inferior. */
+.search {
+  display: block;
+  width: 220px;
+  max-width: 100%;
+  flex: 0 1 220px;
+  min-width: 0;
+}
+
+/* `min-width: 0` en el campo: si no, su tamaño intrínseco ensancha la página. */
+.search input {
+  width: 100%;
+  min-width: 0;
+  height: 32px;
+  padding: 0 var(--space-2xs);
+  border: 0;
+  border-bottom: var(--rule-hair) solid var(--color-ink);
+  border-radius: 0;
+  background: transparent;
+  font-size: var(--text-sm);
+  color: var(--color-ink);
+}
+
+.search input::placeholder {
+  color: var(--color-muted);
+}
+
+.menuToggle {
+  display: none;
+  height: 32px;
+  padding: 0 var(--space-xs);
+  border: var(--rule-hair) solid var(--color-ink);
+  background: var(--color-paper);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--color-ink);
+}
+
+.menuToggle:hover {
+  background: var(--color-paper-2);
+}
+
+@media (max-width: 1199px) {
+  .top {
+    flex-wrap: wrap;
+    gap: var(--space-xs);
+    padding: var(--space-2xs) var(--space-xs);
+  }
+
+  .menuToggle {
+    display: block;
+  }
+
+  /* La navegación baja a una segunda línea y solo aparece con «Menú». */
+  .nav {
+    display: none;
+    order: 3;
+    width: 100%;
+    margin-left: 0;
+    padding-bottom: var(--space-3xs);
+  }
+
+  .navOpen {
+    display: flex;
+    min-height: 32px;
+  }
+
+  .nav a {
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 640px) {
+  .search {
+    flex: 1 1 100%;
+    width: auto;
+    order: 4;
+  }
+
+  .tools {
+    row-gap: var(--space-2xs);
+  }
+}

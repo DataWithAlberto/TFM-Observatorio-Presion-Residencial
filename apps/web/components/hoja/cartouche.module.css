@@ -1,0 +1,91 @@
+/* Franja de una línea al pie de la hoja. */
+.strip {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: var(--rule-hair) solid var(--color-ink);
+}
+
+.strip span {
+  display: grid;
+  gap: 1px;
+  padding: 6px 14px;
+  border-right: var(--rule-hair) solid var(--color-rule-2);
+  font-size: var(--text-xs);
+}
+
+.strip small,
+.cell small {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: var(--tracking-wide);
+  text-transform: uppercase;
+  color: var(--color-muted);
+}
+
+.value {
+  display: block;
+}
+
+.sources {
+  flex: 1;
+  min-width: 0;
+  border-right: 0;
+}
+
+/* Cajetín completo. */
+.cart {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  border-top: var(--rule-hair) solid var(--color-ink);
+  background: var(--color-paper);
+}
+
+.cell {
+  display: grid;
+  gap: 1px;
+  min-width: 0;
+  padding: 5px 10px 6px;
+  border-bottom: var(--rule-hair) solid var(--color-rule-2);
+}
+
+.cell:nth-child(even):not(.wide) {
+  border-left: var(--rule-hair) solid var(--color-rule-2);
+}
+
+.wide {
+  grid-column: 1 / -1;
+}
+
+.cell b {
+  font-weight: 600;
+  font-size: 13.5px;
+}
+
+.cartTitle b {
+  font-stretch: var(--stretch-label);
+  font-weight: 760;
+  font-size: 13px;
+  letter-spacing: var(--tracking-brand);
+  text-transform: uppercase;
+}
+
+.cell:last-child {
+  border-bottom: 0;
+}
+
+/* En móvil las celdas saltan de línea y las fuentes ocupan la suya. */
+@media (max-width: 640px) {
+  .sources {
+    flex-basis: 100%;
+    border-top: var(--rule-hair) solid var(--color-rule-2);
+  }
+
+  .cart {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .cell:nth-child(even):not(.wide) {
+    border-left: 0;
+  }
+}

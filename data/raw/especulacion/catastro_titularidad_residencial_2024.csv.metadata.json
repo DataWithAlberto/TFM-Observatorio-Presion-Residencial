@@ -1,0 +1,9 @@
+{
+  "source_url": "https://www.catastro.hacienda.gob.es/documentos/estadisticas/propietarios/2024/P_SPI_mun_V_TPF.csv",
+  "downloaded_at": "2026-09-15T16:17:42.955394+00:00",
+  "archive_sha256": "abd72f71cbd10201b8e25e25bd3b3f9e1348c529baf55aadad8fec18d5728805",
+  "organism": "Dirección General del Catastro",
+  "resource": "Estadísticas de titularidad de bienes inmuebles residenciales 2024",
+  "license_url": "https://www.catastro.hacienda.gob.es/es-ES/estadisticas_3_1.html",
+  "tls_verified": false
+}

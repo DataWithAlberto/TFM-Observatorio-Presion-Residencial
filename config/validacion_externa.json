@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "indicador": "Mediana mensual del alquiler de vivienda colectiva",
+  "unidad": "EUR/mes",
+  "fuente": "MIVAU · SERPAVI, explotación estadística de fuentes tributarias",
+  "url": "https://cdn.mivau.gob.es/portal-web-mivau/Datos_MIVAU/CSV/VDP001_01.csv",
+  "periodo_ipr": 2023,
+  "periodo_externo": 2023,
+  "producto_principal": "ipr4_nacional_observado",
+  "universo": 306,
+  "cobertura_minima": 0.9,
+  "h1": "Mayor IPR-4 observado se asociará con mayor mediana mensual del alquiler de vivienda colectiva en 2023 (rho > 0).",
+  "h0": "Ausencia de asociación monotónica (rho = 0).",
+  "alternativa_contraste": "two-sided",
+  "alpha": 0.05,
+  "permutaciones": 19999,
+  "semilla": 202309,
+  "robustez_temporal": [2022, 2024],
+  "extremos": [0.01, 0.99],
+  "filtros": {"ELEMENTO": "PRECIO", "TIPO_VIVIENDA": "COLECTIVA", "TIPO_MEDIDA": "MEDIANA"}
+}

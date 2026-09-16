@@ -1,0 +1,288 @@
+{
+  "schema_version": "1.0",
+  "runs": [
+    {
+      "pipeline": "external_validation_ipr",
+      "generated_at": "2026-09-12T12:21:03.431438+00:00",
+      "usage": "external_validation",
+      "code_revision": "c9af4fd830e0a4e8f10234bdde10cea3b65bc417",
+      "working_tree_dirty": true,
+      "source": {
+        "source_url": "https://cdn.mivau.gob.es/portal-web-mivau/Datos_MIVAU/CSV/VDP001_01.csv",
+        "downloaded_at": "2026-09-11T16:20:56.722014+00:00",
+        "download_sha256": "c53994b28ee3426c82c311b6f9ad599794981e6cf5f4356517ef00d2144caa61",
+        "archive_sha256": "df32b344b6e214e615e6f63e38aac42b3ad15d51280c1d1b4e67ebeff456d54c"
+      },
+      "statistical_period": 2023,
+      "inputs": [
+        {
+          "path": "data/processed/indice_presion_residencial_2023.csv",
+          "sha256": "d9433ba0a5d04ff27f68defda59ccde1e973b0cc2e8b86857a2f51e798522ac5"
+        },
+        {
+          "path": "data/raw/validacion_externa/VDP001_01.csv.gz",
+          "sha256": "df32b344b6e214e615e6f63e38aac42b3ad15d51280c1d1b4e67ebeff456d54c"
+        },
+        {
+          "path": "data/raw/validacion_externa/VDP001_01.csv.metadata.json",
+          "sha256": "f043863d3b5161d7d3683e1ea05cbe8f01d57d6360ec2bb9e7738673fee3ee48"
+        },
+        {
+          "path": "config/validacion_externa.json",
+          "sha256": "96a8bf9ca6f51bea07a7c07cf4c831cc4811d2d867e92120f68bef68a8978323"
+        },
+        {
+          "path": "20_validacion_externa_ipr.py",
+          "sha256": "2ed4546172e69f33c3ae20a69c1082e8552ca3497f79d23a496ae8b19adda05b"
+        },
+        {
+          "path": "docs/AUDITORIA_IPR_VALIDACION_EXTERNA.md",
+          "sha256": "04cc41d4ab1b8494381ce65ad201cd9dace0a2b4618e5c7a6e06a80512520474"
+        },
+        {
+          "path": "docs/CANDIDATOS_VALIDACION_EXTERNA.md",
+          "sha256": "d7bc3321013d1db0e2785dc06a413ce2c1bade3af64d627a95ceaeda61670fe0"
+        }
+      ],
+      "outputs": [
+        {
+          "path": "data/processed/validacion_externa/alquiler_municipal.csv",
+          "sha256": "ca74bb596ced56a548f4a50619930195c0fc45fb85d771c2f9bc89e96dcd0c2f"
+        },
+        {
+          "path": "data/processed/validacion_externa/correlaciones.csv",
+          "sha256": "476540e8a5d6df72f77079084bac93805c85a15c1fe862b47f4d2e91b8643fac"
+        },
+        {
+          "path": "data/processed/validacion_externa/cuartiles.csv",
+          "sha256": "154cd0612d080dc63929026efd368757cc8915e16e187f5cc7cdcb1bad0291f3"
+        },
+        {
+          "path": "data/processed/validacion_externa/pares_ipr_alquiler_2023.csv",
+          "sha256": "fbd2f7eb21590bf976ea613561c055c62cb1e2b5c51ba577a1fac49bc99a77dc"
+        },
+        {
+          "path": "data/processed/validacion_externa/resultados.json",
+          "sha256": "68c37b4080cb442d0e2d04dc7da2e304e30b4e38450f2c598cdcc6a7dc42e698"
+        },
+        {
+          "path": "apps/web/public/validacion-externa/cuartiles.svg",
+          "sha256": "e29a9a82a83ca668c01710a873b0299f451a08e4f48cd65b9dc4cd2522c0a376"
+        },
+        {
+          "path": "apps/web/public/validacion-externa/dispersion.svg",
+          "sha256": "f47603a28722a2bb31c58403464854b6e2738fb72ca17cefbe92db6cf264f41d"
+        },
+        {
+          "path": "apps/web/public/validacion-externa/pares_ipr_alquiler_2023.csv",
+          "sha256": "fbd2f7eb21590bf976ea613561c055c62cb1e2b5c51ba577a1fac49bc99a77dc"
+        },
+        {
+          "path": "apps/web/public/validacion-externa/resultados.json",
+          "sha256": "68c37b4080cb442d0e2d04dc7da2e304e30b4e38450f2c598cdcc6a7dc42e698"
+        },
+        {
+          "path": "docs/RESULTADOS_VALIDACION_EXTERNA.md",
+          "sha256": "dcb5ebde11251acfb31562f69b5b8587fbd5b57b50f1c1f1aca34d8e6c0a64c0"
+        }
+      ],
+      "packages": {
+        "numpy": "2.4.6",
+        "pandas": "3.0.3",
+        "scipy": "1.17.1",
+        "matplotlib": "3.11.1",
+        "requests": "2.34.2"
+      }
+    },
+    {
+      "pipeline": "external_validation_ipr",
+      "generated_at": "2026-09-12T17:30:48.023878+00:00",
+      "usage": "external_validation",
+      "code_revision": "c9af4fd830e0a4e8f10234bdde10cea3b65bc417",
+      "working_tree_dirty": true,
+      "source": {
+        "source_url": "https://cdn.mivau.gob.es/portal-web-mivau/Datos_MIVAU/CSV/VDP001_01.csv",
+        "downloaded_at": "2026-09-11T16:20:56.722014+00:00",
+        "download_sha256": "c53994b28ee3426c82c311b6f9ad599794981e6cf5f4356517ef00d2144caa61",
+        "archive_sha256": "df32b344b6e214e615e6f63e38aac42b3ad15d51280c1d1b4e67ebeff456d54c"
+      },
+      "statistical_period": 2023,
+      "inputs": [
+        {
+          "path": "data/processed/indice_presion_residencial_2023.csv",
+          "sha256": "d9433ba0a5d04ff27f68defda59ccde1e973b0cc2e8b86857a2f51e798522ac5"
+        },
+        {
+          "path": "data/raw/validacion_externa/VDP001_01.csv.gz",
+          "sha256": "df32b344b6e214e615e6f63e38aac42b3ad15d51280c1d1b4e67ebeff456d54c"
+        },
+        {
+          "path": "data/raw/validacion_externa/VDP001_01.csv.metadata.json",
+          "sha256": "f043863d3b5161d7d3683e1ea05cbe8f01d57d6360ec2bb9e7738673fee3ee48"
+        },
+        {
+          "path": "config/validacion_externa.json",
+          "sha256": "96a8bf9ca6f51bea07a7c07cf4c831cc4811d2d867e92120f68bef68a8978323"
+        },
+        {
+          "path": "20_validacion_externa_ipr.py",
+          "sha256": "2ed4546172e69f33c3ae20a69c1082e8552ca3497f79d23a496ae8b19adda05b"
+        },
+        {
+          "path": "docs/AUDITORIA_IPR_VALIDACION_EXTERNA.md",
+          "sha256": "04cc41d4ab1b8494381ce65ad201cd9dace0a2b4618e5c7a6e06a80512520474"
+        },
+        {
+          "path": "docs/CANDIDATOS_VALIDACION_EXTERNA.md",
+          "sha256": "d7bc3321013d1db0e2785dc06a413ce2c1bade3af64d627a95ceaeda61670fe0"
+        }
+      ],
+      "outputs": [
+        {
+          "path": "data/processed/validacion_externa/alquiler_municipal.csv",
+          "sha256": "ca74bb596ced56a548f4a50619930195c0fc45fb85d771c2f9bc89e96dcd0c2f"
+        },
+        {
+          "path": "data/processed/validacion_externa/correlaciones.csv",
+          "sha256": "476540e8a5d6df72f77079084bac93805c85a15c1fe862b47f4d2e91b8643fac"
+        },
+        {
+          "path": "data/processed/validacion_externa/cuartiles.csv",
+          "sha256": "154cd0612d080dc63929026efd368757cc8915e16e187f5cc7cdcb1bad0291f3"
+        },
+        {
+          "path": "data/processed/validacion_externa/pares_ipr_alquiler_2023.csv",
+          "sha256": "fbd2f7eb21590bf976ea613561c055c62cb1e2b5c51ba577a1fac49bc99a77dc"
+        },
+        {
+          "path": "data/processed/validacion_externa/resultados.json",
+          "sha256": "68c37b4080cb442d0e2d04dc7da2e304e30b4e38450f2c598cdcc6a7dc42e698"
+        },
+        {
+          "path": "apps/web/public/validacion-externa/cuartiles.svg",
+          "sha256": "e29a9a82a83ca668c01710a873b0299f451a08e4f48cd65b9dc4cd2522c0a376"
+        },
+        {
+          "path": "apps/web/public/validacion-externa/dispersion.svg",
+          "sha256": "f47603a28722a2bb31c58403464854b6e2738fb72ca17cefbe92db6cf264f41d"
+        },
+        {
+          "path": "apps/web/public/validacion-externa/pares_ipr_alquiler_2023.csv",
+          "sha256": "fbd2f7eb21590bf976ea613561c055c62cb1e2b5c51ba577a1fac49bc99a77dc"
+        },
+        {
+          "path": "apps/web/public/validacion-externa/resultados.json",
+          "sha256": "68c37b4080cb442d0e2d04dc7da2e304e30b4e38450f2c598cdcc6a7dc42e698"
+        },
+        {
+          "path": "docs/RESULTADOS_VALIDACION_EXTERNA.md",
+          "sha256": "dcb5ebde11251acfb31562f69b5b8587fbd5b57b50f1c1f1aca34d8e6c0a64c0"
+        }
+      ],
+      "packages": {
+        "numpy": "2.4.6",
+        "pandas": "3.0.3",
+        "scipy": "1.17.1",
+        "matplotlib": "3.11.1",
+        "requests": "2.34.2"
+      }
+    },
+    {
+      "pipeline": "external_validation_ipr",
+      "generated_at": "2026-09-15T16:21:28.616256+00:00",
+      "usage": "external_validation",
+      "code_revision": "bae09deabace404ef33d3a0b85626dd2f0f2ad05",
+      "working_tree_dirty": true,
+      "source": {
+        "source_url": "https://cdn.mivau.gob.es/portal-web-mivau/Datos_MIVAU/CSV/VDP001_01.csv",
+        "downloaded_at": "2026-09-15T16:21:17.618849+00:00",
+        "download_sha256": "c53994b28ee3426c82c311b6f9ad599794981e6cf5f4356517ef00d2144caa61",
+        "archive_sha256": "df32b344b6e214e615e6f63e38aac42b3ad15d51280c1d1b4e67ebeff456d54c"
+      },
+      "statistical_period": 2023,
+      "inputs": [
+        {
+          "path": "data/processed/indice_presion_residencial_2023.csv",
+          "sha256": "d9433ba0a5d04ff27f68defda59ccde1e973b0cc2e8b86857a2f51e798522ac5"
+        },
+        {
+          "path": "data/raw/validacion_externa/VDP001_01.csv.gz",
+          "sha256": "df32b344b6e214e615e6f63e38aac42b3ad15d51280c1d1b4e67ebeff456d54c"
+        },
+        {
+          "path": "data/raw/validacion_externa/VDP001_01.csv.metadata.json",
+          "sha256": "efea2361550e60215234242b7d467f84032c971137063642d1d1a6eb7c90a006"
+        },
+        {
+          "path": "config/validacion_externa.json",
+          "sha256": "96a8bf9ca6f51bea07a7c07cf4c831cc4811d2d867e92120f68bef68a8978323"
+        },
+        {
+          "path": "24_validacion_externa_ipr.py",
+          "sha256": "6e9cd1b8f9ec2898a6e26267386c39c201699ca539d70cce514c0c7a4e0c2bd8"
+        },
+        {
+          "path": "docs/AUDITORIA_IPR_VALIDACION_EXTERNA.md",
+          "sha256": "04cc41d4ab1b8494381ce65ad201cd9dace0a2b4618e5c7a6e06a80512520474"
+        },
+        {
+          "path": "docs/CANDIDATOS_VALIDACION_EXTERNA.md",
+          "sha256": "d7bc3321013d1db0e2785dc06a413ce2c1bade3af64d627a95ceaeda61670fe0"
+        }
+      ],
+      "outputs": [
+        {
+          "path": "data/processed/validacion_externa/alquiler_municipal.csv",
+          "sha256": "ca74bb596ced56a548f4a50619930195c0fc45fb85d771c2f9bc89e96dcd0c2f"
+        },
+        {
+          "path": "data/processed/validacion_externa/correlaciones.csv",
+          "sha256": "476540e8a5d6df72f77079084bac93805c85a15c1fe862b47f4d2e91b8643fac"
+        },
+        {
+          "path": "data/processed/validacion_externa/cuartiles.csv",
+          "sha256": "154cd0612d080dc63929026efd368757cc8915e16e187f5cc7cdcb1bad0291f3"
+        },
+        {
+          "path": "data/processed/validacion_externa/manifest.json",
+          "sha256": "444f41b3b7bd884558e71f0d6362b43c6c80af302cc73106f89a054920f8ef18"
+        },
+        {
+          "path": "data/processed/validacion_externa/pares_ipr_alquiler_2023.csv",
+          "sha256": "fbd2f7eb21590bf976ea613561c055c62cb1e2b5c51ba577a1fac49bc99a77dc"
+        },
+        {
+          "path": "data/processed/validacion_externa/resultados.json",
+          "sha256": "8f425d0241aceadcd55ce330092066de0a007c5c927ef0208adcb94d852e5df2"
+        },
+        {
+          "path": "apps/web/public/validacion-externa/cuartiles.svg",
+          "sha256": "c4b136d022e9245fe1958ca14592bafd0040514e526dcc2f577f84dc9b2ec739"
+        },
+        {
+          "path": "apps/web/public/validacion-externa/dispersion.svg",
+          "sha256": "d196e2f1cc292f118c78b840f32315f56edc9899d86b9900b13cdcbafb050b40"
+        },
+        {
+          "path": "apps/web/public/validacion-externa/pares_ipr_alquiler_2023.csv",
+          "sha256": "fbd2f7eb21590bf976ea613561c055c62cb1e2b5c51ba577a1fac49bc99a77dc"
+        },
+        {
+          "path": "apps/web/public/validacion-externa/resultados.json",
+          "sha256": "8f425d0241aceadcd55ce330092066de0a007c5c927ef0208adcb94d852e5df2"
+        },
+        {
+          "path": "docs/RESULTADOS_VALIDACION_EXTERNA.md",
+          "sha256": "c681877324157fd41d5207ca0a2c54cd1462ef5e25333e62163efd78eea7ed59"
+        }
+      ],
+      "packages": {
+        "numpy": "2.4.6",
+        "pandas": "3.0.3",
+        "scipy": "1.17.1",
+        "matplotlib": "3.10.9",
+        "requests": "2.34.2"
+      }
+    }
+  ]
+}

@@ -1,0 +1,305 @@
+{
+  "protocolo": {
+    "version": "1.0",
+    "indicador": "Mediana mensual del alquiler de vivienda colectiva",
+    "unidad": "EUR/mes",
+    "fuente": "MIVAU · SERPAVI, explotación estadística de fuentes tributarias",
+    "url": "https://cdn.mivau.gob.es/portal-web-mivau/Datos_MIVAU/CSV/VDP001_01.csv",
+    "periodo_ipr": 2023,
+    "periodo_externo": 2023,
+    "producto_principal": "ipr4_nacional_observado",
+    "universo": 306,
+    "cobertura_minima": 0.9,
+    "h1": "Mayor IPR-4 observado se asociará con mayor mediana mensual del alquiler de vivienda colectiva en 2023 (rho > 0).",
+    "h0": "Ausencia de asociación monotónica (rho = 0).",
+    "alternativa_contraste": "two-sided",
+    "alpha": 0.05,
+    "permutaciones": 19999,
+    "semilla": 202309,
+    "robustez_temporal": [
+      2022,
+      2024
+    ],
+    "extremos": [
+      0.01,
+      0.99
+    ],
+    "filtros": {
+      "ELEMENTO": "PRECIO",
+      "TIPO_VIVIENDA": "COLECTIVA",
+      "TIPO_MEDIDA": "MEDIANA"
+    }
+  },
+  "correlaciones": [
+    {
+      "analisis": "principal",
+      "producto": "ipr4_nacional_observado",
+      "periodo_ipr": 2023,
+      "periodo_externo": 2023,
+      "n": 295,
+      "universo": 306,
+      "cobertura": 0.9640522875816994,
+      "rho": 0.5423310477089954,
+      "p_value": 5e-05,
+      "p_asintotico": 5.877774067797472e-24,
+      "metodo_p": "permutación bilateral de rangos; corrección +1",
+      "estado": "estimado"
+    },
+    {
+      "analisis": "sin_extremos_p01_p99",
+      "producto": "ipr4_nacional_observado",
+      "periodo_ipr": 2023,
+      "periodo_externo": 2023,
+      "n": 284,
+      "universo": 306,
+      "cobertura": 0.9281045751633987,
+      "rho": 0.52964698806706,
+      "p_value": 5e-05,
+      "p_asintotico": 6.133970007830603e-22,
+      "metodo_p": "permutación bilateral de rangos; corrección +1",
+      "estado": "estimado"
+    },
+    {
+      "analisis": "ipr5_exploratorio",
+      "producto": "ipr5_prospectivo",
+      "periodo_ipr": 2023,
+      "periodo_externo": 2023,
+      "n": 293,
+      "universo": 306,
+      "cobertura": 0.9575163398692811,
+      "rho": 0.5093404811687279,
+      "p_value": 5e-05,
+      "p_asintotico": 9.561862846297274e-21,
+      "metodo_p": "permutación bilateral de rangos; corrección +1",
+      "estado": "estimado"
+    },
+    {
+      "analisis": "ipr4_misma_muestra_ipr5",
+      "producto": "ipr4_nacional_observado",
+      "periodo_ipr": 2023,
+      "periodo_externo": 2023,
+      "n": 293,
+      "universo": 306,
+      "cobertura": 0.9575163398692811,
+      "rho": 0.5437746624249534,
+      "p_value": 5e-05,
+      "p_asintotico": 6.029774119925924e-24,
+      "metodo_p": "permutación bilateral de rangos; corrección +1",
+      "estado": "estimado"
+    },
+    {
+      "analisis": "sensibilidad_temporal_muestra_comun",
+      "producto": "ipr4_nacional_observado",
+      "periodo_ipr": 2023,
+      "periodo_externo": 2023,
+      "n": 295,
+      "universo": 306,
+      "cobertura": 0.9640522875816994,
+      "rho": 0.5423310477089954,
+      "p_value": 5e-05,
+      "p_asintotico": 5.877774067797472e-24,
+      "metodo_p": "permutación bilateral de rangos; corrección +1",
+      "estado": "estimado"
+    },
+    {
+      "analisis": "sensibilidad_temporal_muestra_comun",
+      "producto": "ipr4_nacional_observado",
+      "periodo_ipr": 2023,
+      "periodo_externo": 2022,
+      "n": 295,
+      "universo": 306,
+      "cobertura": 0.9640522875816994,
+      "rho": 0.5297087557585125,
+      "p_value": 5e-05,
+      "p_asintotico": 9.712571217659014e-23,
+      "metodo_p": "permutación bilateral de rangos; corrección +1",
+      "estado": "estimado"
+    },
+    {
+      "analisis": "sensibilidad_temporal_muestra_comun",
+      "producto": "ipr4_nacional_observado",
+      "periodo_ipr": 2023,
+      "periodo_externo": 2024,
+      "n": 295,
+      "universo": 306,
+      "cobertura": 0.9640522875816994,
+      "rho": 0.5519992017536165,
+      "p_value": 5e-05,
+      "p_asintotico": 6.321880031557706e-25,
+      "metodo_p": "permutación bilateral de rangos; corrección +1",
+      "estado": "estimado"
+    }
+  ],
+  "grupos": [
+    {
+      "cuartil": "Q1",
+      "n": 77,
+      "mediana": 400.0,
+      "p25": 360.0,
+      "p75": 450.9
+    },
+    {
+      "cuartil": "Q2",
+      "n": 73,
+      "mediana": 492.7,
+      "p25": 400.0,
+      "p75": 600.0
+    },
+    {
+      "cuartil": "Q3",
+      "n": 70,
+      "mediana": 525.1,
+      "p25": 481.525,
+      "p75": 699.05
+    },
+    {
+      "cuartil": "Q4",
+      "n": 75,
+      "mediana": 570.0,
+      "p25": 500.0,
+      "p75": 650.0
+    }
+  ],
+  "kruskal_wallis": {
+    "h": 86.42729673084729,
+    "p_value": 1.28161336444217e-18,
+    "estado": "estimado_exploratorio"
+  },
+  "distribuciones": [
+    {
+      "variable": "ipr_universo",
+      "n": 306,
+      "media": 50.00000000000001,
+      "desviacion": 19.229137836727354,
+      "min": 5.361620057859209,
+      "p25": 36.70684667309547,
+      "mediana": 49.99517839922855,
+      "p75": 63.469141755062694,
+      "max": 93.98264223722276,
+      "outliers_1_5_iqr": 0
+    },
+    {
+      "variable": "ipr_pareado",
+      "n": 295,
+      "media": 49.88137227661279,
+      "desviacion": 19.52293427980121,
+      "min": 5.361620057859209,
+      "p25": 36.54291224686597,
+      "mediana": 49.93249758919962,
+      "p75": 63.71745419479268,
+      "max": 93.98264223722276,
+      "outliers_1_5_iqr": 0
+    },
+    {
+      "variable": "alquiler_mediano_mensual",
+      "n": 295,
+      "media": 531.4091525423729,
+      "desviacion": 152.04813198377533,
+      "min": 300.0,
+      "p25": 407.3,
+      "mediana": 500.0,
+      "p75": 627.5,
+      "max": 1200.0,
+      "outliers_1_5_iqr": 4
+    }
+  ],
+  "cobertura_por_anio": [
+    {
+      "anio": 2022,
+      "observados": 295,
+      "ausentes": 11,
+      "universo": 306
+    },
+    {
+      "anio": 2023,
+      "observados": 295,
+      "ausentes": 11,
+      "universo": 306
+    },
+    {
+      "anio": 2024,
+      "observados": 306,
+      "ausentes": 0,
+      "universo": 306
+    }
+  ],
+  "ausentes": [
+    {
+      "cod_ine": "01059",
+      "nombre": "Vitoria",
+      "estado": "sin_registro"
+    },
+    {
+      "cod_ine": "48013",
+      "nombre": "Barakaldo",
+      "estado": "sin_registro"
+    },
+    {
+      "cod_ine": "48015",
+      "nombre": "Basauri",
+      "estado": "sin_registro"
+    },
+    {
+      "cod_ine": "48020",
+      "nombre": "Bilbao",
+      "estado": "sin_registro"
+    },
+    {
+      "cod_ine": "48027",
+      "nombre": "Durango",
+      "estado": "sin_registro"
+    },
+    {
+      "cod_ine": "48036",
+      "nombre": "Galdakao",
+      "estado": "sin_registro"
+    },
+    {
+      "cod_ine": "48044",
+      "nombre": "Getxo",
+      "estado": "sin_registro"
+    },
+    {
+      "cod_ine": "48054",
+      "nombre": "Leioa",
+      "estado": "sin_registro"
+    },
+    {
+      "cod_ine": "48078",
+      "nombre": "Portugalete",
+      "estado": "sin_registro"
+    },
+    {
+      "cod_ine": "48082",
+      "nombre": "Santurtzi",
+      "estado": "sin_registro"
+    },
+    {
+      "cod_ine": "48084",
+      "nombre": "Sestao",
+      "estado": "sin_registro"
+    }
+  ],
+  "excluidos_extremos": [
+    "02009",
+    "02081",
+    "11006",
+    "13082",
+    "15019",
+    "28022",
+    "28080",
+    "28115",
+    "29067",
+    "29901",
+    "38028"
+  ],
+  "interpretacion": "Se observa una asociación positiva consistente con la hipótesis de mayores costes de alquiler en municipios con mayor IPR.",
+  "pearson": "No calculado: se contrasta relación monótona sin asumir linealidad ni normalidad.",
+  "limitaciones": "Correlación no implica causalidad ni capacidad predictiva. El alquiler declarado no mide esfuerzo, contratos nuevos o desplazamiento. La superficie, composición del parque, ingresos y localización pueden explicar asociaciones. Cobertura incompleta y no aleatoria; no extrapolar a toda España. Los p-values suponen independencia municipal y pueden ser optimistas por dependencia territorial. IPR-5 incorpora proyecciones, por lo que su contraste contemporáneo no valida su horizonte futuro.",
+  "fuente": {
+    "source_url": "https://cdn.mivau.gob.es/portal-web-mivau/Datos_MIVAU/CSV/VDP001_01.csv",
+    "downloaded_at": "2026-09-15T16:21:17.618849+00:00",
+    "download_sha256": "c53994b28ee3426c82c311b6f9ad599794981e6cf5f4356517ef00d2144caa61",
+    "archive_sha256": "df32b344b6e214e615e6f63e38aac42b3ad15d51280c1d1b4e67ebeff456d54c"
+  }
+}

@@ -1,0 +1,30 @@
+.scale {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin-top: var(--space-3xs);
+}
+
+.scale li {
+  display: grid;
+  gap: 3px;
+  min-width: 0;
+  font-size: 13.5px;
+  color: var(--color-ink-2);
+}
+
+.scale small {
+  font-family: var(--font-mono);
+  font-size: 11.5px;
+  color: var(--color-muted);
+}
+
+.scale i {
+  height: 10px;
+  outline: var(--rule-hair) solid var(--color-ink);
+  outline-offset: -1px;
+}
+
+.scale i[data-step="1"] { background: var(--data-quality-1); }
+.scale i[data-step="2"] { background: var(--data-quality-2); }
+.scale i[data-step="3"] { background: var(--data-quality-3); }
+.scale i[data-step="4"] { background: var(--data-quality-4); }

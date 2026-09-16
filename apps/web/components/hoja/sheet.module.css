@@ -1,0 +1,50 @@
+.page {
+  min-height: 100dvh;
+  padding: var(--sheet-margin);
+  background: var(--color-paper);
+}
+
+.sheet {
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr) auto;
+  min-height: calc(100dvh - var(--sheet-margin) * 2);
+  background: var(--color-paper);
+  border: var(--rule-hair) solid var(--color-ink);
+  outline: var(--rule-hair) solid var(--color-ink);
+  outline-offset: var(--sheet-outline-offset);
+}
+
+.sheet > * {
+  min-width: 0;
+}
+
+/*
+ * El explorador marca su raíz con `data-sheet="fixed"`: en escritorio la hoja
+ * pasa a medir exactamente el alto de la ventana, de modo que el mapa se
+ * encoge y la página no hace scroll. Las páginas de lectura no lo marcan y
+ * crecen con su contenido.
+ */
+@media (min-width: 1100px) {
+  .sheet:has([data-sheet="fixed"]) {
+    height: calc(100dvh - var(--sheet-margin) * 2);
+  }
+}
+
+/*
+ * Se anulan ancho, márgenes y relleno explícitamente porque las hojas
+ * heredadas llevan reglas sobre `main`; desaparecerán con ellas.
+ */
+.body {
+  display: grid;
+  grid-template-rows: minmax(0, 1fr);
+  width: auto;
+  max-width: none;
+  min-width: 0;
+  min-height: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.body > * {
+  min-width: 0;
+}

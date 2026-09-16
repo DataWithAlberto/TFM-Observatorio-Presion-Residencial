@@ -1,0 +1,86 @@
+.wrap {
+  position: relative;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  min-width: 560px;
+  border-collapse: collapse;
+}
+
+/*
+ * `position`, `background` y `pointer-events` se declaran porque las hojas
+ * heredadas fijan `thead th` con fondo de tinta; se van en la última fase.
+ */
+.table th {
+  position: static;
+  z-index: auto;
+  pointer-events: auto;
+  background: transparent;
+  padding: 5px 10px 5px 0;
+  border-bottom: var(--rule-hair) solid var(--color-ink);
+  color: var(--color-muted);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: var(--tracking-wide);
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.table th.num {
+  text-align: right;
+}
+
+.table td {
+  padding: 7px 10px 7px 0;
+  border-bottom: var(--rule-hair) solid var(--color-rule);
+  white-space: normal;
+}
+
+.num {
+  text-align: right;
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+.table tfoot td {
+  border-top: var(--rule-hair) solid var(--color-ink);
+  border-bottom: 0;
+  font-weight: 700;
+}
+
+/* Barra con marcas cada 10 % y arranque en filete de tinta. */
+.barCell {
+  width: 30%;
+}
+
+.barCell i {
+  position: relative;
+  display: block;
+  height: 10px;
+  border-left: var(--rule-hair) solid var(--color-ink);
+  background: repeating-linear-gradient(
+    90deg,
+    var(--color-rule) 0 1px,
+    transparent 1px 10%
+  );
+}
+
+.barCell i::after {
+  content: "";
+  position: absolute;
+  inset: 1px auto 1px 0;
+  width: var(--v);
+  background: var(--color-map-missing);
+  outline: var(--rule-hair) solid var(--color-ink);
+  outline-offset: -1px;
+}
+
+.barCell i[data-step="1"]::after { background: var(--data-seq-1); }
+.barCell i[data-step="2"]::after { background: var(--data-seq-2); }
+.barCell i[data-step="3"]::after { background: var(--data-seq-3); }
+.barCell i[data-step="4"]::after { background: var(--data-seq-4); }
+.barCell i[data-step="5"]::after { background: var(--data-seq-5); }

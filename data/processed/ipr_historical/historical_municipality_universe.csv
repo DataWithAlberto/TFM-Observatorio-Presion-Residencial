@@ -1,0 +1,307 @@
+cod_ine,nombre,included,reason,start_year,end_year
+01059,Vitoria,True,,2020,2023
+02003,Albacete,True,,2020,2023
+02009,Almansa,True,,2020,2023
+02037,Hellín,True,,2020,2023
+02081,Villarrobledo,True,,2020,2023
+03009,Alcoy/Alcoi,True,,2020,2023
+03014,Alicante/Alacant,True,,2020,2023
+03031,Benidorm,True,,2020,2023
+03047,Calpe/Calp,True,,2020,2023
+03050,"Campello, el",False,"especulacion:2020:aceleracion_precio ausente/no finito, desacoplamiento_precio_renta ausente/no finito, precio 2019: 0/4 trimestres válidos, precio 2018: 0/4 trimestres válidos; gentrificacion:2020:brecha_precio_renta_3a ausente/no finito, precio 2017: 0/4 trimestres válidos; especulacion:2021:aceleracion_precio ausente/no finito, precio 2019: 0/4 trimestres válidos; gentrificacion:2021:brecha_precio_renta_3a ausente/no finito, precio 2018: 0/4 trimestres válidos; gentrificacion:2022:brecha_precio_renta_3a ausente/no finito, precio 2019: 0/4 trimestres válidos",2020,2023
+03059,Crevillent,True,,2020,2023
+03063,Dénia,True,,2020,2023
+03065,Elche/Elx,True,,2020,2023
+03066,Elda,True,,2020,2023
+03082,Jávea/Xábia,True,,2020,2023
+03093,Novelda,True,,2020,2023
+03099,Orihuela,True,,2020,2023
+03104,Petrer,True,,2020,2023
+03121,Santa Pola,True,,2020,2023
+03122,San Vicente del Raspeig,True,,2020,2023
+03133,Torrevieja,True,,2020,2023
+03139,Villajoyosa/Vila Joiosa (La),True,,2020,2023
+03140,Villena,True,,2020,2023
+04013,Almería,True,,2020,2023
+04066,Nijar,False,"especulacion:2020:aceleracion_precio ausente/no finito, desacoplamiento_precio_renta ausente/no finito, precio 2019: 0/4 trimestres válidos, precio 2018: 0/4 trimestres válidos; gentrificacion:2020:brecha_precio_renta_3a ausente/no finito, precio 2017: 0/4 trimestres válidos; especulacion:2021:aceleracion_precio ausente/no finito, precio 2019: 0/4 trimestres válidos; gentrificacion:2021:brecha_precio_renta_3a ausente/no finito, precio 2018: 0/4 trimestres válidos; gentrificacion:2022:brecha_precio_renta_3a ausente/no finito, precio 2019: 0/4 trimestres válidos",2020,2023
+04079,Roquetas de Mar,True,,2020,2023
+04902,Ejido (El),True,,2020,2023
+05019,Ávila,True,,2020,2023
+06011,Almendralejo,True,,2020,2023
+06015,Badajoz,True,,2020,2023
+06044,Don Benito,True,,2020,2023
+06083,Mérida,True,,2020,2023
+06153,Villanueva de la Serena,False,"especulacion:2020:aceleracion_precio ausente/no finito, desacoplamiento_precio_renta ausente/no finito, precio 2019: 0/4 trimestres válidos, precio 2018: 0/4 trimestres válidos; gentrificacion:2020:brecha_precio_renta_3a ausente/no finito, precio 2017: 0/4 trimestres válidos; especulacion:2021:aceleracion_precio ausente/no finito, precio 2019: 0/4 trimestres válidos; gentrificacion:2021:brecha_precio_renta_3a ausente/no finito, precio 2018: 0/4 trimestres válidos; gentrificacion:2022:brecha_precio_renta_3a ausente/no finito, precio 2019: 0/4 trimestres válidos",2020,2023
+07011,Calvià,True,,2020,2023
+07015,Ciutadella de Menorca,True,,2020,2023
+07026,Eivissa,True,,2020,2023
+07027,Inca,True,,2020,2023
+07031,Llucmajor,True,,2020,2023
+07032,Mahón,True,,2020,2023
+07033,Manacor,True,,2020,2023
+07036,Marratxí,True,,2020,2023
+07040,Palma de Mallorca,True,,2020,2023
+07054,Santa Eulalia del Río,True,,2020,2023
+08015,Badalona,True,,2020,2023
+08019,Barcelona,True,,2020,2023
+08056,Castelldefels,True,,2020,2023
+08073,Cornellà de Llobregat,True,,2020,2023
+08077,Esplugues de Llobregat,True,,2020,2023
+08089,Gavà,True,,2020,2023
+08096,Granollers,True,,2020,2023
+08101,Hospitalet de Llobregat (L'),True,,2020,2023
+08102,Igualada,True,,2020,2023
+08113,Manresa,True,,2020,2023
+08114,Martorell,True,,2020,2023
+08121,Mataró,True,,2020,2023
+08124,Mollet del Vallès,True,,2020,2023
+08125,Montcada i Reixac,True,,2020,2023
+08163,Pineda de Mar,False,"especulacion:2020:aceleracion_precio ausente/no finito, desacoplamiento_precio_renta ausente/no finito, precio 2019: 0/4 trimestres válidos, precio 2018: 0/4 trimestres válidos; gentrificacion:2020:brecha_precio_renta_3a ausente/no finito, precio 2017: 0/4 trimestres válidos; especulacion:2021:aceleracion_precio ausente/no finito, precio 2019: 0/4 trimestres válidos; gentrificacion:2021:brecha_precio_renta_3a ausente/no finito, precio 2018: 0/4 trimestres válidos; gentrificacion:2022:brecha_precio_renta_3a ausente/no finito, precio 2019: 0/4 trimestres válidos",2020,2023
+08169,Prat de Llobregat (El),True,,2020,2023
+08172,Premià de Mar,True,,2020,2023
+08180,Ripollet,True,,2020,2023
+08184,Rubí,True,,2020,2023
+08187,Sabadell,True,,2020,2023
+08194,Sant Adrià de Besòs,True,,2020,2023
+08196,Sant Andreu de la Barca,False,"especulacion:2020:aceleracion_precio ausente/no finito, desacoplamiento_precio_renta ausente/no finito, precio 2019: 0/4 trimestres válidos, precio 2018: 0/4 trimestres válidos; gentrificacion:2020:brecha_precio_renta_3a ausente/no finito, precio 2017: 0/4 trimestres válidos; especulacion:2021:aceleracion_precio ausente/no finito, precio 2019: 0/4 trimestres válidos; gentrificacion:2021:brecha_precio_renta_3a ausente/no finito, precio 2018: 0/4 trimestres válidos; gentrificacion:2022:brecha_precio_renta_3a ausente/no finito, precio 2019: 0/4 trimestres válidos",2020,2023
+08200,Sant Boi de Llobregat,True,,2020,2023
+08205,Sant Cugat del Vallès,True,,2020,2023
+08211,Sant Feliu de Llobregat,True,,2020,2023
+08217,Sant Joan Despí,True,,2020,2023
+08231,Sant Pere de Ribes,True,,2020,2023
+08245,Santa Coloma Gramanet,True,,2020,2023
+08252,Barberà del Vallès,True,,2020,2023
+08260,Santa Perpètua de Mogoda,False,"especulacion:2020:aceleracion_precio ausente/no finito, desacoplamiento_precio_renta ausente/no finito, precio 2019: 0/4 trimestres válidos, precio 2018: 0/4 trimestres válidos; gentrificacion:2020:brecha_precio_renta_3a ausente/no finito, precio 2017: 0/4 trimestres válidos; especulacion:2021:aceleracion_precio ausente/no finito, precio 2019: 0/4 trimestres válidos; gentrificacion:2021:brecha_precio_renta_3a ausente/no finito, precio 2018: 0/4 trimestres válidos; gentrificacion:2022:brecha_precio_renta_3a ausente/no finito, precio 2019: 0/4 trimestres válidos",2020,2023
+08263,Sant Vicenç dels Horts,True,,2020,2023
+08266,Cerdanyola del Vallès,True,,2020,2023
+08270,Sitges,False,"especulacion:2020:aceleracion_precio ausente/no finito, desacoplamiento_precio_renta ausente/no finito, precio 2019: 0/4 trimestres válidos, precio 2018: 0/4 trimestres válidos; gentrificacion:2020:brecha_precio_renta_3a ausente/no finito, precio 2017: 0/4 trimestres válidos; especulacion:2021:aceleracion_precio ausente/no finito, precio 2019: 0/4 trimestres válidos; gentrificacion:2021:brecha_precio_renta_3a ausente/no finito, precio 2018: 0/4 trimestres válidos; gentrificacion:2022:brecha_precio_renta_3a ausente/no finito, precio 2019: 0/4 trimestres válidos",2020,2023
+08279,Terrassa,True,,2020,2023
+08298,Vic,True,,2020,2023
+08301,Viladecans,True,,2020,2023
+08305,Vilafranca del Penedès,True,,2020,2023
+08307,Vilanova i la Geltrú,True,,2020,2023
+09018,Aranda de Duero,True,,2020,2023
+09059,Burgos,True,,2020,2023
+09219,Miranda de Ebro,True,,2020,2023
+10037,Cáceres,True,,2020,2023
+10148,Plasencia,True,,2020,2023
+11004,Algeciras,True,,2020,2023
+11006,Arcos de la frontera,True,,2020,2023
+11012,Cádiz,True,,2020,2023
+11015,Chiclana de la Frontera,True,,2020,2023
+11020,Jerez de la Frontera,True,,2020,2023
+11022,Línea de la Concepción (La),True,,2020,2023
+11027,Puerto de Santa María,True,,2020,2023
+11028,Puerto Real,True,,2020,2023
+11030,Rota,True,,2020,2023
+11031,San Fernando,True,,2020,2023
+11032,Sanlúcar de Barrameda,True,,2020,2023
+11033,San Roque,True,,2020,2023
+12009,Almazora/Almassora,False,"especulacion:2020:aceleracion_precio ausente/no finito, desacoplamiento_precio_renta ausente/no finito, precio 2019: 0/4 trimestres válidos, precio 2018: 0/4 trimestres válidos; gentrificacion:2020:brecha_precio_renta_3a ausente/no finito, precio 2017: 0/4 trimestres válidos; especulacion:2021:aceleracion_precio ausente/no finito, precio 2019: 0/4 trimestres válidos; gentrificacion:2021:brecha_precio_renta_3a ausente/no finito, precio 2018: 0/4 trimestres válidos; gentrificacion:2022:brecha_precio_renta_3a ausente/no finito, precio 2019: 0/4 trimestres válidos",2020,2023
+12027,Benicarló,False,"especulacion:2020:aceleracion_precio ausente/no finito, desacoplamiento_precio_renta ausente/no finito, precio 2019: 0/4 trimestres válidos, precio 2018: 0/4 trimestres válidos; gentrificacion:2020:brecha_precio_renta_3a ausente/no finito, precio 2017: 0/4 trimestres válidos; especulacion:2021:aceleracion_precio ausente/no finito, precio 2019: 0/4 trimestres válidos; gentrificacion:2021:brecha_precio_renta_3a ausente/no finito, precio 2018: 0/4 trimestres válidos; gentrificacion:2022:brecha_precio_renta_3a ausente/no finito, precio 2019: 0/4 trimestres válidos",2020,2023
+12032,Burriana,True,,2020,2023
+12040,Castellón de la Plana,True,,2020,2023
+12084,Onda,False,"especulacion:2020:aceleracion_precio ausente/no finito, desacoplamiento_precio_renta ausente/no finito, precio 2019: 0/4 trimestres válidos, precio 2018: 0/4 trimestres válidos; gentrificacion:2020:brecha_precio_renta_3a ausente/no finito, precio 2017: 0/4 trimestres válidos; especulacion:2021:aceleracion_precio ausente/no finito, precio 2019: 0/4 trimestres válidos; gentrificacion:2021:brecha_precio_renta_3a ausente/no finito, precio 2018: 0/4 trimestres válidos; gentrificacion:2022:brecha_precio_renta_3a ausente/no finito, precio 2019: 0/4 trimestres válidos",2020,2023
+12126,Vall d'Uixó (la),True,,2020,2023
+12135,Villarreal/Vila-real,True,,2020,2023
+12138,Vinaròs,True,,2020,2023
+13005,Alcázar de San Juan,True,,2020,2023
+13034,Ciudad Real,True,,2020,2023
+13071,Puertollano,True,,2020,2023
+13082,Tomelloso,True,,2020,2023
+13087,Valdepeñas,True,,2020,2023
+14021,Córdoba,True,,2020,2023
+14038,Lucena,True,,2020,2023
+14056,Puente Génil,True,,2020,2023
+15002,Ames,False,"especulacion:2020:aceleracion_precio ausente/no finito, desacoplamiento_precio_renta ausente/no finito, precio 2019: 0/4 trimestres válidos, precio 2018: 0/4 trimestres válidos; gentrificacion:2020:brecha_precio_renta_3a ausente/no finito, precio 2017: 0/4 trimestres válidos; especulacion:2021:aceleracion_precio ausente/no finito, precio 2019: 0/4 trimestres válidos; gentrificacion:2021:brecha_precio_renta_3a ausente/no finito, precio 2018: 0/4 trimestres válidos; gentrificacion:2022:brecha_precio_renta_3a ausente/no finito, precio 2019: 0/4 trimestres válidos",2020,2023
+15005,Arteixo,True,,2020,2023
+15019,Carballo,True,,2020,2023
+15030,Coruña (A),True,,2020,2023
+15031,Culleredo,True,,2020,2023
+15036,Ferrol,True,,2020,2023
+15054,Narón,True,,2020,2023
+15058,Oleiros,True,,2020,2023
+15073,Ribeira,True,,2020,2023
+15078,Santiago de Compostela,True,,2020,2023
+16078,Cuenca,True,,2020,2023
+17023,Blanes,True,,2020,2023
+17066,Figueres,True,,2020,2023
+17079,Girona,True,,2020,2023
+17095,Lloret de Mar,True,,2020,2023
+17114,Olot,True,,2020,2023
+17155,Salt,True,,2020,2023
+18017,Almuñecar,False,"especulacion:2020:aceleracion_precio ausente/no finito, desacoplamiento_precio_renta ausente/no finito, precio 2019: 0/4 trimestres válidos, precio 2018: 0/4 trimestres válidos; gentrificacion:2020:brecha_precio_renta_3a ausente/no finito, precio 2017: 0/4 trimestres válidos; especulacion:2021:aceleracion_precio ausente/no finito, precio 2019: 0/4 trimestres válidos; gentrificacion:2021:brecha_precio_renta_3a ausente/no finito, precio 2018: 0/4 trimestres válidos; gentrificacion:2022:brecha_precio_renta_3a ausente/no finito, precio 2019: 0/4 trimestres válidos",2020,2023
+18087,Granada,True,,2020,2023
+18140,Motril,True,,2020,2023
+19046,Azuqueca de Henares,False,"especulacion:2020:aceleracion_precio ausente/no finito, desacoplamiento_precio_renta ausente/no finito, precio 2019: 0/4 trimestres válidos, precio 2018: 0/4 trimestres válidos; gentrificacion:2020:brecha_precio_renta_3a ausente/no finito, precio 2017: 0/4 trimestres válidos; especulacion:2021:aceleracion_precio ausente/no finito, precio 2019: 0/4 trimestres válidos; gentrificacion:2021:brecha_precio_renta_3a ausente/no finito, precio 2018: 0/4 trimestres válidos; gentrificacion:2022:brecha_precio_renta_3a ausente/no finito, precio 2019: 0/4 trimestres válidos",2020,2023
+19130,Guadalajara,True,,2020,2023
+20030,Eibar,False,"asequibilidad:2020:precio 2020: 3/4 trimestres válidos; especulacion:2020:precio 2020: 3/4 trimestres válidos, precio 2019: 2/4 trimestres válidos, precio 2018: 2/4 trimestres válidos; gentrificacion:2020:precio 2020: 3/4 trimestres válidos, precio 2017: 3/4 trimestres válidos; especulacion:2021:precio 2020: 3/4 trimestres válidos, precio 2019: 2/4 trimestres válidos; gentrificacion:2021:precio 2018: 2/4 trimestres válidos; especulacion:2022:precio 2020: 3/4 trimestres válidos; gentrificacion:2022:precio 2019: 2/4 trimestres válidos; gentrificacion:2023:precio 2020: 3/4 trimestres válidos",2020,2023
+20045,Irun,True,,2020,2023
+20067,Errenteria,False,gentrificacion:2020:precio 2017: 3/4 trimestres válidos,2020,2023
+20069,San Sebastián/Donostia,True,,2020,2023
+21041,Huelva,True,,2020,2023
+21044,Lepe,False,"especulacion:2020:aceleracion_precio ausente/no finito, desacoplamiento_precio_renta ausente/no finito, precio 2019: 0/4 trimestres válidos, precio 2018: 0/4 trimestres válidos; gentrificacion:2020:brecha_precio_renta_3a ausente/no finito, precio 2017: 0/4 trimestres válidos; especulacion:2021:aceleracion_precio ausente/no finito, precio 2019: 0/4 trimestres válidos; gentrificacion:2021:brecha_precio_renta_3a ausente/no finito, precio 2018: 0/4 trimestres válidos; gentrificacion:2022:brecha_precio_renta_3a ausente/no finito, precio 2019: 0/4 trimestres válidos",2020,2023
+22125,Huesca,True,,2020,2023
+23005,Andújar,True,,2020,2023
+23050,Jaén,True,,2020,2023
+23055,Linares,True,,2020,2023
+23092,Úbeda,True,,2020,2023
+24089,León,True,,2020,2023
+24115,Ponferrada,True,,2020,2023
+24142,San Andrés  del Rabanedo,True,,2020,2023
+25120,Lleida,True,,2020,2023
+26089,Logroño,True,,2020,2023
+27028,Lugo,True,,2020,2023
+28005,Alcalá de Henares,True,,2020,2023
+28006,Alcobendas,True,,2020,2023
+28007,Alcorcón,True,,2020,2023
+28013,Aranjuez,True,,2020,2023
+28014,Arganda del Rey,True,,2020,2023
+28022,Boadilla del Monte,True,,2020,2023
+28045,Colmenar Viejo,True,,2020,2023
+28047,Collado Villalba,True,,2020,2023
+28049,Coslada,True,,2020,2023
+28058,Fuenlabrada,True,,2020,2023
+28061,Galapagar,True,,2020,2023
+28065,Getafe,True,,2020,2023
+28074,Leganés,True,,2020,2023
+28079,Madrid,True,,2020,2023
+28080,Majadahonda,True,,2020,2023
+28092,Móstoles,True,,2020,2023
+28096,Navalcarnero,False,"especulacion:2020:aceleracion_precio ausente/no finito, desacoplamiento_precio_renta ausente/no finito, precio 2019: 0/4 trimestres válidos, precio 2018: 0/4 trimestres válidos; gentrificacion:2020:brecha_precio_renta_3a ausente/no finito, precio 2017: 0/4 trimestres válidos; especulacion:2021:aceleracion_precio ausente/no finito, precio 2019: 0/4 trimestres válidos; gentrificacion:2021:brecha_precio_renta_3a ausente/no finito, precio 2018: 0/4 trimestres válidos; gentrificacion:2022:brecha_precio_renta_3a ausente/no finito, precio 2019: 0/4 trimestres válidos",2020,2023
+28106,Parla,True,,2020,2023
+28113,Pinto,True,,2020,2023
+28115,Pozuelo de Alarcón,True,,2020,2023
+28123,Rivas-Vaciamadrid,True,,2020,2023
+28127,Rozas de Madrid (Las),True,,2020,2023
+28130,San Fernando de Henares,True,,2020,2023
+28134,San Sebastián de los Reyes,True,,2020,2023
+28148,Torrejón de Ardoz,True,,2020,2023
+28161,Valdemoro,True,,2020,2023
+28181,Villaviciosa de Odón,True,,2020,2023
+28903,Tres Cantos,True,,2020,2023
+29007,Alhaurín de la Torre,True,,2020,2023
+29015,Antequera,True,,2020,2023
+29025,Benalmádena,True,,2020,2023
+29051,Estepona,True,,2020,2023
+29054,Fuengirola,True,,2020,2023
+29067,Málaga,True,,2020,2023
+29069,Marbella,True,,2020,2023
+29070,Mijas,True,,2020,2023
+29082,Rincón de la Victoria,True,,2020,2023
+29084,Ronda,True,,2020,2023
+29094,Vélez Málaga,True,,2020,2023
+29901,Torremolinos,True,,2020,2023
+30003,Águilas,True,,2020,2023
+30005,Alcantarilla,True,,2020,2023
+30015,Caravaca de la Cruz,True,,2020,2023
+30016,Cartagena,True,,2020,2023
+30019,Cieza,True,,2020,2023
+30022,Jumilla,True,,2020,2023
+30024,Lorca,True,,2020,2023
+30026,Mazarrón,True,,2020,2023
+30027,Molina de Segura,True,,2020,2023
+30030,Murcia,True,,2020,2023
+30035,San Javier,True,,2020,2023
+30037,Torre-Pacheco,True,,2020,2023
+30039,Totana,True,,2020,2023
+30043,Yecla,True,,2020,2023
+31201,Pamplona/Iruña,True,,2020,2023
+31232,Tudela,True,,2020,2023
+32054,Ourense,True,,2020,2023
+33004,Avilés,True,,2020,2023
+33024,Gijón,True,,2020,2023
+33031,Langreo,True,,2020,2023
+33037,Mieres,True,,2020,2023
+33044,Oviedo,True,,2020,2023
+33066,Siero,True,,2020,2023
+34120,Palencia,True,,2020,2023
+35002,Agüimes,True,,2020,2023
+35004,Arrecife,True,,2020,2023
+35006,Arucas,True,,2020,2023
+35011,Ingenio,True,,2020,2023
+35014,"Oliva, La",False,"especulacion:2020:aceleracion_precio ausente/no finito, desacoplamiento_precio_renta ausente/no finito, precio 2019: 0/4 trimestres válidos, precio 2018: 0/4 trimestres válidos; gentrificacion:2020:brecha_precio_renta_3a ausente/no finito, precio 2017: 0/4 trimestres válidos; especulacion:2021:aceleracion_precio ausente/no finito, precio 2019: 0/4 trimestres válidos; gentrificacion:2021:brecha_precio_renta_3a ausente/no finito, precio 2018: 0/4 trimestres válidos; gentrificacion:2022:brecha_precio_renta_3a ausente/no finito, precio 2019: 0/4 trimestres válidos",2020,2023
+35016,Palmas de Gran Canaria (Las),True,,2020,2023
+35017,Puerto del Rosario,True,,2020,2023
+35019,San Bartolomé de Tirajana,True,,2020,2023
+35022,Santa Lucía de Tirajana,True,,2020,2023
+35026,Telde,True,,2020,2023
+36008,Cangas,False,"especulacion:2020:aceleracion_precio ausente/no finito, desacoplamiento_precio_renta ausente/no finito, precio 2019: 0/4 trimestres válidos, precio 2018: 0/4 trimestres válidos; gentrificacion:2020:brecha_precio_renta_3a ausente/no finito, precio 2017: 0/4 trimestres válidos; especulacion:2021:aceleracion_precio ausente/no finito, precio 2019: 0/4 trimestres válidos; gentrificacion:2021:brecha_precio_renta_3a ausente/no finito, precio 2018: 0/4 trimestres válidos; gentrificacion:2022:brecha_precio_renta_3a ausente/no finito, precio 2019: 0/4 trimestres válidos",2020,2023
+36026,Marín,True,,2020,2023
+36038,Pontevedra,True,,2020,2023
+36045,Redondela,True,,2020,2023
+36057,Vigo,True,,2020,2023
+36060,Vilagarcía de Arousa,True,,2020,2023
+37274,Salamanca,True,,2020,2023
+38001,Adeje,True,,2020,2023
+38006,Arona,True,,2020,2023
+38011,Candelaria,False,"especulacion:2020:aceleracion_precio ausente/no finito, desacoplamiento_precio_renta ausente/no finito, precio 2019: 0/4 trimestres válidos, precio 2018: 0/4 trimestres válidos; gentrificacion:2020:brecha_precio_renta_3a ausente/no finito, precio 2017: 0/4 trimestres válidos; especulacion:2021:aceleracion_precio ausente/no finito, precio 2019: 0/4 trimestres válidos; gentrificacion:2021:brecha_precio_renta_3a ausente/no finito, precio 2018: 0/4 trimestres válidos; gentrificacion:2022:brecha_precio_renta_3a ausente/no finito, precio 2019: 0/4 trimestres válidos",2020,2023
+38017,Granadilla de Abona,True,,2020,2023
+38023,San Cristóbal Laguna,True,,2020,2023
+38026,Orotava (La),True,,2020,2023
+38028,Puerto de la Cruz,True,,2020,2023
+38031,Realejos (Los),True,,2020,2023
+38038,Santa Cruz deTenerife,True,,2020,2023
+39016,Camargo,True,,2020,2023
+39020,Castro-Urdiales,True,,2020,2023
+39075,Santander,True,,2020,2023
+39087,Torrelavega,True,,2020,2023
+40194,Segovia,True,,2020,2023
+41004,Alcalá de Guadaíra,True,,2020,2023
+41021,Camas,True,,2020,2023
+41024,Carmona,True,,2020,2023
+41034,Coria del Río,True,,2020,2023
+41038,Dos Hermanas,True,,2020,2023
+41039,Écija,True,,2020,2023
+41053,Lebrija,False,"especulacion:2020:aceleracion_precio ausente/no finito, desacoplamiento_precio_renta ausente/no finito, precio 2019: 0/4 trimestres válidos, precio 2018: 0/4 trimestres válidos; gentrificacion:2020:brecha_precio_renta_3a ausente/no finito, precio 2017: 0/4 trimestres válidos; especulacion:2021:aceleracion_precio ausente/no finito, precio 2019: 0/4 trimestres válidos; gentrificacion:2021:brecha_precio_renta_3a ausente/no finito, precio 2018: 0/4 trimestres válidos; gentrificacion:2022:brecha_precio_renta_3a ausente/no finito, precio 2019: 0/4 trimestres válidos",2020,2023
+41059,Mairena del Aljarafe,True,,2020,2023
+41065,Morón de la Frontera,True,,2020,2023
+41069,Palacios y Villafranca (Los),True,,2020,2023
+41081,Rinconada (La),True,,2020,2023
+41091,Sevilla,True,,2020,2023
+41095,Utrera,True,,2020,2023
+42173,Soria,True,,2020,2023
+43038,Cambrils,True,,2020,2023
+43123,Reus,True,,2020,2023
+43148,Tarragona,True,,2020,2023
+43155,Tortosa,True,,2020,2023
+43163,Vendrell (El),True,,2020,2023
+43905,Salou,False,"especulacion:2020:aceleracion_precio ausente/no finito, desacoplamiento_precio_renta ausente/no finito, precio 2019: 0/4 trimestres válidos, precio 2018: 0/4 trimestres válidos; gentrificacion:2020:brecha_precio_renta_3a ausente/no finito, precio 2017: 0/4 trimestres válidos; especulacion:2021:aceleracion_precio ausente/no finito, precio 2019: 0/4 trimestres válidos; gentrificacion:2021:brecha_precio_renta_3a ausente/no finito, precio 2018: 0/4 trimestres válidos; gentrificacion:2022:brecha_precio_renta_3a ausente/no finito, precio 2019: 0/4 trimestres válidos",2020,2023
+44216,Teruel,True,,2020,2023
+45081,Illescas,False,"especulacion:2020:aceleracion_precio ausente/no finito, desacoplamiento_precio_renta ausente/no finito, precio 2019: 0/4 trimestres válidos, precio 2018: 0/4 trimestres válidos; gentrificacion:2020:brecha_precio_renta_3a ausente/no finito, precio 2017: 0/4 trimestres válidos; especulacion:2021:aceleracion_precio ausente/no finito, precio 2019: 0/4 trimestres válidos; gentrificacion:2021:brecha_precio_renta_3a ausente/no finito, precio 2018: 0/4 trimestres válidos; gentrificacion:2022:brecha_precio_renta_3a ausente/no finito, precio 2019: 0/4 trimestres válidos",2020,2023
+45165,Talavera de la Reina,True,,2020,2023
+45168,Toledo,True,,2020,2023
+46005,Alaquàs,True,,2020,2023
+46017,Alzira,True,,2020,2023
+46021,Aldaia,True,,2020,2023
+46029,Algemesí,True,,2020,2023
+46078,Burjassot,True,,2020,2023
+46094,Catarroja,False,"especulacion:2020:aceleracion_precio ausente/no finito, desacoplamiento_precio_renta ausente/no finito, precio 2019: 0/4 trimestres válidos, precio 2018: 0/4 trimestres válidos; gentrificacion:2020:brecha_precio_renta_3a ausente/no finito, precio 2017: 0/4 trimestres válidos; especulacion:2021:aceleracion_precio ausente/no finito, precio 2019: 0/4 trimestres válidos; gentrificacion:2021:brecha_precio_renta_3a ausente/no finito, precio 2018: 0/4 trimestres válidos; gentrificacion:2022:brecha_precio_renta_3a ausente/no finito, precio 2019: 0/4 trimestres válidos",2020,2023
+46102,Quart de Poblet,True,,2020,2023
+46110,Xirivella,True,,2020,2023
+46131,Gandia,True,,2020,2023
+46145,Xàtiva,True,,2020,2023
+46159,Manises,True,,2020,2023
+46169,Mislata,True,,2020,2023
+46181,Oliva,True,,2020,2023
+46184,Ontinyent,True,,2020,2023
+46190,Paterna,True,,2020,2023
+46220,Sagunto/Sagunt,True,,2020,2023
+46235,Sueca,True,,2020,2023
+46244,Torrent,True,,2020,2023
+46250,Valencia,True,,2020,2023
+47186,Valladolid,True,,2020,2023
+48013,Barakaldo,True,,2020,2023
+48015,Basauri,False,especulacion:2020:precio 2018: 3/4 trimestres válidos; gentrificacion:2021:precio 2018: 3/4 trimestres válidos,2020,2023
+48020,Bilbao,True,,2020,2023
+48027,Durango,False,"asequibilidad:2020:precio 2020: 3/4 trimestres válidos; especulacion:2020:precio 2020: 3/4 trimestres válidos, precio 2019: 3/4 trimestres válidos, precio 2018: 2/4 trimestres válidos; gentrificacion:2020:precio 2020: 3/4 trimestres válidos, precio 2017: 3/4 trimestres válidos; especulacion:2021:precio 2020: 3/4 trimestres válidos, precio 2019: 3/4 trimestres válidos; gentrificacion:2021:precio 2018: 2/4 trimestres válidos; especulacion:2022:precio 2020: 3/4 trimestres válidos; gentrificacion:2022:precio 2019: 3/4 trimestres válidos; gentrificacion:2023:precio 2020: 3/4 trimestres válidos",2020,2023
+48036,Galdakao,False,especulacion:2020:precio 2019: 3/4 trimestres válidos; especulacion:2021:precio 2019: 3/4 trimestres válidos; gentrificacion:2022:precio 2019: 3/4 trimestres válidos,2020,2023
+48044,Getxo,True,,2020,2023
+48054,Leioa,False,asequibilidad:2020:precio 2020: 3/4 trimestres válidos; especulacion:2020:precio 2020: 3/4 trimestres válidos; gentrificacion:2020:precio 2020: 3/4 trimestres válidos; especulacion:2021:precio 2020: 3/4 trimestres válidos; especulacion:2022:precio 2020: 3/4 trimestres válidos; gentrificacion:2023:precio 2020: 3/4 trimestres válidos,2020,2023
+48078,Portugalete,True,,2020,2023
+48082,Santurtzi,True,,2020,2023
+48084,Sestao,False,asequibilidad:2020:precio 2020: 3/4 trimestres válidos; especulacion:2020:precio 2020: 3/4 trimestres válidos; gentrificacion:2020:precio 2020: 3/4 trimestres válidos; especulacion:2021:precio 2020: 3/4 trimestres válidos; especulacion:2022:precio 2020: 3/4 trimestres válidos; gentrificacion:2023:precio 2020: 3/4 trimestres válidos,2020,2023
+49275,Zamora,True,,2020,2023
+50297,Zaragoza,True,,2020,2023
+51001,Ceuta,True,,2020,2023
+52001,Melilla,True,,2020,2023

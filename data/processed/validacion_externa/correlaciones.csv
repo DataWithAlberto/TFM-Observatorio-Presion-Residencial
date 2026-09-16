@@ -1,0 +1,8 @@
+analisis,producto,periodo_ipr,periodo_externo,n,universo,cobertura,rho,p_value,p_asintotico,metodo_p,estado
+principal,ipr4_nacional_observado,2023,2023,295,306,0.9640522875816994,0.5423310477089954,5e-05,5.877774067797472e-24,permutación bilateral de rangos; corrección +1,estimado
+sin_extremos_p01_p99,ipr4_nacional_observado,2023,2023,284,306,0.9281045751633987,0.52964698806706,5e-05,6.133970007830603e-22,permutación bilateral de rangos; corrección +1,estimado
+ipr5_exploratorio,ipr5_prospectivo,2023,2023,293,306,0.9575163398692811,0.5093404811687279,5e-05,9.561862846297274e-21,permutación bilateral de rangos; corrección +1,estimado
+ipr4_misma_muestra_ipr5,ipr4_nacional_observado,2023,2023,293,306,0.9575163398692811,0.5437746624249534,5e-05,6.029774119925924e-24,permutación bilateral de rangos; corrección +1,estimado
+sensibilidad_temporal_muestra_comun,ipr4_nacional_observado,2023,2023,295,306,0.9640522875816994,0.5423310477089954,5e-05,5.877774067797472e-24,permutación bilateral de rangos; corrección +1,estimado
+sensibilidad_temporal_muestra_comun,ipr4_nacional_observado,2023,2022,295,306,0.9640522875816994,0.5297087557585125,5e-05,9.712571217659014e-23,permutación bilateral de rangos; corrección +1,estimado
+sensibilidad_temporal_muestra_comun,ipr4_nacional_observado,2023,2024,295,306,0.9640522875816994,0.5519992017536165,5e-05,6.321880031557706e-25,permutación bilateral de rangos; corrección +1,estimado

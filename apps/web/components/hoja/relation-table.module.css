@@ -1,0 +1,103 @@
+/* Contenedor con scroll propio: una tabla ancha nunca empuja la página. */
+.wrap {
+  position: relative;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14.5px;
+}
+
+.table th {
+  position: sticky;
+  top: 0;
+  z-index: var(--z-base);
+  pointer-events: auto;
+  padding: 0;
+  border-bottom: var(--rule-hair) solid var(--color-ink);
+  background: var(--color-paper);
+  text-align: left;
+}
+
+/* Cabeceras: microetiqueta monoespaciada, el único sitio de la tabla con ella. */
+.table th button,
+.static {
+  display: flex;
+  gap: var(--space-3xs);
+  width: 100%;
+  padding: var(--space-2xs) var(--space-xs);
+  border: 0;
+  background: none;
+  color: var(--color-muted);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: var(--tracking-wide);
+  text-transform: uppercase;
+}
+
+.static {
+  cursor: default;
+}
+
+.table th.num button {
+  justify-content: flex-end;
+}
+
+.table td {
+  padding: 5px var(--space-xs);
+  border-bottom: var(--rule-hair) solid var(--color-rule);
+  white-space: nowrap;
+}
+
+.num {
+  text-align: right;
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+.table tr[aria-selected="true"] td {
+  background: var(--color-accent-soft);
+}
+
+.rowSelect {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--color-ink);
+  font-weight: 600;
+}
+
+.rowSelect:hover {
+  color: var(--color-accent);
+}
+
+.rowLink {
+  color: var(--color-accent);
+  font-size: var(--text-xs);
+}
+
+.level {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: var(--text-xs);
+}
+
+/* En móvil se retiran primero Comunidad y después Provincia. */
+@media (max-width: 640px) {
+  .table th:nth-child(4),
+  .table td:nth-child(4) {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .table th:nth-child(3),
+  .table td:nth-child(3) {
+    display: none;
+  }
+}

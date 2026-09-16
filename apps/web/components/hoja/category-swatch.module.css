@@ -1,0 +1,20 @@
+.swatch {
+  display: inline-block;
+  flex: none;
+  width: 9px;
+  height: 9px;
+  background: var(--color-map-missing);
+  outline: var(--rule-hair) solid var(--color-ink);
+  outline-offset: -1px;
+}
+
+.large {
+  width: 14px;
+  height: 14px;
+}
+
+.swatch[data-step="1"] { background: var(--data-seq-1); }
+.swatch[data-step="2"] { background: var(--data-seq-2); }
+.swatch[data-step="3"] { background: var(--data-seq-3); }
+.swatch[data-step="4"] { background: var(--data-seq-4); }
+.swatch[data-step="5"] { background: var(--data-seq-5); }

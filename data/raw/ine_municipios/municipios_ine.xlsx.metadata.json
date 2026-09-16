@@ -1,0 +1,9 @@
+{
+  "source_url": "https://www.ine.es/daco/daco42/codmun/diccionario25.xlsx",
+  "downloaded_at": "2026-09-15T16:15:58.415889+00:00",
+  "archive_sha256": "5cf83d5b9c68b4c39650b2f38cd60d817a2c9f90acc618b603e8c17ebd12ad07",
+  "download_sha256": "5cf83d5b9c68b4c39650b2f38cd60d817a2c9f90acc618b603e8c17ebd12ad07",
+  "organism": "Instituto Nacional de Estadística",
+  "resource": "Relación de municipios y códigos, diccionario 2025",
+  "license_url": "https://www.ine.es/dyngs/AYU/index.htm?cid=125"
+}

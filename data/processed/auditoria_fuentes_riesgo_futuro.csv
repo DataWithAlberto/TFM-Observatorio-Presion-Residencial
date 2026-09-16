@@ -1,0 +1,6 @@
+fuente,componente,municipios,pct_universo,anio_min,anio_max,apto_score_principal,decision
+AdapteCCa CMIP6 SSP2-4.5,duracion_max_ola_calor_dias,303.0,99.01960784313725,2015.0,2100.0,True,principal_con_exclusion_explicita
+AdapteCCa CMIP6 SSP2-4.5,grados_dia_refrigeracion,303.0,99.01960784313725,2015.0,2100.0,True,principal_con_exclusion_explicita
+AdapteCCa CMIP6 SSP2-4.5,racha_seca_max_dias,303.0,99.01960784313725,2015.0,2100.0,True,principal_con_exclusion_explicita
+MITECO SNCZI,inundacion_fluvial_costera,,,,,False,complementario: ausencia de cartografia no equivale a riesgo cero
+Registros CCAA,certificados_energeticos,,,,,False,complementario: sin registro nacional municipal armonizado

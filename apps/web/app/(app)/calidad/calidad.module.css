@@ -1,0 +1,214 @@
+.page {
+  display: grid;
+  --reading-measure: none;
+  padding: 18px var(--space-lg) 80px;
+}
+
+.prose {
+  display: grid;
+  gap: var(--space-sm);
+  min-width: 0;
+}
+
+.prose p {
+  font-size: var(--text-md);
+  color: var(--color-ink-2);
+}
+
+.block {
+  display: grid;
+  gap: var(--space-2xs);
+  padding-top: var(--space-xs);
+  border-top: var(--rule-hair) solid var(--color-ink);
+}
+
+.blockTitle {
+  font-size: 13px;
+  font-weight: 700;
+  font-stretch: var(--stretch-label);
+  letter-spacing: var(--tracking-wide);
+  text-transform: uppercase;
+}
+
+.tableWrap {
+  position: relative;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  min-width: 520px;
+  border-collapse: collapse;
+  font-size: 14.5px;
+}
+
+.table th {
+  position: static;
+  z-index: auto;
+  pointer-events: auto;
+  padding: 5px var(--space-xs) 5px 0;
+  border-bottom: var(--rule-hair) solid var(--color-ink);
+  background: transparent;
+  color: var(--color-muted);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: var(--tracking-wide);
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.table tbody th {
+  border-bottom: var(--rule-hair) solid var(--color-rule);
+  color: var(--color-ink);
+  font-family: var(--font-display);
+  font-size: 14.5px;
+  font-weight: 600;
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+.table td {
+  padding: 6px var(--space-xs) 6px 0;
+  border-bottom: var(--rule-hair) solid var(--color-rule);
+  white-space: normal;
+}
+
+/* Cobertura: barra fina de carmín sobre pista gris. */
+.coverage {
+  display: grid;
+  gap: var(--space-2xs);
+  max-width: 520px;
+}
+
+.coverage li {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: var(--space-3xs) var(--space-2xs);
+  font-size: var(--text-sm);
+}
+
+.coverage i {
+  position: relative;
+  grid-column: 1 / -1;
+  height: 4px;
+  background: var(--color-rule);
+}
+
+.coverage i::after {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: var(--v);
+  background: var(--color-accent);
+}
+
+.coverage small {
+  grid-column: 1 / -1;
+  font-size: var(--text-xs);
+  color: var(--color-muted);
+}
+
+.mono {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  font-weight: 500;
+}
+
+.note {
+  font-size: var(--text-xs);
+  color: var(--color-muted);
+}
+
+.prose .note {
+  font-size: var(--text-xs);
+}
+
+.definitions {
+  display: grid;
+  gap: var(--space-2xs);
+  margin: 0;
+}
+
+.definitions > div {
+  display: grid;
+  grid-template-columns: 160px minmax(0, 1fr);
+  gap: var(--space-2xs);
+  padding-bottom: var(--space-2xs);
+  border-bottom: var(--rule-hair) solid var(--color-rule);
+}
+
+.definitions dt {
+  font-size: var(--text-sm);
+  font-weight: 600;
+}
+
+.definitions dd {
+  margin: 0;
+  font-size: var(--text-sm);
+  font-weight: 400;
+  text-align: left;
+  color: var(--color-ink-2);
+}
+
+.dqsHeadline {
+  font-size: var(--text-md);
+}
+
+.dqsHeadline b {
+  font-size: 22px;
+}
+
+/* Recuento de municipios por nivel, con la escala de calidad. */
+.levels {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2xs) var(--space-md);
+  font-size: var(--text-sm);
+}
+
+.levels li {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.levels i {
+  width: 12px;
+  height: 12px;
+  outline: var(--rule-hair) solid var(--color-ink);
+  outline-offset: -1px;
+  background: var(--color-paper);
+}
+
+.levels i[data-level="muy_baja"] { background: var(--data-quality-1); }
+.levels i[data-level="baja"] { background: var(--data-quality-2); }
+.levels i[data-level="media"] { background: var(--data-quality-3); }
+.levels i[data-level="alta"] { background: var(--data-quality-4); }
+
+.link {
+  justify-self: start;
+  color: var(--color-accent);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+@media (max-width: 640px) {
+  .page {
+    padding: var(--space-sm) var(--space-sm) 64px;
+  }
+
+  .definitions > div {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+/* Los enlaces de la tabla de procedencia, legibles sin subrayar la fila entera. */
+.table a {
+  color: var(--color-accent);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}

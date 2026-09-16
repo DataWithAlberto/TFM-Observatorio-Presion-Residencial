@@ -1,0 +1,64 @@
+prueba,estado,detalle
+universo_306,OK,306 municipios
+asequibilidad_duplicados_clave,OK,0
+asequibilidad_municipios_fuera_universo,OK,0
+asequibilidad_periodos_nulos,OK,0
+asequibilidad_scores_fuera_rango,OK,0
+asequibilidad_scores_nulos_esperados,OK,0 (esperados 0)
+asequibilidad_continuidad_anual,OK,0 municipios con huecos
+turismo_duplicados_clave,OK,0
+turismo_municipios_fuera_universo,OK,0
+turismo_periodos_nulos,OK,0
+turismo_scores_fuera_rango,OK,0
+turismo_scores_nulos_esperados,OK,0 (esperados 0)
+turismo_continuidad_anual,OK,0 municipios con huecos
+especulacion_duplicados_clave,OK,0
+especulacion_municipios_fuera_universo,OK,0
+especulacion_periodos_nulos,OK,0
+especulacion_scores_fuera_rango,OK,0
+especulacion_scores_nulos_esperados,OK,0 (esperados 0)
+especulacion_continuidad_anual,OK,0 municipios con huecos
+gentrificacion_duplicados_clave,OK,0
+gentrificacion_municipios_fuera_universo,OK,0
+gentrificacion_periodos_nulos,OK,0
+gentrificacion_scores_fuera_rango,OK,0
+gentrificacion_scores_nulos_esperados,OK,0 (esperados 0)
+gentrificacion_continuidad_anual,OK,0 municipios con huecos
+anio_comun_306_cuatro_capas,OK,2023
+cobertura_2023_306,OK,306
+turismo_snapshots_306,OK,0 snapshots incompletos
+gentrificacion_metadatos_cobertura,OK,recuento observado coincide con municipios_cobertura_anio
+coherencia_fila_valido_elegible,OK,elegible <= válido <= fila
+especulacion_input_elegible_por_anio,OK,"{2016: 280, 2017: 284, 2018: 284, 2019: 284, 2020: 284, 2021: 284, 2022: 306, 2023: 306}"
+interseccion_recalculable_2020_2023,OK,"{2020: 284, 2021: 284, 2022: 284, 2023: 306}"
+panel_estable_recalculable_2020_2023,OK,284 municipios
+sin_indice_completo_antes_2020,OK,0 municipios por ausencia de turismo
+turismo_agosto_comparable_2020_2023,OK,"2020-08-01,2021-08-01,2022-08-01,2023-08-01"
+riesgo_futuro_306_claves,OK,306 filas; 306 códigos
+riesgo_futuro_elegibilidad_coherente,OK,303 elegibles
+riesgo_futuro_version_corregida,OK,2.0
+riesgo_futuro_metadatos,OK,base=2023; horizonte=2041-2060; escenario=SSP2-4.5; valor=ANOMALY
+riesgo_futuro_faltantes_documentados,OK,"11012,11031,48044"
+riesgo_futuro_sin_fuga_temporal,OK,todos los fin_* <= 2023
+riesgo_futuro_turismo_agosto_2020_2023,OK,306 municipios con cuatro snapshots
+riesgo_futuro_especulacion_no_forzada,OK,tendencia y percentil completamente nulos
+corte_ipr4_306,OK,306/306
+corte_ipr5_303,OK,303/306
+corte_tres_municipios_cuatro_capas,OK,3
+asequibilidad_csv_vs_postgis,OK,recuentos idénticos
+asequibilidad_claves_csv_vs_postgis,OK,claves idénticas
+asequibilidad_scores_csv_vs_postgis,OK,diferencia máxima 0.0000498233
+turismo_csv_vs_postgis,OK,recuentos idénticos
+turismo_claves_csv_vs_postgis,OK,claves idénticas
+turismo_scores_csv_vs_postgis,OK,diferencia máxima 0.0000491803
+especulacion_csv_vs_postgis,OK,recuentos idénticos
+especulacion_claves_csv_vs_postgis,OK,claves idénticas
+especulacion_scores_csv_vs_postgis,OK,diferencia máxima 0.0000497268
+gentrificacion_csv_vs_postgis,OK,recuentos idénticos
+gentrificacion_claves_csv_vs_postgis,OK,claves idénticas
+gentrificacion_scores_csv_vs_postgis,OK,diferencia máxima 0.0000000000
+riesgo_futuro_csv_vs_postgis,OK,"claves, metadatos, elegibilidad y scores idénticos"
+especulacion_input_elegibilidad_csv_vs_postgis,OK,claves y elegibilidad idénticas
+carga_cobertura_temporal_postgis,OK,48 claves
+carga_corte_ipr5_postgis,OK,306 claves
+carga_cobertura_municipio_anio_postgis,OK,3672 claves

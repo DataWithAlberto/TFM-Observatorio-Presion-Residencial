@@ -1,0 +1,44 @@
+[
+  {
+    "anio": 2023,
+    "escenario": "principal",
+    "pesos": [
+      0.625,
+      0.375
+    ],
+    "municipios": 306,
+    "spearman": null,
+    "nota": "Ranking constante: correlación no definida",
+    "cambios_categoria": [],
+    "cambio_score_max": 0.0,
+    "cambio_rango_max": 0.0
+  },
+  {
+    "anio": 2023,
+    "escenario": "iguales",
+    "pesos": [
+      0.5,
+      0.5
+    ],
+    "municipios": 306,
+    "spearman": null,
+    "nota": "Ranking constante: correlación no definida",
+    "cambios_categoria": [],
+    "cambio_score_max": 0.3125,
+    "cambio_rango_max": 0.0
+  },
+  {
+    "anio": 2023,
+    "escenario": "cobertura_75",
+    "pesos": [
+      0.75,
+      0.25
+    ],
+    "municipios": 306,
+    "spearman": null,
+    "nota": "Ranking constante: correlación no definida",
+    "cambios_categoria": [],
+    "cambio_score_max": 0.3125,
+    "cambio_rango_max": 0.0
+  }
+]

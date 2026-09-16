@@ -1,0 +1,307 @@
+cod_ine,id_valor_ine,nombre_ine
+01059,571,Vitoria-Gasteiz
+02003,559,Albacete
+02009,6131,Almansa
+02037,6155,Hellín
+02081,6179,Villarrobledo
+03009,6188,Alcoi/Alcoy
+03014,6191,Alacant/Alicante
+03031,1648,Benidorm
+03047,5939,Calp
+03050,5942,"Campello, el"
+03059,5951,Crevillent
+03063,5955,Dénia
+03065,5957,Elx/Elche
+03066,5958,Elda
+03082,5974,Xàbia/Jávea
+03093,5984,Novelda
+03099,5990,Orihuela
+03104,5995,Petrer
+03121,6011,Santa Pola
+03122,1762,Sant Vicent del Raspeig/San Vicente del Raspeig
+03133,6020,Torrevieja
+03139,1765,"Vila Joiosa, la/Villajoyosa"
+03140,6025,Villena
+04013,560,Almería
+04066,1790,Níjar
+04079,1608,Roquetas de Mar
+04902,5826,"Ejido, El"
+05019,561,Ávila
+06011,5782,Almendralejo
+06015,562,Badajoz
+06044,1717,Don Benito
+06083,5600,Mérida
+06153,5653,Villanueva de la Serena
+07011,1841,Calvià
+07015,1843,Ciutadella de Menorca
+07026,5675,Eivissa
+07027,5676,Inca
+07031,5679,Llucmajor
+07032,1849,Maó
+07033,5680,Manacor
+07036,1851,Marratxí
+07040,1853,Palma
+07054,1858,Santa Eulària des Riu
+08015,5471,Badalona
+08019,563,Barcelona
+08056,5511,Castelldefels
+08073,5523,Cornellà de Llobregat
+08077,1965,Esplugues de Llobregat
+08089,5533,Gavà
+08096,5537,Granollers
+08101,1796,"Hospitalet de Llobregat, L'"
+08102,5540,Igualada
+08113,1800,Manresa
+08114,5548,Martorell
+08121,1804,Mataró
+08124,5553,Mollet del Vallès
+08125,1806,Montcada i Reixac
+08163,5341,Pineda de Mar
+08169,5347,"Prat de Llobregat, El"
+08172,5350,Premià de Mar
+08180,5357,Ripollet
+08184,5361,Rubí
+08187,5363,Sabadell
+08194,5370,Sant Adrià de Besòs
+08196,5372,Sant Andreu de la Barca
+08200,5376,Sant Boi de Llobregat
+08205,5381,Sant Cugat del Vallès
+08211,5387,Sant Feliu de Llobregat
+08217,5392,Sant Joan Despí
+08231,1922,Sant Pere de Ribes
+08245,1929,Santa Coloma de Gramenet
+08252,1932,Barberà del Vallès
+08260,1936,Santa Perpètua de Mogoda
+08263,5416,Sant Vicenç dels Horts
+08266,1939,Cerdanyola del Vallès
+08270,5421,Sitges
+08279,5426,Terrassa
+08298,5437,Vic
+08301,5439,Viladecans
+08305,5441,Vilafranca del Penedès
+08307,5442,Vilanova i la Geltrú
+09018,5235,Aranda de Duero
+09059,564,Burgos
+09219,5120,Miranda de Ebro
+10037,5075,Cáceres
+10148,4929,Plasencia
+11004,2126,Algeciras
+11006,2127,Arcos de la Frontera
+11012,4983,Cádiz
+11015,2131,Chiclana de la Frontera
+11020,2132,Jerez de la Frontera
+11022,2133,"Línea de la Concepción, La"
+11027,2135,"Puerto de Santa María, El"
+11028,4993,Puerto Real
+11030,4995,Rota
+11031,4996,San Fernando
+11032,2136,Sanlúcar de Barrameda
+11033,4997,San Roque
+12009,4777,Almassora
+12027,4793,Benicarló
+12032,4797,Borriana/Burriana
+12040,4803,Castelló de la Plana
+12084,4839,Onda
+12126,4862,"Vall d'Uixó, la"
+12135,2092,Vila-real
+12138,4869,Vinaròs
+13005,2097,Alcázar de San Juan
+13034,565,Ciudad Real
+13071,4691,Puertollano
+13082,4700,Tomelloso
+13087,2204,Valdepeñas
+14021,4725,Córdoba
+14038,2223,Lucena
+14056,2231,Puente Genil
+15002,4758,Ames
+15005,4509,Arteixo
+15019,4523,Carballo
+15030,4534,"Coruña, A"
+15031,4535,Culleredo
+15036,4540,Ferrol
+15054,4558,Narón
+15058,4562,Oleiros
+15073,4577,Ribeira
+15078,4581,Santiago de Compostela
+16078,566,Cuenca
+17023,4272,Blanes
+17066,4312,Figueres
+17079,567,Girona
+17095,4339,Lloret de Mar
+17114,2274,Olot
+17155,4372,Salt
+18017,4178,Almuñécar
+18087,568,Granada
+18140,4238,Motril
+19046,4048,Azuqueca de Henares
+19130,2390,Guadalajara
+20030,3730,Eibar
+20045,3745,Irun
+20067,3767,Errenteria
+20069,572,Donostia/San Sebastián
+21041,3822,Huelva
+21044,3824,Lepe
+22125,3651,Huesca
+23005,3722,Andújar
+23050,3493,Jaén
+23055,3498,Linares
+23092,3531,Úbeda
+24089,569,León
+24115,3363,Ponferrada
+24142,3385,San Andrés del Rabanedo
+25120,3275,Lleida
+26089,484,Logroño
+27028,570,Lugo
+28005,3033,Alcalá de Henares
+28006,2784,Alcobendas
+28007,3034,Alcorcón
+28013,2787,Aranjuez
+28014,3038,Arganda del Rey
+28022,3042,Boadilla del Monte
+28045,2801,Colmenar Viejo
+28047,2802,Collado Villalba
+28049,3058,Coslada
+28058,3063,Fuenlabrada
+28061,3065,Galapagar
+28065,3067,Getafe
+28074,3074,Leganés
+28079,2813,Madrid
+28080,2814,Majadahonda
+28092,2819,Móstoles
+28096,2840,Navalcarnero
+28106,2847,Parla
+28113,2854,Pinto
+28115,2856,Pozuelo de Alarcón
+28123,2864,Rivas-Vaciamadrid
+28127,2868,"Rozas de Madrid, Las"
+28130,2871,San Fernando de Henares
+28134,2875,San Sebastián de los Reyes
+28148,2887,Torrejón de Ardoz
+28161,2896,Valdemoro
+28181,2906,Villaviciosa de Odón
+28903,2909,Tres Cantos
+29007,2755,Alhaurín de la Torre
+29015,2758,Antequera
+29025,2924,Benalmádena
+29051,2939,Estepona
+29054,2941,Fuengirola
+29067,485,Málaga
+29069,2822,Marbella
+29070,2823,Mijas
+29082,2834,Rincón de la Victoria
+29084,2836,Ronda
+29094,2632,Vélez-Málaga
+29901,2639,Torremolinos
+30003,2642,Águilas
+30005,2526,Alcantarilla
+30015,2536,Caravaca de la Cruz
+30016,2537,Cartagena
+30019,2540,Cieza
+30022,2543,Jumilla
+30024,2545,Lorca
+30026,2429,Mazarrón
+30027,2430,Molina de Segura
+30030,2433,Murcia
+30035,2438,San Javier
+30037,2440,Torre-Pacheco
+30039,2442,Totana
+30043,2341,Yecla
+31201,6208,Pamplona/Iruña
+31232,6237,Tudela
+32054,486,Ourense
+33004,6325,Avilés
+33024,6338,Gijón
+33031,1519,Langreo
+33037,16542,Mieres
+33044,1524,Oviedo
+33066,6371,Siero
+34120,16474,Palencia
+35002,6498,Agüimes
+35004,6499,Arrecife
+35006,6500,Arucas
+35011,6503,Ingenio
+35014,1432,"Oliva, La"
+35016,1433,"Palmas de Gran Canaria, Las"
+35017,6505,Puerto del Rosario
+35019,1434,San Bartolomé de Tirajana
+35022,1435,Santa Lucía de Tirajana
+35026,6511,Telde
+36008,6527,Cangas
+36026,6545,Marín
+36038,487,Pontevedra
+36045,6563,Redondela
+36057,6575,Vigo
+36060,6578,Vilagarcía de Arousa
+37274,488,Salamanca
+38001,6807,Adeje
+38006,1391,Arona
+38011,6813,Candelaria
+38017,6817,Granadilla de Abona
+38023,8568,San Cristóbal de La Laguna
+38026,1400,"Orotava, La"
+38028,1401,Puerto de la Cruz
+38031,1402,"Realejos, Los"
+38038,6827,Santa Cruz de Tenerife
+39016,1235,Camargo
+39020,1237,Castro-Urdiales
+39075,489,Santander
+39087,6908,Torrelavega
+40194,7013,Segovia
+41004,7053,Alcalá de Guadaíra
+41021,7069,Camas
+41024,1144,Carmona
+41034,7077,Coria del Río
+41038,1150,Dos Hermanas
+41039,7080,Écija
+41053,7089,Lebrija
+41059,7092,Mairena del Aljarafe
+41065,1161,Morón de la Frontera
+41069,7098,"Palacios y Villafranca, Los"
+41081,1167,"Rinconada, La"
+41091,7112,Sevilla
+41095,1172,Utrera
+42173,490,Soria
+43038,7268,Cambrils
+43123,7319,Reus
+43148,491,Tarragona
+43155,946,Tortosa
+43163,7339,"Vendrell, El"
+43905,7351,Salou
+44216,492,Teruel
+45081,7573,Illescas
+45165,887,Talavera de la Reina
+45168,888,Toledo
+46005,7670,Alaquàs
+46017,7677,Alzira
+46021,7680,Aldaia
+46029,7685,Algemesí
+46078,932,Burjassot
+46094,7721,Catarroja
+46102,7725,Quart de Poblet
+46110,7730,Xirivella
+46131,7744,Gandia
+46145,7758,Xàtiva
+46159,7772,Manises
+46169,7782,Mislata
+46181,7794,Oliva
+46184,7797,Ontinyent
+46190,7803,Paterna
+46220,785,Sagunt/Sagunto
+46235,7832,Sueca
+46244,16550,Torrent
+46250,493,València
+47186,495,Valladolid
+48013,7998,Barakaldo
+48015,7999,Basauri
+48020,8002,Bilbao
+48027,8007,Durango
+48036,8015,Galdakao
+48044,8021,Getxo
+48054,8026,Leioa
+48078,8040,Portugalete
+48082,8042,Santurtzi
+48084,8044,Sestao
+49275,638,Zamora
+50297,494,Zaragoza
+51001,8451,Ceuta
+52001,8452,Melilla

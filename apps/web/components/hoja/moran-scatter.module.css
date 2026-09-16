@@ -1,0 +1,57 @@
+.chart {
+  min-width: 0;
+  margin: 0;
+}
+
+.chart svg {
+  display: block;
+  max-width: 100%;
+}
+
+.axis {
+  stroke: var(--color-ink);
+  stroke-width: 1;
+}
+
+.tick,
+.axisName {
+  fill: var(--color-muted);
+  font-family: var(--font-mono);
+  font-size: 12px;
+}
+
+.axisName {
+  fill: var(--color-ink);
+  font-family: var(--font-display);
+  font-weight: 600;
+}
+
+.quadrant {
+  fill: var(--color-muted);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: var(--tracking-wide);
+}
+
+.dot {
+  fill: var(--data-lisa-ns);
+  stroke: var(--color-ink);
+  stroke-width: 0.6;
+  opacity: 0.9;
+}
+
+.dot[data-cluster="HH"] { fill: var(--data-lisa-hh); }
+.dot[data-cluster="LL"] { fill: var(--data-lisa-ll); }
+.dot[data-cluster="HL"] { fill: var(--data-lisa-hl); }
+.dot[data-cluster="LH"] { fill: var(--data-lisa-lh); }
+
+.slope {
+  stroke: var(--color-accent);
+  stroke-width: 2;
+}
+
+.caption {
+  margin-top: var(--space-3xs);
+  font-size: var(--text-xs);
+  color: var(--color-muted);
+}

@@ -1,0 +1,17 @@
+-r apps/api/requirements.txt
+
+GeoAlchemy2==0.20.0
+geopandas==1.1.4
+numpy==2.4.6
+openpyxl==3.1.5
+pandas==3.0.3
+pyogrio==0.13.0
+pyproj==3.7.2
+requests==2.34.2
+scikit-learn==1.9.0
+shapely==2.1.2
+xgboost==3.2.0
+xlrd==2.0.2
+
+# Moran/LISA (pinned scientific stack)
+-r requirements-spatial.txt

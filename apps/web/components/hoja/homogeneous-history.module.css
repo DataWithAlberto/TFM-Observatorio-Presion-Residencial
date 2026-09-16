@@ -1,0 +1,125 @@
+.history {
+  display: grid;
+  gap: var(--space-sm);
+}
+
+.intro {
+  font-size: var(--text-md);
+  color: var(--color-ink-2);
+}
+
+.notice {
+  padding: var(--space-2xs) var(--space-xs);
+  border-left: var(--rule-heavy) solid var(--color-accent);
+  background: var(--color-paper-2);
+  font-size: var(--text-sm);
+}
+
+.tableWrap {
+  position: relative;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  min-width: 520px;
+  border-collapse: collapse;
+  font-size: 14.5px;
+}
+
+.table th {
+  padding: 5px var(--space-xs) 5px 0;
+  border-bottom: var(--rule-hair) solid var(--color-ink);
+  color: var(--color-muted);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: var(--tracking-wide);
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.table tbody th {
+  border-bottom: var(--rule-hair) solid var(--color-rule);
+  color: var(--color-ink);
+  font-family: var(--font-display);
+  font-size: 14.5px;
+  font-weight: 600;
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+.table td {
+  padding: 6px var(--space-xs) 6px 0;
+  border-bottom: var(--rule-hair) solid var(--color-rule);
+}
+
+.table a {
+  color: var(--color-ink);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.num {
+  text-align: right;
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+.table th.num {
+  text-align: right;
+}
+
+.small {
+  font-size: var(--text-xs);
+  color: var(--color-muted);
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+}
+
+.controls label {
+  display: grid;
+  gap: 4px;
+  font-family: var(--font-mono);
+  font-size: var(--text-micro);
+  letter-spacing: var(--tracking-wide);
+  text-transform: uppercase;
+  color: var(--color-muted);
+}
+
+.controls select {
+  min-width: 220px;
+  padding: 5px 8px;
+  border: var(--rule-hair) solid var(--color-ink);
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-display);
+  font-size: var(--text-sm);
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+.sub {
+  display: grid;
+  gap: var(--space-2xs);
+}
+
+.subTitle {
+  font-size: var(--text-base);
+  font-weight: 700;
+}
+
+.details summary {
+  color: var(--color-accent);
+  font-size: var(--text-sm);
+  font-weight: 600;
+}
+
+.details > :not(summary) {
+  margin-top: var(--space-2xs);
+}

@@ -1,0 +1,2 @@
+anio,moran_i,expected_i,p_value,z_score,permutations,seed,alpha,n_municipalities,n_observations,n_islands,weights_method,calculation_version,is_significant,interpretation,main_correction,calculated_at
+2023,0.5354899490328957,-0.0045662100456621,0.002,7.7062309033368654,999,2023,0.05,306,220,86,queen,spatial-ipr-1.0.0,True,agrupación espacial significativa,fdr_bh,2026-09-15T13:36:55.039733+00:00
