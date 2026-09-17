@@ -11,6 +11,9 @@ Repositorio: <https://github.com/DataWithAlberto/TFM-Observatorio-Presion-Reside
 
 La memoria del trabajo está en
 [`memoria/`](memoria/Memoria_Observatorio_Presion_Residencial_Alberto_Llaneza_Tabares.docx).
+La presentación está en [`presentacion/`](presentacion): el
+[vídeo](https://github.com/DataWithAlberto/TFM-Observatorio-Presion-Residencial/releases/download/v1.0/Presentacion_Observatorio_Presion_Residencial.mp4) y la guía
+[«Dónde mirar primero»](presentacion/D%C3%B3nde%20mirar%20primero.pptx).
 
 ## Productos del índice
 
@@ -51,6 +54,7 @@ El corte integrado vigente es 2023:
 ├── docs/                  Documentación técnica y resultados
 │   └── metodologia/       Metodología, auditoría y ejecución de cada dimensión
 ├── memoria/               Memoria del TFM
+├── presentacion/          Guía «Dónde mirar primero» y enlace al vídeo
 ├── output/analisis_espacial/  Figuras e informe del análisis espacial
 ├── tests/                 Pruebas de Python del pipeline y los análisis
 ├── docker-compose.yml     Base de datos, carga, API y web
