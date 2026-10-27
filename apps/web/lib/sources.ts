@@ -70,19 +70,19 @@ export const DATA_SOURCES: DataSource[] = [
     condicionesUrl: "https://www.ine.es/dyngs/AYU/index.htm?cid=125",
   },
   {
-    organismo: "Ministerio de Transportes y Movilidad Sostenible",
+    organismo: "Ministerio de Vivienda y Agenda Urbana (boletín histórico)",
     recurso: "Valor tasado de la vivienda, boletín estadístico 35103500",
     aporta: "Precio de la vivienda para la asequibilidad",
     url: "https://apps.fomento.gob.es/boletinonline2/sedal/35103500.XLS",
-    condiciones: "Condiciones generales de reutilización de la sede",
+    condiciones: "Condiciones específicas pendientes de verificación",
     condicionesUrl: "https://sede.transportes.gob.es/aviso-legal",
   },
   {
-    organismo: "Ministerio de Transportes y Movilidad Sostenible",
+    organismo: "Ministerio de Vivienda y Agenda Urbana (boletín histórico)",
     recurso: "Transacciones inmobiliarias de vivienda, boletín estadístico 34010210",
     aporta: "Rotación del mercado para las señales de especulación",
     url: "https://apps.fomento.gob.es/BoletinOnline2/sedal/34010210.XLS",
-    condiciones: "Condiciones generales de reutilización de la sede",
+    condiciones: "Condiciones específicas pendientes de verificación",
     condicionesUrl: "https://sede.transportes.gob.es/aviso-legal",
   },
   {
@@ -90,7 +90,7 @@ export const DATA_SOURCES: DataSource[] = [
     recurso: "Sistema estatal de referencia del precio del alquiler, serie VDP001",
     aporta: "Validación externa del índice frente al alquiler declarado",
     url: "https://cdn.mivau.gob.es/portal-web-mivau/Datos_MIVAU/CSV/VDP001_01.csv",
-    condiciones: "Condiciones de reutilización del portal del Ministerio",
+    condiciones: "Condiciones específicas pendientes de verificación",
     condicionesUrl: "https://www.mivau.gob.es/el-ministerio/aviso-legal",
   },
   {
@@ -98,7 +98,7 @@ export const DATA_SOURCES: DataSource[] = [
     recurso: "Estadísticas de titularidad de bienes inmuebles residenciales",
     aporta: "Titularidad corporativa para las señales de especulación",
     url: "https://www.catastro.hacienda.gob.es/es-ES/estadisticas_3_1.html",
-    condiciones: "Condiciones de la propia estadística; no se les atribuye una licencia genérica",
+    condiciones: "Condiciones específicas pendientes de verificación",
     condicionesUrl: "https://www.catastro.hacienda.gob.es/es-ES/estadisticas_3_1.html",
   },
   {
@@ -106,19 +106,19 @@ export const DATA_SOURCES: DataSource[] = [
     recurso: "Escenarios de cambio climático CMIP6, trayectoria SSP2-4.5",
     aporta: "Riesgo futuro: clima y tendencias",
     url: "https://escenarios.adaptecca.es",
-    condiciones: "Aviso legal de AdapteCCa · reutilización citando la fuente",
-    condicionesUrl: "https://adaptecca.es/aviso-legal",
+    condiciones: "Modelos y condiciones de uso comercial pendientes de verificación",
+    condicionesUrl: "https://escenarios.adaptecca.es/doc/pnacc.pdf?v=202506",
   },
   {
-    organismo: "Centro Nacional de Información Geográfica",
-    recurso: "Geometría municipal del Centro de Descargas",
+    organismo: "Procedencia pendiente de verificación",
+    recurso: "Geometría municipal incluida en el proyecto",
     aporta: "Límites municipales del mapa",
-    condiciones: "Política de datos del Centro de Descargas",
+    condiciones: "Origen y condiciones pendientes de verificación",
     condicionesUrl: "https://centrodedescargas.cnig.es/CentroDescargas/politica-datos",
   },
 ];
 
 /** Los organismos, sin repetir, para la línea corta del pie. */
 export const SOURCE_BODIES = [
-  ...new Set(DATA_SOURCES.map((source) => source.organismo.split(" · ")[0])),
+  "INE", "MIVAU", "Dirección General del Catastro", "AdapteCCa (AEMET y OECC)",
 ];

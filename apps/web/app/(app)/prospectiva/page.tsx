@@ -259,7 +259,7 @@ function Prospective() {
           <TitleBlock
             title="Cómo cambia el resultado al añadir el riesgo futuro"
             reading={reading}
-            hint="No dice cómo será el municipio en el futuro."
+            hint="Utiliza proyecciones AdapteCCa CMIP6, escenario SSP2-4.5 (2041–2060). Son escenarios con incertidumbre, no predicciones exactas."
             chips={<ActiveChips chips={chips} />}
           />
 

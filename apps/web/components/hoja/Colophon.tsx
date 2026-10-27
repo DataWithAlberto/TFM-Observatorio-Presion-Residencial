@@ -21,7 +21,7 @@ export default function Colophon() {
         <b>Datos:</b> {SOURCE_BODIES.join(" · ")}. Elaboración propia a partir de
         estos recursos; cada organismo conserva sus condiciones de reutilización.
       </p>
-      <Link href="/calidad#procedencia">Procedencia y condiciones</Link>
+      <Link href="/fuentes">Procedencia y condiciones</Link>
     </footer>
   );
 }

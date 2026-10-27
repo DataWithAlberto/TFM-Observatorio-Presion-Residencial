@@ -8,7 +8,6 @@ import { StatusLine } from "@/components/hoja/Status";
 import TitleBlock from "@/components/hoja/TitleBlock";
 import { getJSON, type LayerName, type QualitySummary } from "@/lib/api";
 import { fmt, layerLabel, QUALITY_LEVELS } from "@/lib/format";
-import { DATA_SOURCES } from "@/lib/sources";
 
 import styles from "./calidad.module.css";
 
@@ -90,56 +89,9 @@ export default function QualityPage() {
         </section>
 
         <section className={styles.block} id="procedencia">
-          <h2 className={styles.blockTitle}>Procedencia y condiciones de reutilización</h2>
-          <p className={styles.note}>
-            El recurso concreto del que sale cada dato, con el aviso legal que fija sus
-            condiciones. Las condiciones no son equivalentes entre organismos y se
-            enlazan tal como cada uno las publica. Lo que se muestra en esta aplicación
-            es elaboración propia a partir de esos recursos.
-          </p>
-          <div className={styles.tableWrap}>
-            <table className={styles.table}>
-              <thead>
-                <tr>
-                  <th scope="col">Organismo</th>
-                  <th scope="col">Recurso</th>
-                  <th scope="col">Qué aporta</th>
-                  <th scope="col">Condiciones</th>
-                </tr>
-              </thead>
-              <tbody>
-                {DATA_SOURCES.map((source) => (
-                  <tr key={`${source.organismo}-${source.recurso}`}>
-                    <th scope="row">{source.organismo}</th>
-                    <td>
-                      {source.url ? (
-                        <a href={source.url} rel="noreferrer noopener" target="_blank">
-                          {source.recurso}
-                        </a>
-                      ) : (
-                        source.recurso
-                      )}
-                    </td>
-                    <td>{source.aporta}</td>
-                    <td>
-                      <a
-                        href={source.condicionesUrl}
-                        rel="noreferrer noopener"
-                        target="_blank"
-                      >
-                        {source.condiciones}
-                      </a>
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-          <p className={styles.note}>
-            La cartografía base la acredita el propio mapa en su control de créditos. Las
-            fechas de extracción de cada fuente se documentan en el anexo de fuentes del
-            trabajo, no en esta pantalla.
-          </p>
+          <h2 className={styles.blockTitle}>Procedencia y reutilización</h2>
+          <p>Consulta los recursos utilizados, sus condiciones conocidas y las verificaciones pendientes.</p>
+          <Link className={styles.link} href="/fuentes">Ver fuentes y condiciones</Link>
         </section>
 
         <section className={styles.block}>

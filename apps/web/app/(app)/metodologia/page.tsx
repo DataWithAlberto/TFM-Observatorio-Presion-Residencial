@@ -198,6 +198,12 @@ export default function MethodologyPage() {
           </ul>
         </section>
 
+        <section className={styles.block}>
+          <h2 className={styles.blockTitle}>Fuentes y condiciones de uso</h2>
+          <p>Consulta los datos utilizados, sus atribuciones y las condiciones pendientes de verificar.</p>
+          <Link className={styles.link} href="/fuentes">Ver fuentes y condiciones</Link>
+        </section>
+
         <Cartouche
           legend={false}
           cells={[
